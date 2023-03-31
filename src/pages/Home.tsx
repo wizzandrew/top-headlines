@@ -1,5 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
+import Tab from "../components/HomeTabComponent";
 
 export default function Home() {
-  return <div>Home</div>;
+  return (
+    <div className="container">
+      <Tab />
+    </div>
+  );
 }

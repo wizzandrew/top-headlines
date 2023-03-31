@@ -9,6 +9,7 @@ import Health from "./pages/Health";
 import Tech from "./pages/Tech";
 import Sports from "./pages/Sports";
 import Science from "./pages/Science";
+import America from "./components/TabAmericaComponent";
 import "./App.css";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     return (
       <Routes>
         <Route index element={<Home />} />
+        <Route path="/home/america" element={<America />} />
         <Route path="/world" element={<World />} />
         <Route path="/business" element={<Business />} />
         <Route path="/entertainment" element={<Entertainment />} />
