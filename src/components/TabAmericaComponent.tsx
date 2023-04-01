@@ -3,16 +3,33 @@ import Tab from "./HomeTabComponent";
 import Dropdown from "./TabDropDownMenuComponent";
 import News from "./NewsComponent";
 import { SourcesUS } from "../shared/newsSources";
+import * as api from "../shared/api";
+import { NewsArticle } from "../shared/models";
 
 export default function AmericaComponent() {
-  const [firstDropdownCurrentOption, setFirstDropdownOption] = useState("");
+  // Variable to hold selection from drop dowm menu
+  // const [firstDropdownCurrentOption, setFirstDropdownOption] = useState<{
+  //   id: string;
+  //   name: string;
+  // }>({ id: "", name: "" });
+
+  // Variable to hold news articles
+  const [news, setNews] = useState<NewsArticle[]>([]);
+
+  // Variable to keep state of a drop down with proper names for sources
   const dropdownState = {
     title: "US",
-    options: [
-      SourcesUS.politico.name,
-      SourcesUS.foxNews.name,
-      SourcesUS.cbsNews.name,
-    ],
+    options: [SourcesUS.politico, SourcesUS.foxNews, SourcesUS.cbsNews],
+  };
+
+  const fetchNews = async (source: string) => {
+    console.log(source);
+    //const news = await api.getHeadlinesBySource(source);
+    const news = api.getFakeHeadlines(source);
+    setTimeout(() => {
+      console.log(news);
+      setNews(news);
+    }, 1500);
   };
   return (
     <div className="container">
@@ -24,11 +41,12 @@ export default function AmericaComponent() {
           <Dropdown
             title={dropdownState.title}
             options={dropdownState.options}
-            setCurrentOption={setFirstDropdownOption}
+            //setCurrentOption={setFirstDropdownOption}
+            loadNews={fetchNews}
           />
         </div>
         <div className="col-10">
-          <News />
+          <News articles={news} />
         </div>
       </div>
     </div>
