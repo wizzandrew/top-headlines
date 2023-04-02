@@ -32,23 +32,28 @@ export default function AmericaComponent() {
     }, 1500);
   };
   return (
-    <div className="container">
-      <div className="row">
-        <Tab />
-      </div>
-      <div className="row">
-        <div className="col-2">
-          <Dropdown
-            title={dropdownState.title}
-            options={dropdownState.options}
-            //setCurrentOption={setFirstDropdownOption}
-            loadNews={fetchNews}
-          />
-        </div>
-        <div className="col-10">
-          <News articles={news} />
+    <React.Fragment>
+      <div className="holder" style={{ backgroundColor: "#B80000" }}>
+        <div className="container">
+          <div className="row">
+            <Tab />
+          </div>
         </div>
       </div>
-    </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-2">
+            <Dropdown
+              title={dropdownState.title}
+              options={dropdownState.options}
+              loadNews={fetchNews}
+            />
+          </div>
+          <div className="col-10">
+            <News articles={news} />
+          </div>
+        </div>
+      </div>
+    </React.Fragment>
   );
 }

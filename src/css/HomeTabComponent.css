@@ -1,0 +1,47 @@
+.homeTab {
+  padding-left: 12px;
+  border-bottom: none;
+}
+
+.bannerHeading {
+  padding-top: 7px;
+  padding-left: 12px;
+}
+
+.bannerHeading h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.homeTab a {
+  font-size: 13.36px;
+  font-weight: 400;
+}
+
+.nav-tabs .nav-link {
+  margin-bottom: 0;
+  background: none;
+  border: none;
+  border-top-left-radius: none;
+  border-top-right-radius: none;
+
+  border-bottom: 4px solid rgba(255, 255, 255, 0);
+}
+
+.homeTab a {
+  color: white;
+}
+
+.nav-tabs .nav-link:hover {
+  color: white;
+  border-bottom: 4px solid white;
+}
+
+.tabVerticalLine {
+  margin: 11px 0;
+  height: 1rem;
+  width: 1px;
+  background: rgba(255, 255, 255, 0.5);
+}
