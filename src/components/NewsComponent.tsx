@@ -1,9 +1,10 @@
 import React from "react";
 import { Card, CardBody, CardTitle, CardText } from "reactstrap";
+import { Link } from "react-router-dom";
 import { NewsArticle } from "../shared/models";
 
 type NewsProps = {
-  articles: NewsArticle[];
+  articles: NewsArticle[] | null;
 };
 
 export default function NewsComponent(props: NewsProps) {
@@ -11,7 +12,7 @@ export default function NewsComponent(props: NewsProps) {
   let newsContent;
 
   // If passed no articles to this component -> display some text
-  if (props.articles == undefined || props.articles.length == 0) {
+  if (props.articles == null || props.articles.length == 0) {
     newsContent = <div>Choose sources</div>;
   }
   // Else render news articles
@@ -20,10 +21,12 @@ export default function NewsComponent(props: NewsProps) {
       return (
         <div className="col-12 col-md-3 col-lg-3" key={index}>
           <Card key={index}>
-            <img src="#" alt="news"></img>
-            <CardBody>
-              <CardTitle>{article?.title}</CardTitle>
-            </CardBody>
+            <Link to={`/home/${article?.title}`}>
+              <img src="#" alt="news"></img>
+              <CardBody>
+                <CardTitle>{article?.title}</CardTitle>
+              </CardBody>
+            </Link>
           </Card>
         </div>
       );

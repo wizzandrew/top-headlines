@@ -3,8 +3,12 @@ import Tab from "../components/HomeTabComponent";
 
 export default function Home() {
   return (
-    <div className="container">
-      <Tab />
+    <div className="holder" style={{ backgroundColor: "#B80000" }}>
+      <div className="container">
+        <div className="row">
+          <Tab />
+        </div>
+      </div>
     </div>
   );
 }

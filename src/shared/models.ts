@@ -1,3 +1,4 @@
+// domain model
 export type NewsArticle = {
   source: { id?: string; name: string };
   author: string | null;

@@ -5,16 +5,17 @@ import News from "./NewsComponent";
 import { SourcesUS } from "../shared/newsSources";
 import * as api from "../shared/api";
 import { NewsArticle } from "../shared/models";
+import { useAppDispatch, useAppSelector } from "../redux/hooks";
+import * as topHeadingsSlice from "../redux/topheadingsSlice";
 
 export default function AmericaComponent() {
-  // Variable to hold selection from drop dowm menu
-  // const [firstDropdownCurrentOption, setFirstDropdownOption] = useState<{
-  //   id: string;
-  //   name: string;
-  // }>({ id: "", name: "" });
+  //dispatch
+  const dispatch = useAppDispatch();
 
-  // Variable to hold news articles
-  const [news, setNews] = useState<NewsArticle[]>([]);
+  //global state
+  const topheadingsAmerica = useAppSelector(
+    (state) => state.topHeadings.topHeadings
+  );
 
   // Variable to keep state of a drop down with proper names for sources
   const dropdownState = {
@@ -22,15 +23,14 @@ export default function AmericaComponent() {
     options: [SourcesUS.politico, SourcesUS.foxNews, SourcesUS.cbsNews],
   };
 
+  // Fetch news given source
   const fetchNews = async (source: string) => {
     console.log(source);
     //const news = await api.getHeadlinesBySource(source);
-    const news = api.getFakeHeadlines(source);
-    setTimeout(() => {
-      console.log(news);
-      setNews(news);
-    }, 1500);
+    //const news = api.getFakeHeadlines(source);
+    dispatch(topHeadingsSlice.fetchNews(source));
   };
+
   return (
     <React.Fragment>
       <div className="holder" style={{ backgroundColor: "#B80000" }}>
@@ -50,7 +50,7 @@ export default function AmericaComponent() {
             />
           </div>
           <div className="col-10">
-            <News articles={news} />
+            <News articles={topheadingsAmerica} />
           </div>
         </div>
       </div>
