@@ -12,6 +12,7 @@ import Science from "./pages/Science";
 import America from "./components/TabAmericaComponent";
 import Europe from "./components/TabEuropeComponent";
 import Africa from "./components/TabAfricaComponent";
+import Asia from "./components/TabAsiaComponent";
 import NewsArticleComponent from "./components/NewsArticleComponent";
 import { useAppSelector } from "./redux/hooks";
 import "./App.css";
@@ -37,6 +38,7 @@ function App() {
         <Route path="/home/america" element={<America />} />
         <Route path="/home/europe" element={<Europe />} />
         <Route path="/home/africa" element={<Africa />} />
+        <Route path="/home/asia" element={<Asia />} />
         <Route path="/home/:title" element={<NewsArticleWithId />} />
         <Route path="/world" element={<World />} />
         <Route path="/business" element={<Business />} />
