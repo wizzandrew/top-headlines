@@ -24,7 +24,7 @@ export default function Header() {
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={open} navbar>
           <div className="signInHolder">
-            <a href="#">
+            <a href="/signin">
               <img className="accountIcon" src={accountIcon} alt="account" />
               <p>Sign in</p>
             </a>

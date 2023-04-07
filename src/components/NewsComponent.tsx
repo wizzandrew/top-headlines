@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardBody, CardTitle, CardText } from "reactstrap";
+import { Card, CardBody, CardTitle } from "reactstrap";
 import { Link } from "react-router-dom";
 import { NewsArticle } from "../shared/models";
 
@@ -12,7 +12,7 @@ export default function NewsComponent(props: NewsProps) {
   let newsContent;
 
   // If passed no articles to this component -> display some text
-  if (props.articles == null || props.articles.length == 0) {
+  if (props.articles === null || props.articles.length === 0) {
     newsContent = <div>Choose sources</div>;
   }
   // Else render news articles

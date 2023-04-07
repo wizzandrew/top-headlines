@@ -13,7 +13,6 @@ import America from "./components/TabAmericaComponent";
 import NewsArticleComponent from "./components/NewsArticleComponent";
 import { useAppSelector } from "./redux/hooks";
 import "./App.css";
-import { NewsArticle } from "./shared/models";
 
 function App() {
   // global state
