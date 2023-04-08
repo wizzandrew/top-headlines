@@ -1,3 +1,7 @@
+## Note on React Redux
+Can't store Date object in the store, only a string representation because it is unserialized.
+When retrieving headlines objects from the store, rememeber to create Date objects
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

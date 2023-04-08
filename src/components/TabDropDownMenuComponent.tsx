@@ -5,6 +5,7 @@ import {
   DropdownMenu,
   DropdownItem,
 } from "reactstrap";
+import "../css/SourceDropdown.css";
 
 type DropdownProps = {
   title: string;
@@ -17,24 +18,26 @@ export default function TabDropDownMenuComponent(props: DropdownProps) {
   const toggle = () => setDropdownOpen(!dropdownOpen);
 
   return (
-    <div className="container">
-      <div className="d-flex">
-        <Dropdown isOpen={dropdownOpen} toggle={toggle}>
-          <DropdownToggle caret>{props.title}</DropdownToggle>
-          <DropdownMenu>
-            {props.options.map((option, index) => {
-              return (
-                <DropdownItem
-                  key={index}
-                  onClick={(e) => props.loadNews(option.id)}
-                >
-                  {option.name}
-                </DropdownItem>
-              );
-            })}
-          </DropdownMenu>
-        </Dropdown>
-      </div>
+    <div className="d-flex">
+      <Dropdown
+        isOpen={dropdownOpen}
+        toggle={toggle}
+        className="sourceDropdown"
+      >
+        <DropdownToggle caret>{props.title}</DropdownToggle>
+        <DropdownMenu>
+          {props.options.map((option, index) => {
+            return (
+              <DropdownItem
+                key={index}
+                onClick={(e) => props.loadNews(option.id)}
+              >
+                {option.name}
+              </DropdownItem>
+            );
+          })}
+        </DropdownMenu>
+      </Dropdown>
     </div>
   );
 }

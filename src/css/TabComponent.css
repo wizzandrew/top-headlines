@@ -1,0 +1,32 @@
+.tabHolder {
+  background-color: #b80000;
+}
+
+.newsHolder {
+  padding-left: 28px;
+}
+
+.dropdownMenus {
+  padding-left: 11px;
+  padding-bottom: 15px;
+}
+
+.dropdowns {
+  display: flex;
+  padding: 0;
+}
+
+.dropdownMenu {
+  padding: 0;
+  padding-right: 10px;
+}
+
+.dropdownMenus .dropdown-toggle {
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .dropdowns {
+    flex-direction: column;
+  }
+}

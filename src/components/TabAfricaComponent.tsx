@@ -5,6 +5,7 @@ import News from "./NewsComponent";
 import { SourcesSouthAfrica } from "../shared/newsSources";
 import { useAppDispatch, useAppSelector } from "../redux/hooks";
 import * as topHeadingsSlice from "../redux/topheadingsSlice";
+import "../css/TabComponent.css";
 
 export default function TabAfricaComponent() {
   //dispatch
@@ -29,17 +30,17 @@ export default function TabAfricaComponent() {
 
   return (
     <React.Fragment>
-      <div className="holder" style={{ backgroundColor: "#B80000" }}>
+      <div className="tabHolder">
         <div className="container">
           <div className="row">
             <Tab />
           </div>
         </div>
       </div>
-      <div className="container">
-        <div className="row">
-          <div className="col-2">
-            <div className="dropdowns">
+      <div className="container newsHolder">
+        <div className="row dropdownMenus">
+          <div className="dropdowns">
+            <div className="dropdownMenu">
               <Dropdown
                 title={dropdownState.titleSouthAfrica}
                 options={dropdownState.optionsSouthAfrica}
@@ -47,9 +48,9 @@ export default function TabAfricaComponent() {
               />
             </div>
           </div>
-          <div className="col-10">
-            <News articles={topheadingsAfrica} />
-          </div>
+        </div>
+        <div className="articles">
+          <News articles={topheadingsAfrica} continent="Africa" />
         </div>
       </div>
     </React.Fragment>

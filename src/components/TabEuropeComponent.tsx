@@ -10,6 +10,7 @@ import {
 } from "../shared/newsSources";
 import { useAppDispatch, useAppSelector } from "../redux/hooks";
 import * as topHeadingsSlice from "../redux/topheadingsSlice";
+import "../css/TabComponent.css";
 
 export default function TabEuropeComponent() {
   //dispatch
@@ -22,7 +23,7 @@ export default function TabEuropeComponent() {
 
   // Variable to keep state of drop downs with proper names for sources
   const dropdownState = {
-    titleUK: "United Kingdom",
+    titleUK: "UK",
     titleGermany: "Germany",
     titleFrance: "France",
     titleRussia: "Russia",
@@ -40,32 +41,38 @@ export default function TabEuropeComponent() {
 
   return (
     <React.Fragment>
-      <div className="holder" style={{ backgroundColor: "#B80000" }}>
+      <div className="tabHolder">
         <div className="container">
           <div className="row">
             <Tab />
           </div>
         </div>
       </div>
-      <div className="container">
-        <div className="row">
-          <div className="col-2">
-            <div className="dropdowns">
+      <div className="container newsHolder">
+        <div className="row dropdownMenus">
+          <div className="dropdowns">
+            <div className="dropdownMenu">
               <Dropdown
                 title={dropdownState.titleUK}
                 options={dropdownState.optionsUK}
                 loadNews={fetchNews}
               />
+            </div>
+            <div className="dropdownMenu">
               <Dropdown
                 title={dropdownState.titleGermany}
                 options={dropdownState.optionsGermany}
                 loadNews={fetchNews}
               />
+            </div>
+            <div className="dropdownMenu">
               <Dropdown
                 title={dropdownState.titleFrance}
                 options={dropdownState.optionsFrance}
                 loadNews={fetchNews}
               />
+            </div>
+            <div className="dropdownMenu">
               <Dropdown
                 title={dropdownState.titleRussia}
                 options={dropdownState.optionsRussia}
@@ -73,9 +80,9 @@ export default function TabEuropeComponent() {
               />
             </div>
           </div>
-          <div className="col-10">
-            <News articles={topheadingsEurope} />
-          </div>
+        </div>
+        <div className="articles">
+          <News articles={topheadingsEurope} continent="Europe" />
         </div>
       </div>
     </React.Fragment>
