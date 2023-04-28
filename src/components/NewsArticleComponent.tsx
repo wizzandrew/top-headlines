@@ -9,6 +9,32 @@ type ArticleProps = {
 };
 
 export default function NewsArticleComponent(props: ArticleProps) {
+  // conditional rendering for article's author (might be null)
+  const conditionalAuthor =
+    typeof props?.article?.author === "string" ? (
+      <div className="col-12 authName">By {props?.article?.author}</div>
+    ) : (
+      <div className="col-12 d-none"></div>
+    );
+
+  // conditional rendering for article's description (might be null)
+  const conditionalDescription =
+    typeof props?.article?.description === "string" ? (
+      <div className="col-12 col-md-8 articleDescription">
+        <h6>{props?.article?.description}</h6>
+      </div>
+    ) : (
+      <div className="col-12 d-none"></div>
+    );
+
+  // conditional rendering for article's content (might be null)
+  const conditionalContent =
+    typeof props?.article?.content === "string" ? (
+      <div className="col-12 col-md-8">{props?.article?.contentCleared()}</div>
+    ) : (
+      <div className="col-12 d-none"></div>
+    );
+
   return (
     <React.Fragment>
       <div className="holder" style={{ backgroundColor: "#B80000" }}>
@@ -51,7 +77,7 @@ export default function NewsArticleComponent(props: ArticleProps) {
           </div>
         </div>
         <div className="row authorRow">
-          <div className="col-12 authName">By {props?.article?.author}</div>
+          {conditionalAuthor}
           <div className="col-12 sourceName">
             {props?.article?.source?.name}
           </div>
@@ -60,12 +86,8 @@ export default function NewsArticleComponent(props: ArticleProps) {
           </div>
         </div>
         <div className="row contentRow">
-          <div className="col-12 col-md-8 articleDescription">
-            <h6>{props?.article?.description}</h6>
-          </div>
-          <div className="col-12 col-md-8">
-            {props?.article?.contentCleared()}
-          </div>
+          {conditionalDescription}
+          {conditionalContent}
         </div>
       </div>
     </React.Fragment>

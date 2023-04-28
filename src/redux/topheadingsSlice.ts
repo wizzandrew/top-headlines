@@ -36,6 +36,7 @@ export const fetchNews = createAsyncThunk(
   "topheadlines/fetch",
   async (source: string) => {
     const response = await api.getFakeHeadlines(source);
+    // const response = await api.getHeadlinesBySource(source);
     return response;
   }
 );

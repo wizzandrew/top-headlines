@@ -1,46 +1,42 @@
-// domain model
-export type NewsArticlee = {
-  source: { id?: string; name: string };
-  author: string | null;
-  title: string;
-  description: string;
-  url: string;
-  urlToImage?: string;
-  publishedAt: Date;
-  content?: string;
-};
+import defaultImg from "../img/defaultNewsImg.png";
 
 type NewsArticleSource = {
-  id?: string;
+  id: string | null;
   name: string;
 };
 
+// domain model
 export class NewsArticle {
   readonly source: NewsArticleSource;
   readonly author: string | null;
   readonly title: string;
-  readonly description: string;
+  readonly description: string | null;
   readonly url: string;
-  readonly urlToImage?: string;
+  readonly urlToImage: string;
   readonly publishedAt: Date;
-  readonly content?: string;
+  readonly content: string | null;
 
   constructor(
     source: NewsArticleSource,
     auth: string | null,
     title: string,
-    desc: string,
+    desc: string | null,
     url: string,
-    urlImg: string | undefined,
+    urlImg: string | null,
     published: Date,
-    content: string | undefined
+    content: string | null
   ) {
     this.source = source;
     this.author = auth;
     this.title = title;
     this.description = desc;
     this.url = url;
-    this.urlToImage = urlImg;
+    if (typeof urlImg === "string") {
+      this.urlToImage = urlImg;
+    } else {
+      this.urlToImage = defaultImg;
+    }
+
     this.publishedAt = published;
     this.content = content;
   }
@@ -62,7 +58,7 @@ export class NewsArticle {
   }
 
   // clear this.content of this '[+2123 chars]'
-  contentCleared(): string | undefined {
+  contentCleared(): string | null {
     let content = this.content;
     let leftSquareBracketIndex = 0;
 
