@@ -21,9 +21,10 @@
 .card .card-title {
   height: 65px;
   margin-bottom: 0;
+  font-family: "BBC Reith Serif", "BBC Reith Sans", "Arial", "Helvetica",
+    freesans, sans-serif, sans-serif;
   font-size: 14px;
-  font-weight: 550;
-  opacity: 0.9;
+  font-weight: 600;
   overflow: hidden;
 }
 

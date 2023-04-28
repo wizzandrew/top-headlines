@@ -13,22 +13,6 @@ export default function NewsComponent(props: NewsProps) {
   // Variable to hold conditionally rendered content
   let newsContent;
 
-  // Prework date published format
-  const datePublished = (datePublished: Date): string => {
-    const date = new Date(datePublished).toISOString();
-
-    // make sure the ISO string is of right format
-    if (date && date.length > 16) {
-      const month = date.slice(5, 7);
-      const day = date.slice(8, 10);
-      const hour = date.slice(11, 13);
-      const minute = date.slice(14, 16);
-      return day + "/" + month + " " + hour + ":" + minute;
-    } else {
-      return "";
-    }
-  };
-
   // If passed no articles to this component -> display some text
   if (props.articles === null || props.articles.length === 0) {
     newsContent = <div>Choose sources</div>;
@@ -46,9 +30,7 @@ export default function NewsComponent(props: NewsProps) {
                 <CardText>{article?.description}</CardText>
               </CardBody>
               <CardFooter>
-                <div className="dateTime">
-                  {datePublished(article?.publishedAt)}
-                </div>
+                <div className="dateTime">{article?.datePublished()}</div>
                 <div className="tabVerticalLine"></div>
                 <div>{props.continent}</div>
               </CardFooter>
