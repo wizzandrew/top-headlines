@@ -4,20 +4,20 @@
   padding-left: 24px;
 } */
 
-.worldBanner {
+.newsCategoryBanner {
   padding-top: 23.5px;
   padding-bottom: 23.5px;
   padding-left: 24px;
 }
 
-.worldBanner h2 {
+.newsCategoryBanner h2 {
   color: white;
   font-weight: 700;
   font-size: 2rem;
   margin-bottom: 0;
 }
 
-.worldArticles {
+.newsCategoryArticles {
   padding-top: 39px;
   padding-left: 14px;
 }

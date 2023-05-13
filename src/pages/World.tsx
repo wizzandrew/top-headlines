@@ -2,7 +2,7 @@ import React from "react";
 import News from "../components/NewsComponent";
 import { useAppSelector } from "../redux/hooks";
 import useFetchHook from "../shared/fetchHook";
-import "../css/World.css";
+import "../css/NewsCategoryPage.css";
 
 export default function World() {
   // global state
@@ -23,7 +23,7 @@ export default function World() {
       <div className="holder" style={{ backgroundColor: "#B80000" }}>
         <div className="container">
           <div className="row">
-            <div className="worldBanner col-12">
+            <div className="newsCategoryBanner col-12">
               <h2>WORLD</h2>
             </div>
           </div>
@@ -43,7 +43,7 @@ export default function World() {
         </div>
         <div className="row">
           <div className="col-12">
-            <div className="worldArticles">
+            <div className="newsCategoryArticles">
               <News
                 page="world"
                 articles={topheadings}

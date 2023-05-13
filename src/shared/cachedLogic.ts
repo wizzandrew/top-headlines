@@ -1,6 +1,11 @@
 import { NewsArticle } from "./models";
 import * as worldArticles from "./cached/category/worldNews.json";
 import * as businessArticles from "./cached/category/businessNews.json";
+import * as entertainmentArticles from "./cached/category/entertainment.json";
+import * as healthArticles from "./cached/category/health.json";
+import * as techArticles from "./cached/category/tech.json";
+import * as sportsArticles from "./cached/category/sports.json";
+import * as scienceArticles from "./cached/category/science.json";
 
 function getCachedNewsBySource(source: string) {}
 
@@ -16,6 +21,36 @@ export function getCachedNewsByCategory(category: string): NewsArticle[] {
     }
   } else if (category === "business") {
     let jsonString = JSON.stringify(businessArticles);
+    const news = JSON.parse(jsonString);
+    if (news && Array.isArray(news.articles)) {
+      result = convertApiDataToNewsArticle(news.articles);
+    }
+  } else if (category === "entertainment") {
+    let jsonString = JSON.stringify(entertainmentArticles);
+    const news = JSON.parse(jsonString);
+    if (news && Array.isArray(news.articles)) {
+      result = convertApiDataToNewsArticle(news.articles);
+    }
+  } else if (category === "health") {
+    let jsonString = JSON.stringify(healthArticles);
+    const news = JSON.parse(jsonString);
+    if (news && Array.isArray(news.articles)) {
+      result = convertApiDataToNewsArticle(news.articles);
+    }
+  } else if (category === "technology") {
+    let jsonString = JSON.stringify(techArticles);
+    const news = JSON.parse(jsonString);
+    if (news && Array.isArray(news.articles)) {
+      result = convertApiDataToNewsArticle(news.articles);
+    }
+  } else if (category === "sports") {
+    let jsonString = JSON.stringify(sportsArticles);
+    const news = JSON.parse(jsonString);
+    if (news && Array.isArray(news.articles)) {
+      result = convertApiDataToNewsArticle(news.articles);
+    }
+  } else if (category === "science") {
+    let jsonString = JSON.stringify(scienceArticles);
     const news = JSON.parse(jsonString);
     if (news && Array.isArray(news.articles)) {
       result = convertApiDataToNewsArticle(news.articles);

@@ -16,7 +16,7 @@ export default function Business() {
       <div className="holder" style={{ backgroundColor: "#B80000" }}>
         <div className="container">
           <div className="row">
-            <div className="worldBanner col-12">
+            <div className="newsCategoryBanner col-12">
               <h2>BUSINESS</h2>
             </div>
           </div>
@@ -36,7 +36,7 @@ export default function Business() {
         </div>
         <div className="row">
           <div className="col-12">
-            <div className="worldArticles">
+            <div className="newsCategoryArticles">
               <News
                 page="business"
                 articles={topheadings}
