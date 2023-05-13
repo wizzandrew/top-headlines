@@ -40,7 +40,7 @@ function App() {
 
   // unique news article world component with its own route path
   // news article world - component for article for world news
-  const NewsArticleCategoryWithId = () => {
+  const NewsArticleWorldCategoryWithId = () => {
     let params = useParams();
     return (
       <NewsArticleCategoryComponent
@@ -48,6 +48,90 @@ function App() {
           topheadingsCategory?.filter((a) => a.title === params.title)[0]
         }
         bannerText="WORLD"
+      />
+    );
+  };
+
+  // unique news article business component with its own route path
+  // news article business - component for article for business news
+  const NewsArticleBusinessCategoryWithId = () => {
+    let params = useParams();
+    return (
+      <NewsArticleCategoryComponent
+        article={
+          topheadingsCategory?.filter((a) => a.title === params.title)[0]
+        }
+        bannerText="BUSINESS"
+      />
+    );
+  };
+
+  // unique news article entertainment component with its own route path
+  // news article entertainment - component for article for entertainment news
+  const NewsArticleEntertainmentCategoryWithId = () => {
+    let params = useParams();
+    return (
+      <NewsArticleCategoryComponent
+        article={
+          topheadingsCategory?.filter((a) => a.title === params.title)[0]
+        }
+        bannerText="ENTERTAINMENT"
+      />
+    );
+  };
+
+  // unique news article health component with its own route path
+  // news article health - component for article for health news
+  const NewsArticleHealthCategoryWithId = () => {
+    let params = useParams();
+    return (
+      <NewsArticleCategoryComponent
+        article={
+          topheadingsCategory?.filter((a) => a.title === params.title)[0]
+        }
+        bannerText="HEALTH"
+      />
+    );
+  };
+
+  // unique news article tech component with its own route path
+  // news article tech - component for article for tech news
+  const NewsArticleTechCategoryWithId = () => {
+    let params = useParams();
+    return (
+      <NewsArticleCategoryComponent
+        article={
+          topheadingsCategory?.filter((a) => a.title === params.title)[0]
+        }
+        bannerText="TECHNOLOGY"
+      />
+    );
+  };
+
+  // unique news article sports component with its own route path
+  // news article sports - component for article for sports news
+  const NewsArticleSportsCategoryWithId = () => {
+    let params = useParams();
+    return (
+      <NewsArticleCategoryComponent
+        article={
+          topheadingsCategory?.filter((a) => a.title === params.title)[0]
+        }
+        bannerText="SPORTS"
+      />
+    );
+  };
+
+  // unique news article science component with its own route path
+  // news article science - component for article for science news
+  const NewsArticleScienceCategoryWithId = () => {
+    let params = useParams();
+    return (
+      <NewsArticleCategoryComponent
+        article={
+          topheadingsCategory?.filter((a) => a.title === params.title)[0]
+        }
+        bannerText="SCIENCE"
       />
     );
   };
@@ -62,13 +146,40 @@ function App() {
         <Route path="/home/asia" element={<Asia />} />
         <Route path="/home/:title" element={<NewsArticleSourceWithId />} />
         <Route path="/world" element={<World />} />
-        <Route path="/world/:title" element={<NewsArticleCategoryWithId />} />
+        <Route
+          path="/world/:title"
+          element={<NewsArticleWorldCategoryWithId />}
+        />
         <Route path="/business" element={<Business />} />
+        <Route
+          path="/business/:title"
+          element={<NewsArticleBusinessCategoryWithId />}
+        />
         <Route path="/entertainment" element={<Entertainment />} />
+        <Route
+          path="/entertainment/:title"
+          element={<NewsArticleEntertainmentCategoryWithId />}
+        />
         <Route path="/health" element={<Health />} />
+        <Route
+          path="/health/:title"
+          element={<NewsArticleHealthCategoryWithId />}
+        />
         <Route path="/tech" element={<Tech />} />
+        <Route
+          path="/tech/:title"
+          element={<NewsArticleTechCategoryWithId />}
+        />
         <Route path="/sports" element={<Sports />} />
+        <Route
+          path="/sports/:title"
+          element={<NewsArticleSportsCategoryWithId />}
+        />
         <Route path="/science" element={<Science />} />
+        <Route
+          path="/science/:title"
+          element={<NewsArticleScienceCategoryWithId />}
+        />
       </Routes>
     );
   };

@@ -3,7 +3,6 @@ import { Card, CardBody, CardTitle, CardText, CardFooter } from "reactstrap";
 import { Link } from "react-router-dom";
 import { NewsArticle } from "../shared/models";
 import "../css/NewsComponent.css";
-import { fetchNewsByCategory } from "../redux/topheadingsSlice";
 
 type NewsProps = {
   page: string;

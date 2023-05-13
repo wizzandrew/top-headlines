@@ -1,9 +1,8 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import News from "../components/NewsComponent";
-import { useAppDispatch, useAppSelector } from "../redux/hooks";
-import * as topHeadingsSlice from "../redux/topheadingsSlice";
-import "../css/World.css";
+import { useAppSelector } from "../redux/hooks";
 import useFetchHook from "../shared/fetchHook";
+import "../css/World.css";
 
 export default function World() {
   // global state

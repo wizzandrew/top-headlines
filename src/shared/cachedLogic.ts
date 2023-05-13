@@ -1,5 +1,6 @@
 import { NewsArticle } from "./models";
 import * as worldArticles from "./cached/category/worldNews.json";
+import * as businessArticles from "./cached/category/businessNews.json";
 
 function getCachedNewsBySource(source: string) {}
 
@@ -9,6 +10,12 @@ export function getCachedNewsByCategory(category: string): NewsArticle[] {
 
   if (category === "general") {
     let jsonString = JSON.stringify(worldArticles);
+    const news = JSON.parse(jsonString);
+    if (news && Array.isArray(news.articles)) {
+      result = convertApiDataToNewsArticle(news.articles);
+    }
+  } else if (category === "business") {
+    let jsonString = JSON.stringify(businessArticles);
     const news = JSON.parse(jsonString);
     if (news && Array.isArray(news.articles)) {
       result = convertApiDataToNewsArticle(news.articles);
