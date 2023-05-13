@@ -15,6 +15,7 @@ import accountIcon from "../img/account-icon.svg";
 export default function Header() {
   const [open, setOpen] = useState(false);
   const toggle = () => setOpen(!open);
+
   return (
     <div className="container">
       <Navbar expand="md">

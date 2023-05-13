@@ -13,8 +13,9 @@ export default function TabAfricaComponent() {
 
   //global state
   const topheadingsAfrica = useAppSelector(
-    (state) => state.topHeadings.topHeadings
+    (state) => state.topHeadings.topHeadingsSource
   );
+  const requestError = useAppSelector((state) => state.topHeadings.error);
 
   // Variable to keep state of drop downs with proper names for sources
   const dropdownState = {
@@ -24,8 +25,8 @@ export default function TabAfricaComponent() {
 
   // Fetch news given source
   const fetchNews = async (source: string) => {
-    console.log(source);
-    dispatch(topHeadingsSlice.fetchNews(source));
+    console.log("fetching news for: " + source);
+    dispatch(topHeadingsSlice.fetchNewsBySource(source));
   };
 
   return (
@@ -50,7 +51,13 @@ export default function TabAfricaComponent() {
           </div>
         </div>
         <div className="articles">
-          <News articles={topheadingsAfrica} continent="Africa" />
+          <News
+            page="home"
+            articles={topheadingsAfrica}
+            requestError={requestError}
+            articlesCategory="Africa"
+            newsByCategory={false}
+          />
         </div>
       </div>
     </React.Fragment>

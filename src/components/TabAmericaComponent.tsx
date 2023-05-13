@@ -13,8 +13,9 @@ export default function AmericaComponent() {
 
   //global state
   const topheadingsAmerica = useAppSelector(
-    (state) => state.topHeadings.topHeadings
+    (state) => state.topHeadings.topHeadingsSource
   );
+  const requestError = useAppSelector((state) => state.topHeadings.error);
 
   // Variable to keep state of drop downs with proper names for sources
   const dropdownState = {
@@ -26,8 +27,8 @@ export default function AmericaComponent() {
 
   // Fetch news given source
   const fetchNews = async (source: string) => {
-    console.log(source);
-    dispatch(topHeadingsSlice.fetchNews(source));
+    console.log("fetching news for: " + source);
+    dispatch(topHeadingsSlice.fetchNewsBySource(source));
   };
 
   return (
@@ -59,7 +60,13 @@ export default function AmericaComponent() {
           </div>
         </div>
         <div className="articles">
-          <News articles={topheadingsAmerica} continent="America" />
+          <News
+            page="home"
+            articles={topheadingsAmerica}
+            requestError={requestError}
+            articlesCategory="America"
+            newsByCategory={false}
+          />
         </div>
       </div>
     </React.Fragment>

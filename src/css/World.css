@@ -1,0 +1,23 @@
+/* .worldBanner {
+  padding-top: 7px;
+  padding-bottom: 40px;
+  padding-left: 24px;
+} */
+
+.worldBanner {
+  padding-top: 23.5px;
+  padding-bottom: 23.5px;
+  padding-left: 24px;
+}
+
+.worldBanner h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.worldArticles {
+  padding-top: 39px;
+  padding-left: 14px;
+}

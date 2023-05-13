@@ -1,0 +1,264 @@
+{
+  "articles": [
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "Prensa Latina",
+      "title": "Son de Cuba como digno sello de identidad - Prensa Latina",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMiUWh0dHBzOi8vd3d3LnByZW5zYS1sYXRpbmEuY3UvMjAyMy8wNS8wOC9zb24tZGUtY3ViYS1jb21vLWRpZ25vLXNlbGxvLWRlLWlkZW50aWRhZNIBAA?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2023-05-08T10:32:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "nhk.or.jp",
+      "title": "銀座 高級腕時計店で強盗 複数の男 ショーケース割り商品奪う - nhk.or.jp",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMiPmh0dHBzOi8vd3d3My5uaGsub3IuanAvbmV3cy9odG1sLzIwMjMwNTA4L2sxMDAxNDA2MDg0MTAwMC5odG1s0gFCaHR0cHM6Ly93d3czLm5oay5vci5qcC9uZXdzL2h0bWwvMjAyMzA1MDgvYW1wL2sxMDAxNDA2MDg0MTAwMC5odG1s?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2023-05-08T10:29:16Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "Applesfera",
+      "title": "MediaMarkt rebaja el precio del iPhone 14 Plus en su Semana Web con uno de los mejores descuentos hasta... - Applesfera",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMid2h0dHBzOi8vd3d3LmFwcGxlc2ZlcmEuY29tL3NlbGVjY2lvbi9tZWRpYW1hcmt0LXJlYmFqYS1wcmVjaW8taXBob25lLTE0LXBsdXMtc3Utc2VtYW5hLXdlYi11bm8tbWVqb3Jlcy1kZXNjdWVudG9zLWZlY2hh0gF7aHR0cHM6Ly93d3cuYXBwbGVzZmVyYS5jb20vc2VsZWNjaW9uL21lZGlhbWFya3QtcmViYWphLXByZWNpby1pcGhvbmUtMTQtcGx1cy1zdS1zZW1hbmEtd2ViLXVuby1tZWpvcmVzLWRlc2N1ZW50b3MtZmVjaGEvYW1w?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2023-05-08T10:27:55Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Josh Campbell,Ed Lavandera,Elizabeth Wolfe,Sara Smart",
+      "title": "New details emerge about Texas outlet mall shooter as investigators continue to probe for motive - CNN",
+      "description": "As investigators continue to probe for a motive in the mass shooting that left eight people dead and at least seven others wounded at a Texas outlet mall, details of the gunman's background have begun to surface, including extremist social media postings, a s…",
+      "url": "https://www.cnn.com/2023/05/08/us/allen-texas-mall-shooting-gunman-monday/index.html",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230507160910-14-allen-texas-outlet-mall-active-shooter-050723.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2023-05-08T10:25:00Z",
+      "content": "As investigators continue to probe for a motive in the mass shooting that left eight people dead and at least seven others wounded at a Texas outlet mall, details of the gunmans background have begun… [+6905 chars]"
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "Delfi",
+      "title": "Gada inflācija Igaunijā aprīlī samazinājusies līdz 13,5% - Delfi",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMiamh0dHBzOi8vd3d3LmRlbGZpLmx2L2Jpem5lc3MvcGFzYXVsZS9nYWRhLWluZmxhY2lqYS1pZ2F1bmlqYS1hcHJpbGktc2FtYXppbmFqdXNpZXMtbGlkei0xMy01LmQ_aWQ9NTU0OTcxNTbSAQA?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2023-05-08T10:21:33Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "Nasional Kompas.com",
+      "title": "Kemenkes Catat Sekitar 100.000 dari 526.841 Orang dengan HIV yang Belum Terdeteksi di Indonesia - Kompas.com - Nasional Kompas.com",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMiemh0dHBzOi8vbmFzaW9uYWwua29tcGFzLmNvbS9yZWFkLzIwMjMvMDUvMDgvMTcyMTMzODEva2VtZW5rZXMtY2F0YXQtc2VraXRhci0xMDAwMDAtZGFyaS01MjY4NDEtb3JhbmctZGVuZ2FuLWhpdi15YW5nLWJlbHVt0gF-aHR0cHM6Ly9hbXAua29tcGFzLmNvbS9uYXNpb25hbC9yZWFkLzIwMjMvMDUvMDgvMTcyMTMzODEva2VtZW5rZXMtY2F0YXQtc2VraXRhci0xMDAwMDAtZGFyaS01MjY4NDEtb3JhbmctZGVuZ2FuLWhpdi15YW5nLWJlbHVt?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2023-05-08T10:21:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "TVNET",
+      "title": "Pat dejojošais karalis! Kā karaliskā ģimene izklaidējas kronēšanas koncertā - TVNET",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMiZ2h0dHBzOi8vd3d3LnR2bmV0Lmx2Lzc3Njk2NjQvcGF0LWRlam9qb3NhaXMta2FyYWxpcy1rYS1rYXJhbGlza2EtZ2ltZW5lLWl6a2xhaWRlamFzLWtyb25lc2FuYXMta29uY2VydGHSAQA?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2023-05-08T10:20:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "tv3.lv - Ziņas",
+      "title": "PVD paņēmis paraugus no 15 mirušiem ķīriem Krāslavā uz salas Daugavā - tv3.lv - Ziņas",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMiYmh0dHBzOi8vemluYXMudHYzLmx2L2xhdHZpamEvcHZkLXBhbmVtaXMtcGFyYXVndXMtbm8tMTUtbWlydXNpZW0ta2lyaWVtLWtyYXNsYXZhLXV6LXNhbGFzLWRhdWdhdmEv0gEA?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2023-05-08T10:19:29Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "WABC-TV"
+      },
+      "author": null,
+      "title": "Protestors of Jordan Neely's death sought by police for jumping onto subway tracks - WABC-TV",
+      "description": "As police search for trespassers in the protest, the public awaits whether a grand jury will charge Daniel Penny for putting Neely in the deadly chokehold.",
+      "url": "https://abc7ny.com/jordan-neely-daniel-penny-chokehold-death-protests/13222862/",
+      "urlToImage": "https://cdn.abcotvs.com/dip/images/13222956_050823-wabc-protests-img.jpg?w=1600",
+      "publishedAt": "2023-05-08T10:18:01Z",
+      "content": "UPPER EAST SIDE, Manhattan (WABC) -- A handful of protestors of Jordan Neely's death are being sought by police for jumping onto the subway tracks and disrupting service over the weekend.\r\nThe marine… [+2893 chars]"
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "L'Opinion",
+      "title": "SADC: Signature d'un mémorandum d'entente avec le Zimbabwe - L'Opinion",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMiXWh0dHBzOi8vd3d3LmxvcGluaW9uLm1hL1NBREMtU2lnbmF0dXJlLWQtdW4tbWVtb3JhbmR1bS1kLWVudGVudGUtYXZlYy1sZS1aaW1iYWJ3ZV9hMzk3NDAuaHRtbNIBAA?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2023-05-08T10:16:40Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "Kronen Zeitung",
+      "title": "SPÖ-Misstrauensantrag - Rendi-Wagner: „Schlag ins Gesicht der Bevölkerung“ | krone.at - Kronen Zeitung",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMiHGh0dHBzOi8vd3d3Lmtyb25lLmF0LzMwMDE1MTPSAQA?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2023-05-08T10:10:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "Index.hu",
+      "title": "Változott az oroszok taktikája, ez állhat a háttérben - Index.hu",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMipgFodHRwczovL2luZGV4Lmh1L2t1bGZvbGQvMjAyMy8wNS8wOC9oYWJvcnUtb3Jvc3otdWtyYW4ta29uZmxpa3R1cy11a3Jham5hLW9yb3N6b3JzemFnLXZvbG9kaW1pci16ZWxlbnN6a2lqLXZsYWd5aW1pci1wdXR5aW4ta2lqZXYtbW9zemt2YS1rcmVtbC1iYWhtdXQtcGVyY3JvbC1wZXJjcmUv0gEA?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2023-05-08T10:10:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "Business Online",
+      "title": "Quanto guadagna un medico di base per ogni paziente e obblighi e regoleaggiornati che deve rispettare - Business Online",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMingFodHRwczovL3d3dy5idXNpbmVzc29ubGluZS5pdC9sYXZvcm8tZGlyaXR0aS9xdWFudG8tZ3VhZGFnbmEtdW4tbWVkaWNvLWRpLWJhc2UtcGVyLW9nbmktcGF6aWVudGUtZS1vYmJsaWdoaS1lLXJlZ29sZWFnZ2lvcm5hdGktY2hlLWRldmUtcmlzcGV0dGFyZV9uNzA4NTMuaHRtbNIBAA?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2023-05-08T10:10:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "연합뉴스TV",
+      "title": "美텍사스 총기난사 8명 사망…한인교포 일가족 3명도 포함 - 연합뉴스TV",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMiOGh0dHBzOi8vd3d3LnlvbmhhcG5ld3N0di5jby5rci9uZXdzL01ZSDIwMjMwNTA4MDE4OTAwNjQx0gEA?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2023-05-08T10:09:54Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "MAP Tanger",
+      "title": "Prévisions météorologiques pour lundi 08 mai - MAP Tanger",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMiSWh0dHBzOi8vd3d3Lm1hcHRhbmdlci5tYS9mci9wcmV2aXNpb25zLW1ldGVvcm9sb2dpcXVlcy1wb3VyLWx1bmRpLTA4LW1haS_SAQA?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2023-05-08T10:08:33Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "Kronen Zeitung",
+      "title": "Von Tätern verfolgt - Messerangriff: Bursch steigt mit Stichwunde in Bus | krone.at - Kronen Zeitung",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMiHGh0dHBzOi8vd3d3Lmtyb25lLmF0LzMwMDE1NTTSAQA?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2023-05-08T10:08:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "n-tv NACHRICHTEN",
+      "title": "\"Wird genauso zerschlagen\": Selenskyj: Russland wird besiegt wie Nazi-Deutschland - n-tv NACHRICHTEN",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMiZWh0dHBzOi8vd3d3Lm4tdHYuZGUvcG9saXRpay9TZWxlbnNreWotUnVzc2xhbmQtd2lyZC1iZXNpZWd0LXdpZS1OYXppLURldXRzY2hsYW5kLWFydGljbGUyNDEwNjc3Ni5odG1s0gFlaHR0cHM6Ly9hbXAubi10di5kZS9wb2xpdGlrL1NlbGVuc2t5ai1SdXNzbGFuZC13aXJkLWJlc2llZ3Qtd2llLU5hemktRGV1dHNjaGxhbmQtYXJ0aWNsZTI0MTA2Nzc2Lmh0bWw?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2023-05-08T10:08:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "Rádio BandNews FM",
+      "title": "[AO VIVO] Expresso São Paulo - 08/05/2023 - Rádio BandNews FM",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CCAiC3pXRkYxVldnVVNjmAEB?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2023-05-08T10:06:13Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "Prensa Latina",
+      "title": "África austral gestiona cooperación climática - Prensa Latina",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMiVWh0dHBzOi8vd3d3LnByZW5zYS1sYXRpbmEuY3UvMjAyMy8wNS8wOC9hZnJpY2EtYXVzdHJhbC1nZXN0aW9uYS1jb29wZXJhY2lvbi1jbGltYXRpY2HSAQA?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2023-05-08T10:06:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Business Standard"
+      },
+      "author": "SI Reporter",
+      "title": "Sensex leaps 710 pts after a day's hiatus; TaMo, IndusInd rise 5%, PSBs dip - Business Standard",
+      "description": "CLOSING BELL: Among sectors, the Nifty Private Bank, Realty, and Auto indices gained around 1.7 per cent each",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-sensex-nifty-paytm-coal-india-aditya-birla-fashion-123050800075_1.html",
+      "urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2020-10/08/full/1602178821-2468.jpg",
+      "publishedAt": "2023-05-08T10:05:29Z",
+      "content": "Stock market highlights: Indian equities rode the global momentum with the benchmark indices soaring 1.2 per cent on Monday. Gains in IndusInd Bank, Tata Motors, Bajaj twins, HCL Tech, Kotak Bank, Ma… [+204 chars]"
+    }
+  ]
+}

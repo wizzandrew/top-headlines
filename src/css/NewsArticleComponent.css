@@ -1,3 +1,16 @@
+.newsArticleBanner {
+  padding-top: 23.5px;
+  padding-bottom: 23.5px;
+  padding-left: 24px;
+}
+
+.newsArticleBanner h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
 .articleContainer {
   padding-top: 55px;
   padding-left: 28px;
