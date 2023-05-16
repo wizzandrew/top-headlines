@@ -1,6 +1,7 @@
 import React from "react";
 import { Routes, Route, useParams } from "react-router-dom";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import World from "./pages/World";
 import Business from "./pages/Business";
@@ -188,6 +189,7 @@ function App() {
     <div>
       <Header />
       <Router />
+      <Footer />
     </div>
   );
 }

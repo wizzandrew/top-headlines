@@ -20,4 +20,5 @@
 .newsCategoryArticles {
   padding-top: 39px;
   padding-left: 14px;
+  min-height: 80vh;
 }

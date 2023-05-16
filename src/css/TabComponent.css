@@ -25,6 +25,10 @@
   padding: 0;
 }
 
+.articles {
+  min-height: 80vh;
+}
+
 @media (max-width: 768px) {
   .dropdowns {
     flex-direction: column;
