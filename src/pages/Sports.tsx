@@ -40,9 +40,7 @@ export default function Sports() {
               <News
                 page="sports"
                 articles={topheadings}
-                requestError={requestError}
                 articlesCategory="Sports"
-                newsByCategory={true}
               />
             </div>
           </div>

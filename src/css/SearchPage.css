@@ -1,0 +1,18 @@
+.searchBanner {
+  padding-top: 23.5px;
+  padding-bottom: 23.5px;
+  padding-left: 24px;
+}
+
+.searchBanner h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.newsSearchResults {
+  padding-top: 39px;
+  padding-left: 14px;
+  min-height: 80vh;
+}

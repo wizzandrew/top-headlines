@@ -50,13 +50,12 @@ export default function TabAsiaComponent() {
             </div>
           </div>
         </div>
+        <div>{topheadingsAsia === null ? "Choose sources" : ""}</div>
         <div className="articles">
           <News
             page="home"
             articles={topheadingsAsia}
-            requestError={requestError}
             articlesCategory="Asia"
-            newsByCategory={false}
           />
         </div>
       </div>

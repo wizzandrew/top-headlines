@@ -1,0 +1,27 @@
+#searchInput,
+.searchLink {
+  background-color: #f6f6f6;
+}
+
+#searchInput {
+  border: none;
+  max-width: 175px;
+}
+
+#searchInput::placeholder {
+  font-family: "BBC Reith Sans", "Arial", "Helvetica", freesans, sans-serif,
+    sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: black;
+}
+
+.searchLink {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.searchLink img {
+  margin-left: 15px;
+}

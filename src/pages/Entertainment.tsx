@@ -40,9 +40,7 @@ export default function Entertainment() {
               <News
                 page="entertainment"
                 articles={topheadings}
-                requestError={requestError}
                 articlesCategory="Entertainment"
-                newsByCategory={true}
               />
             </div>
           </div>

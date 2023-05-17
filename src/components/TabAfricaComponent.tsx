@@ -50,13 +50,12 @@ export default function TabAfricaComponent() {
             </div>
           </div>
         </div>
+        <div>{topheadingsAfrica === null ? "Choose sources" : ""}</div>
         <div className="articles">
           <News
             page="home"
             articles={topheadingsAfrica}
-            requestError={requestError}
             articlesCategory="Africa"
-            newsByCategory={false}
           />
         </div>
       </div>

@@ -93,3 +93,7 @@
 .navHolder li:nth-child(7) {
   background-image: linear-gradient(#e8884d 0 0);
 }
+
+.searchHolder {
+  margin-left: 20px;
+}

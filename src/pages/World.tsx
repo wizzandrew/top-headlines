@@ -47,9 +47,7 @@ export default function World() {
               <News
                 page="world"
                 articles={topheadings}
-                requestError={requestError}
                 articlesCategory="World"
-                newsByCategory={true}
               />
             </div>
           </div>

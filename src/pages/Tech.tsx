@@ -40,9 +40,7 @@ export default function Tech() {
               <News
                 page="tech"
                 articles={topheadings}
-                requestError={requestError}
                 articlesCategory="Technology"
-                newsByCategory={true}
               />
             </div>
           </div>

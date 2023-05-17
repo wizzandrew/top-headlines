@@ -9,6 +9,7 @@ import {
   NavLink,
 } from "reactstrap";
 import SignInModal from "./SignInModal";
+import SearchBarComponent from "./SearchBarComponent";
 import "../css/Header.css";
 import brandIcon from "../img/brand.svg";
 import accountIcon from "../img/account-icon.svg";
@@ -39,7 +40,7 @@ export default function Header() {
             </a>
           </div>
           <div className="verticalLine"></div>
-          <Nav className="navHolder me-auto" navbar>
+          <Nav className="navHolder" navbar>
             <NavItem>
               <NavLink href="/world">World</NavLink>
             </NavItem>
@@ -62,6 +63,9 @@ export default function Header() {
               <NavLink href="/science">Science</NavLink>
             </NavItem>
           </Nav>
+          <div className="searchHolder">
+            <SearchBarComponent />
+          </div>
         </Collapse>
       </Navbar>
       <SignInModal modalOpen={modalOpen} toggle={triggerModal} />

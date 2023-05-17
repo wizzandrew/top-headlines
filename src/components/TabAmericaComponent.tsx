@@ -59,13 +59,12 @@ export default function AmericaComponent() {
             </div>
           </div>
         </div>
+        <div>{topheadingsAmerica === null ? "Choose sources" : ""}</div>
         <div className="articles">
           <News
             page="home"
             articles={topheadingsAmerica}
-            requestError={requestError}
             articlesCategory="America"
-            newsByCategory={false}
           />
         </div>
       </div>

@@ -10,12 +10,14 @@ import Health from "./pages/Health";
 import Tech from "./pages/Tech";
 import Sports from "./pages/Sports";
 import Science from "./pages/Science";
+import SearchPage from "./pages/SearchPage";
 import America from "./components/TabAmericaComponent";
 import Europe from "./components/TabEuropeComponent";
 import Africa from "./components/TabAfricaComponent";
 import Asia from "./components/TabAsiaComponent";
 import NewsArticleSourceComponent from "./components/NewsArticleSourceComponent";
 import NewsArticleCategoryComponent from "./components/NewsArticleCategoryComponent";
+import NewsArticleSearchComponent from "./components/NewsArticleSearchComponent";
 import { useAppSelector } from "./redux/hooks";
 import "./App.css";
 
@@ -27,6 +29,15 @@ function App() {
   const topheadingsCategory = useAppSelector(
     (state) => state.topHeadings.topHeadingsCategory
   );
+  const topheadingsSearch = useAppSelector(
+    (state) => state.topHeadings.topHeadingsSearch
+  );
+
+  // search page
+  const Search = () => {
+    let params = useParams();
+    return <SearchPage query={params.query} />;
+  };
 
   // unique news article source component with its own route path
   // news article source - component for article for specific news agent
@@ -137,6 +148,18 @@ function App() {
     );
   };
 
+  // unique news article search component with its own route path
+  // news article search - component for article for searched news
+  const NewsArticleSearchWithId = () => {
+    let params = useParams();
+    return (
+      <NewsArticleSearchComponent
+        article={topheadingsSearch?.filter((a) => a.title === params.title)[0]}
+        bannerText="SEARCH"
+      />
+    );
+  };
+
   const Router = () => {
     return (
       <Routes>
@@ -181,6 +204,8 @@ function App() {
           path="/science/:title"
           element={<NewsArticleScienceCategoryWithId />}
         />
+        <Route path="/search/query/:query" element={<Search />} />
+        <Route path="/search/:title" element={<NewsArticleSearchWithId />} />
       </Routes>
     );
   };

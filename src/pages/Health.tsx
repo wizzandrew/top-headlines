@@ -40,9 +40,7 @@ export default function Health() {
               <News
                 page="health"
                 articles={topheadings}
-                requestError={requestError}
                 articlesCategory="Health"
-                newsByCategory={true}
               />
             </div>
           </div>

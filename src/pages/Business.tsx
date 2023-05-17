@@ -40,9 +40,7 @@ export default function Business() {
               <News
                 page="business"
                 articles={topheadings}
-                requestError={requestError}
                 articlesCategory="Business"
-                newsByCategory={true}
               />
             </div>
           </div>

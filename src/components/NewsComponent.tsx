@@ -7,34 +7,17 @@ import "../css/NewsComponent.css";
 type NewsProps = {
   page: string;
   articles: NewsArticle[] | null;
-  requestError: boolean;
   articlesCategory: string;
-  newsByCategory: boolean;
 };
 
 export default function NewsComponent(props: NewsProps) {
   // Variable to hold conditionally rendered content
   let newsContent;
 
-  // Initial info display -> news for sources "Choose sources" // news for categories ""
-  // If passed no articles to this component -> display some text
-  if (
-    (props.articles === null || props.articles.length === 0) &&
-    !props.newsByCategory
-  ) {
-    newsContent = <div>Choose sources</div>;
-  } else if (
-    (props.articles === null || props.articles.length === 0) &&
-    props.newsByCategory
-  ) {
+  // If passed no articles to this component -> display nothing
+  if (props.articles === null || props.articles.length === 0) {
     newsContent = <div></div>;
-  }
-  // If passed no articles to this component -> fetch error
-  // else if (props.requestError) {
-  //   newsContent = <div>Error</div>;
-  // }
-  // Else render news articles
-  else {
+  } else {
     newsContent = props.articles?.map((article, index) => {
       return (
         <div className="col-10 col-md-4 col-lg-3 cardHolder" key={index}>

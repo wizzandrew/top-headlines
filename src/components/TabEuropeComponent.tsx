@@ -82,13 +82,12 @@ export default function TabEuropeComponent() {
             </div>
           </div>
         </div>
+        <div>{topheadingsEurope === null ? "Choose sources" : ""}</div>
         <div className="articles">
           <News
             page="home"
             articles={topheadingsEurope}
-            requestError={requestError}
             articlesCategory="Europe"
-            newsByCategory={false}
           />
         </div>
       </div>

@@ -40,9 +40,7 @@ export default function Science() {
               <News
                 page="science"
                 articles={topheadings}
-                requestError={requestError}
                 articlesCategory="Science"
-                newsByCategory={true}
               />
             </div>
           </div>
