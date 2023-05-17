@@ -8,13 +8,21 @@ import {
   NavItem,
   NavLink,
 } from "reactstrap";
+import SignInModal from "./SignInModal";
 import "../css/Header.css";
 import brandIcon from "../img/brand.svg";
 import accountIcon from "../img/account-icon.svg";
 
 export default function Header() {
+  // state for collapsed(mobile) header view
   const [open, setOpen] = useState(false);
   const toggle = () => setOpen(!open);
+
+  // state for sign in modal
+  const [modalOpen, setModal] = useState(false);
+  const triggerModal = () => {
+    setModal(!modalOpen);
+  };
 
   return (
     <div className="container">
@@ -24,8 +32,8 @@ export default function Header() {
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={open} navbar>
-          <div className="signInHolder">
-            <a href="/signin">
+          <div className="signInHolder" onClick={triggerModal}>
+            <a href="#">
               <img className="accountIcon" src={accountIcon} alt="account" />
               <p>Sign in</p>
             </a>
@@ -56,6 +64,7 @@ export default function Header() {
           </Nav>
         </Collapse>
       </Navbar>
+      <SignInModal modalOpen={modalOpen} toggle={triggerModal} />
     </div>
   );
 }

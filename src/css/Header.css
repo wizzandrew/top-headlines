@@ -20,6 +20,7 @@
 
 .signInHolder a {
   color: black;
+  pointer-events: none;
 }
 
 .signInHolder .accountIcon {

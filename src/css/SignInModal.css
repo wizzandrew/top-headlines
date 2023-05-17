@@ -1,0 +1,79 @@
+.modal-content,
+createAccText {
+  font-family: "BBC Reith Sans", "Arial", "Helvetica", freesans, sans-serif,
+    sans-serif;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.modal-title span {
+  font-size: 15px;
+  font-weight: 500;
+  color: #666;
+}
+
+.form-label {
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+#forgotPassword {
+  color: #034c89;
+  transition: color 0.25s ease;
+}
+
+#forgotPassword:hover {
+  color: #60b1f3;
+}
+
+.secondFormGroup {
+  padding-bottom: 10px;
+}
+
+.singInBtn {
+  background-color: #0071f1;
+  width: 100%;
+  border-radius: 0;
+  padding: 10px 0;
+}
+
+.singInBtn span {
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+.lineSeparator {
+  margin: 10px 0;
+  opacity: 0;
+}
+
+.createAccText {
+  text-align: center;
+}
+
+.createAccText p {
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.createAccText span {
+  color: #3092ff;
+  text-decoration: underline;
+  transition: color 0.25s ease;
+}
+
+.createAccText span:hover {
+  color: #90c3fe;
+}
