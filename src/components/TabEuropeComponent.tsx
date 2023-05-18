@@ -20,7 +20,6 @@ export default function TabEuropeComponent() {
   const topheadingsEurope = useAppSelector(
     (state) => state.topHeadings.topHeadingsSource
   );
-  const requestError = useAppSelector((state) => state.topHeadings.error);
 
   // Variable to keep state of drop downs with proper names for sources
   const dropdownState = {

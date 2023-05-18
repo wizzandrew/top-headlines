@@ -11,6 +11,15 @@ export type InitialState = {
   error: boolean;
 };
 
+export type TranslateArticle = {
+  title: string;
+  description: string | null;
+  content: string | null;
+  topHeadingsType: "source" | "category" | "search";
+};
+
+export type TranslateArticleResult = TranslateArticle & { oldTitle: string };
+
 const initialState: InitialState = {
   topHeadingsSource: null,
   topHeadingsCategory: null,
@@ -80,6 +89,48 @@ const topheadingsReducer = createSlice({
       state.error = true;
       alert("Error " + action.error.message);
     });
+    builder.addCase(
+      fetchTranslateArticle.fulfilled,
+      (state, action: PayloadAction<TranslateArticleResult | null>) => {
+        // make a variable for received prop
+        const translatedArticle = action.payload;
+
+        // check the news article type (category/source/search)
+        // based on this type the global state variable is selected
+        if (translatedArticle) {
+          if (translatedArticle.topHeadingsType === "category") {
+            // update news article with translated title, description and content
+            state.topHeadingsCategory?.map((topheading) => {
+              if (topheading.title === translatedArticle.oldTitle) {
+                topheading.title = translatedArticle.title;
+                topheading.description = translatedArticle.description;
+                topheading.content = translatedArticle.content;
+              }
+            });
+          } else if (translatedArticle.topHeadingsType === "source") {
+            state.topHeadingsSource?.map((topheading) => {
+              if (topheading.title === translatedArticle.oldTitle) {
+                topheading.title = translatedArticle.title;
+                topheading.description = translatedArticle.description;
+                topheading.content = translatedArticle.content;
+              }
+            });
+          } else if (translatedArticle.topHeadingsType === "search") {
+            state.topHeadingsSearch?.map((topheading) => {
+              if (topheading.title === translatedArticle.oldTitle) {
+                topheading.title = translatedArticle.title;
+                topheading.description = translatedArticle.description;
+                topheading.content = translatedArticle.content;
+              }
+            });
+          }
+        }
+      }
+    );
+    // case when fetch news on top headings by category failed
+    builder.addCase(fetchTranslateArticle.rejected, (state, action) => {
+      alert("Error " + action.error.message);
+    });
   },
 });
 
@@ -111,8 +162,17 @@ export const fetchNewsByCategory = createAsyncThunk(
 export const fetchNewsBySearch = createAsyncThunk(
   "topheadlines/fetch/search",
   async (query: string) => {
-    //const response = await api.getFakeHeadlines(query);
-    const response = await api.getHeadlinesBySearch(query);
+    const response = await api.getFakeHeadlines(query);
+    //const response = await api.getHeadlinesBySearch(query);
+    return response;
+  }
+);
+
+// create thunk method to translate article
+export const fetchTranslateArticle = createAsyncThunk(
+  "topheadlines/translate/article",
+  async (translateArticle: TranslateArticle) => {
+    const response = await api.getTranslateArticle(translateArticle);
     return response;
   }
 );

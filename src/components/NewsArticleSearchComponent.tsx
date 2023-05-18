@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import { NewsArticle } from "../shared/models";
+import { useAppDispatch } from "../redux/hooks";
+import * as topHeadingsSlice from "../redux/topheadingsSlice";
 import shareIcon from "../img/share-icon.svg";
 import "../css/NewsArticleComponent.css";
 
@@ -35,6 +37,29 @@ export default function NewsArticleComponent(props: ArticleProps) {
       <div className="col-12 d-none"></div>
     );
 
+  // dispatch variable
+  const dispatch = useAppDispatch();
+
+  // force rerender state
+  const [st, rerenderState] = useState("");
+
+  // manage to translate article
+  const translateArticle = () => {
+    if (props.article !== undefined) {
+      dispatch(
+        topHeadingsSlice.fetchTranslateArticle({
+          title: props.article.title,
+          description: props.article.description,
+          content: props.article.contentCleared(),
+          topHeadingsType: "category",
+        })
+      );
+
+      //forcing to rerender page when its been translated
+      setTimeout(() => rerenderState("state"), 2000);
+    }
+  };
+
   return (
     <React.Fragment>
       <div className="holder" style={{ backgroundColor: "#086199" }}>
@@ -63,9 +88,12 @@ export default function NewsArticleComponent(props: ArticleProps) {
               <img src={shareIcon} alt="share" />
             </div>
             <div className="shareLinkHolder">
-              <a href={props?.article?.url} target="_blank">
+              <a href={props?.article?.url} target="_blank" rel="noreferrer">
                 Origin Source
               </a>
+            </div>
+            <div>
+              <button onClick={translateArticle}>Translate</button>
             </div>
           </div>
         </div>

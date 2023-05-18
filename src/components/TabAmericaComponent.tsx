@@ -15,7 +15,6 @@ export default function AmericaComponent() {
   const topheadingsAmerica = useAppSelector(
     (state) => state.topHeadings.topHeadingsSource
   );
-  const requestError = useAppSelector((state) => state.topHeadings.error);
 
   // Variable to keep state of drop downs with proper names for sources
   const dropdownState = {

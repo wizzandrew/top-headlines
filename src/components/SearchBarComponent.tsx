@@ -34,7 +34,7 @@ export default function SearchBarComponent() {
         to={`/search/query/${searchQuery}`}
         onClick={handleSearch}
       >
-        <img width={20} height={21} src={searchIcon}></img>
+        <img width={20} height={21} src={searchIcon} alt=""></img>
       </Link>
     </InputGroup>
   );

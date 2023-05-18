@@ -1,6 +1,7 @@
 import { NewsArticle } from "./models";
 import { fakeArticles } from "./fakeData";
 import * as cached from "./cachedLogic";
+import type { TranslateArticle, TranslateArticleResult } from "../redux/topheadingsSlice";
 
 const URL = "https://newsapi.org/v2/top-headlines?";
 const apiKey = "a998da526b8944199ff7dc7cdf0b805e";
@@ -152,6 +153,59 @@ export async function getHeadlinesBySearch(
 
   // Return empty arr if smth fails
   return [];
+}
+
+// fetch request to translate article
+export async function getTranslateArticle(article: TranslateArticle): Promise<TranslateArticleResult | null> {
+  
+ // Response variable is for response from fetch request
+  // JsonData variable is for JSON representation of response data
+  // Result variable is for return statement
+  let response;
+  let jsonData: any = {};
+  let result: TranslateArticleResult;
+
+  // Enclose fetch request into try/catch because it can fail
+  try{
+    response = await fetch(
+      "http://localhost:5000/translate?title=" + article.title 
+      + "&description=" + article.description 
+      + "&content=" + article.content);
+   } catch(error) {
+    console.log("getTranslateArticle " + error);
+   }
+
+  // Check wheteher response has got smth from api
+  if(response !== undefined) {
+    if(response.ok) {
+      await response
+        .json()
+        .then((data) => (jsonData = data?.result))
+        .catch((err) => console.log(err));
+
+      // Return the sunny case scenario
+      result = {
+        title: jsonData.title,
+        oldTitle: article.title,
+        description: jsonData.description,
+        content: jsonData.content,
+        topHeadingsType: article.topHeadingsType
+      }
+      return result;
+
+    } else {
+      throw new Error(
+        "\nStatus: " +
+          response.status +
+          " " +
+          response.statusText
+      );
+    }
+  } 
+
+  // Return null if smth fails
+  return null;
+
 }
 
 // Fake request returning data

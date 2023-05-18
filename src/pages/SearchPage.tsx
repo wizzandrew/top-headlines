@@ -18,7 +18,6 @@ export default function SearchPage(props: SearchPageProps) {
   const topheadings = useAppSelector(
     (state) => state.topHeadings.topHeadingsSearch
   );
-  const requestError = useAppSelector((state) => state.topHeadings.error);
 
   // Fetch news
   const fetchNews = async (query: string | undefined) => {

@@ -9,13 +9,7 @@ export default function World() {
   const topheadings = useAppSelector(
     (state) => state.topHeadings.topHeadingsCategory
   );
-  const requestError = useAppSelector((state) => state.topHeadings.error);
 
-  // Fetch news
-  // const fetchNews = async (category: string) => {
-  //   console.log("fetching news for: " + category);
-  //   dispatch(topHeadingsSlice.fetchNewsByCategory(category));
-  // };
   const fetchNews = useFetchHook();
 
   return (

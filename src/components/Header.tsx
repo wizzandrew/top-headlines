@@ -10,9 +10,9 @@ import {
 } from "reactstrap";
 import SignInModal from "./SignInModal";
 import SearchBarComponent from "./SearchBarComponent";
-import "../css/Header.css";
 import brandIcon from "../img/brand.svg";
 import accountIcon from "../img/account-icon.svg";
+import "../css/Header.css";
 
 export default function Header() {
   // state for collapsed(mobile) header view
@@ -34,7 +34,7 @@ export default function Header() {
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={open} navbar>
           <div className="signInHolder" onClick={triggerModal}>
-            <a href="#">
+            <a href="signin">
               <img className="accountIcon" src={accountIcon} alt="account" />
               <p>Sign in</p>
             </a>

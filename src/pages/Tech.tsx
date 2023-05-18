@@ -8,7 +8,7 @@ export default function Tech() {
   const topheadings = useAppSelector(
     (state) => state.topHeadings.topHeadingsCategory
   );
-  const requestError = useAppSelector((state) => state.topHeadings.error);
+
   const fetchNews = useFetchHook();
 
   return (
