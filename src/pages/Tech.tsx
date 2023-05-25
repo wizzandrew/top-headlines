@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import News from "../components/NewsComponent";
 import { useAppSelector } from "../redux/hooks";
 import useFetchHook from "../shared/fetchHook";
@@ -8,8 +8,21 @@ export default function Tech() {
   const topheadings = useAppSelector(
     (state) => state.topHeadings.topHeadingsCategory
   );
+  const thCurrent = useAppSelector(
+    (state) => state.topHeadings.topHeadingsCategoryCurrent
+  );
 
-  const fetchNews = useFetchHook();
+  // dispatch methods
+  const fetchNews = useFetchHook().fetchNewsByCategory;
+  const setThCurrent = useFetchHook().dispatchSetTopHeadingsCurrent;
+
+  // useEffect hook
+  useEffect(() => {
+    if (thCurrent !== "technology") {
+      fetchNews("technology");
+      setThCurrent("technology");
+    }
+  }, []);
 
   return (
     <>
@@ -23,17 +36,6 @@ export default function Tech() {
         </div>
       </div>
       <div className="container">
-        <div className="row">
-          <div className="col-6">
-            <button
-              onClick={() => {
-                fetchNews.fetchNewsByCategory("technology");
-              }}
-            >
-              Load news
-            </button>
-          </div>
-        </div>
         <div className="row">
           <div className="col-12">
             <div className="newsCategoryArticles">

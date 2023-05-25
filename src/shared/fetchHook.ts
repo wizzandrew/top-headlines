@@ -9,5 +9,11 @@ export default function useFetchHook() {
     dispatch(topHeadingsSlice.fetchNewsByCategory(category));
   };
 
-  return { fetchNewsByCategory };
+  const dispatchSetTopHeadingsCurrent = (
+    current: topHeadingsSlice.TopHeadingsCategoryTypes
+  ) => {
+    dispatch(topHeadingsSlice.setTopHeadingsCategoryCurrent(current));
+  };
+
+  return { fetchNewsByCategory, dispatchSetTopHeadingsCurrent };
 }

@@ -3,9 +3,20 @@ import { NewsArticle } from "../shared/models";
 import * as api from "../shared/api";
 import * as _ from "lodash";
 
+export type TopHeadingsCategoryTypes =
+  | "general"
+  | "business"
+  | "entertainment"
+  | "health"
+  | "science"
+  | "sports"
+  | "technology"
+  | null;
+
 export type InitialState = {
   topHeadingsSource: NewsArticle[] | null;
   topHeadingsCategory: NewsArticle[] | null;
+  topHeadingsCategoryCurrent: TopHeadingsCategoryTypes;
   topHeadingsSearch: NewsArticle[] | null;
   searchFlag: boolean;
   error: boolean;
@@ -27,6 +38,7 @@ export type TranslateArticleResult = TranslateArticle & { oldTitle: string };
 const initialState: InitialState = {
   topHeadingsSource: null,
   topHeadingsCategory: null,
+  topHeadingsCategoryCurrent: null,
   topHeadingsSearch: null,
   searchFlag: false,
   error: false,
@@ -41,6 +53,13 @@ const topheadingsReducer = createSlice({
     },
     deactivateSearchFlag(state) {
       state.searchFlag = false;
+    },
+    setTopHeadingsCategoryCurrent(
+      state,
+      action: PayloadAction<TopHeadingsCategoryTypes>
+    ) {
+      const current = action.payload;
+      state.topHeadingsCategoryCurrent = current;
     },
   },
   extraReducers: (builder) => {
@@ -75,6 +94,9 @@ const topheadingsReducer = createSlice({
     // case when fetch news on top headings by category failed
     builder.addCase(fetchNewsByCategory.rejected, (state, action) => {
       state.error = true;
+
+      // set topHeadingsCategoryCurrent to null because fetch request failed
+      state.topHeadingsCategoryCurrent = null;
       alert("Error " + action.error.message);
     });
     builder.addCase(
@@ -155,8 +177,11 @@ const topheadingsReducer = createSlice({
   },
 });
 
-export const { activateSearchFlag, deactivateSearchFlag } =
-  topheadingsReducer.actions;
+export const {
+  activateSearchFlag,
+  deactivateSearchFlag,
+  setTopHeadingsCategoryCurrent,
+} = topheadingsReducer.actions;
 export default topheadingsReducer.reducer;
 
 // create async thunk method for fetching news by source
