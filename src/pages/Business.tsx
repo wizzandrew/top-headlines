@@ -41,6 +41,7 @@ export default function Business() {
                 page="business"
                 articles={topheadings}
                 articlesCategory="Business"
+                translate={false}
               />
             </div>
           </div>

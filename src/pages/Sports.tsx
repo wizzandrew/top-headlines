@@ -41,6 +41,7 @@ export default function Sports() {
                 page="sports"
                 articles={topheadings}
                 articlesCategory="Sports"
+                translate={false}
               />
             </div>
           </div>

@@ -1,18 +1,49 @@
-import React from "react";
+import React, { useState } from "react";
 import { Card, CardBody, CardTitle, CardText, CardFooter } from "reactstrap";
 import { Link } from "react-router-dom";
 import { NewsArticle } from "../shared/models";
+import { useAppDispatch } from "../redux/hooks";
+import * as topHeadingsSlice from "../redux/topheadingsSlice";
 import "../css/NewsComponent.css";
 
 type NewsProps = {
   page: string;
   articles: NewsArticle[] | null;
   articlesCategory: string;
+  translate: boolean;
 };
 
 export default function NewsComponent(props: NewsProps) {
   // Variable to hold conditionally rendered content
   let newsContent;
+
+  // variable to hold <div>button</div> for to translate article titles
+  // viable in case propr.translate is true
+  let translateDiv;
+
+  // dispatch variable
+  const dispatch = useAppDispatch();
+
+  // force rerender state
+  const [st, rerenderState] = useState("");
+
+  // manage to translate article
+  const translateArticleTitles = () => {
+    if (
+      props.articles &&
+      props.articles !== null &&
+      props.articles.length > 0
+    ) {
+      dispatch(
+        topHeadingsSlice.fetchTranslateArticleTitles({
+          articles: props.articles,
+        })
+      );
+
+      // forcing to rerender page when its been translated
+      setTimeout(() => rerenderState("state"), 2000);
+    }
+  };
 
   // If passed no articles to this component -> display nothing
   if (props.articles === null || props.articles.length === 0) {
@@ -40,27 +71,19 @@ export default function NewsComponent(props: NewsProps) {
     });
   }
 
-  return <div className="row">{newsContent}</div>;
+  // if props.translate === true return button for to translate article titles
+  if (props.translate) {
+    translateDiv = (
+      <div>
+        <button onClick={translateArticleTitles}>Translate</button>
+      </div>
+    );
+  }
+
+  return (
+    <>
+      <div className="row">{translateDiv}</div>
+      <div className="row">{newsContent}</div>
+    </>
+  );
 }
-
-// <div className="col-12 col-md-6 col-lg-4">
-// <Card>
-//   <img src="#" alt="news"></img>
-//   <CardBody>
-//     <CardTitle>
-//       Manhattan District Attorney is asking about hush money
-//     </CardTitle>
-//   </CardBody>
-// </Card>
-// </div>
-
-// <div className="col-12 col-md-3 col-lg-3">
-// <Card>
-//   <img src="#" alt="news"></img>
-//   <CardBody>
-//     <CardTitle>
-//       Gwyneth Paltrow ski collision case goes to jury
-//     </CardTitle>
-//   </CardBody>
-// </Card>
-// </div>

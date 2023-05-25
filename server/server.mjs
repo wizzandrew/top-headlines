@@ -11,12 +11,30 @@ app.use(function (_, res, next) {
     next();
 });
 
-const translateFunc = async (title, description, content) => {
+const translateArticle = async (title, description, content) => {
 
+    // construct the query with "@" marker to later deconstruct the translate result
     const translateQuery = "@" + title + "@" + description + "@" + content;
 
     const { text } = await translate(translateQuery, { to: 'en' });
 
+    // return an array of properties title, description, content
+    return text.split("@");
+}
+
+const translateTitles = async (titles) => {
+
+    // construct the query with "@" marker to later deconstruct the translate result
+    let translateQuery = "";
+    let titlesArray = titles.split(',');
+
+    for (let i = 0; i < titlesArray.length; i++) {
+        translateQuery += "@" + titlesArray[i];
+    }
+
+    const { text } = await translate(translateQuery, { to: 'en' });
+
+    // return an array of properties title, description, content
     return text.split("@");
 }
 
@@ -26,7 +44,7 @@ app.get("/translate", async (req, res) => {
     let description = req.query.description;
     let content = req.query.content;
 
-    const result = await translateFunc(title, description, content);
+    const result = await translateArticle(title, description, content);
 
     console.log(result)
 
@@ -37,6 +55,21 @@ app.get("/translate", async (req, res) => {
             "content": result[3]
         }
     });
-})
+});
+
+app.get("/translate/titles", async (req, res) => {
+
+    let titles = req.query.titles;
+
+    const result = await translateTitles(titles);
+
+    console.log(result)
+
+    res.json({
+        "result": {
+            "titles": result.slice(1)
+        }
+    });
+});
 
 app.listen(5000, () => { console.log("Server started on port 5000"); })

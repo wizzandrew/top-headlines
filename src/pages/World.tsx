@@ -42,6 +42,7 @@ export default function World() {
                 page="world"
                 articles={topheadings}
                 articlesCategory="World"
+                translate={false}
               />
             </div>
           </div>

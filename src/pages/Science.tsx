@@ -41,6 +41,7 @@ export default function Science() {
                 page="science"
                 articles={topheadings}
                 articlesCategory="Science"
+                translate={false}
               />
             </div>
           </div>

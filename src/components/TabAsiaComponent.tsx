@@ -55,6 +55,7 @@ export default function TabAsiaComponent() {
             page="home"
             articles={topheadingsAsia}
             articlesCategory="Asia"
+            translate={false}
           />
         </div>
       </div>

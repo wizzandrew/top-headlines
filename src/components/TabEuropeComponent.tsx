@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Tab from "./HomeTabComponent";
-import Dropdown from "./TabDropDownMenuComponent";
+import Dropdown from "./TabDropDownMenuComponentWithTranslate";
 import News from "./NewsComponent";
 import {
   SourcesUK,
@@ -33,6 +33,26 @@ export default function TabEuropeComponent() {
     optionsRussia: [SourcesRussia.lenta, SourcesRussia.rbc],
   };
 
+  // variable to manage translate feature of the NewsComponent
+  const [translate, setTranslate] = useState(false);
+
+  // hooks to keep translate state in localStorage
+  useEffect(() => {
+    const localSt = window.localStorage.getItem("translateEurope");
+    if (typeof localSt === "string") setTranslate(JSON.parse(localSt));
+  }, []);
+
+  useEffect(() => {
+    window.localStorage.setItem("translateEurope", translate + "");
+  }, [translate]);
+
+  const toggleTranslateTrue = () => {
+    setTranslate(true);
+  };
+  const toggleTranslateFalse = () => {
+    setTranslate(false);
+  };
+
   // Fetch news given source
   const fetchNews = async (source: string) => {
     console.log("fetching news for: " + source);
@@ -56,6 +76,7 @@ export default function TabEuropeComponent() {
                 title={dropdownState.titleUK}
                 options={dropdownState.optionsUK}
                 loadNews={fetchNews}
+                toggleTranslate={toggleTranslateFalse}
               />
             </div>
             <div className="dropdownMenu">
@@ -63,6 +84,7 @@ export default function TabEuropeComponent() {
                 title={dropdownState.titleGermany}
                 options={dropdownState.optionsGermany}
                 loadNews={fetchNews}
+                toggleTranslate={toggleTranslateTrue}
               />
             </div>
             <div className="dropdownMenu">
@@ -70,6 +92,7 @@ export default function TabEuropeComponent() {
                 title={dropdownState.titleFrance}
                 options={dropdownState.optionsFrance}
                 loadNews={fetchNews}
+                toggleTranslate={toggleTranslateTrue}
               />
             </div>
             <div className="dropdownMenu">
@@ -77,6 +100,7 @@ export default function TabEuropeComponent() {
                 title={dropdownState.titleRussia}
                 options={dropdownState.optionsRussia}
                 loadNews={fetchNews}
+                toggleTranslate={toggleTranslateTrue}
               />
             </div>
           </div>
@@ -87,6 +111,7 @@ export default function TabEuropeComponent() {
             page="home"
             articles={topheadingsEurope}
             articlesCategory="Europe"
+            translate={translate}
           />
         </div>
       </div>

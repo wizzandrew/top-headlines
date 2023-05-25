@@ -41,6 +41,7 @@ export default function Entertainment() {
                 page="entertainment"
                 articles={topheadings}
                 articlesCategory="Entertainment"
+                translate={false}
               />
             </div>
           </div>

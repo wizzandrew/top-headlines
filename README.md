@@ -1,6 +1,11 @@
 ## Note on React Redux
+
 Can't store Date object in the store, only a string representation because it is unserialized.
 When retrieving headlines objects from the store, rememeber to create Date objects
+
+## Used google translate
+
+vitalets/google-translate-api
 
 # Getting Started with Create React App
 

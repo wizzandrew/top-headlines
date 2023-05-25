@@ -1,7 +1,11 @@
 import { NewsArticle } from "./models";
 import { fakeArticles } from "./fakeData";
 import * as cached from "./cachedLogic";
-import type { TranslateArticle, TranslateArticleResult } from "../redux/topheadingsSlice";
+import type {
+  TranslateArticle,
+  TranslateArticleResult,
+  TranslateArticleTitles,
+} from "../redux/topheadingsSlice";
 
 const URL = "https://newsapi.org/v2/top-headlines?";
 const apiKey = "a998da526b8944199ff7dc7cdf0b805e";
@@ -68,7 +72,9 @@ export async function getHeadlinesByCategory(
 
   // Enclose fetch request into try/catch because it can fail
   try {
-    response = await fetch(URL + "category=" + category + "&apiKey=" + apiKey);
+    response = await fetch(
+      URL + "category=" + category + "&language=en" + "&apiKey=" + apiKey
+    );
   } catch (error) {
     console.log("getHeadlinesByCategory " + error);
   }
@@ -156,9 +162,10 @@ export async function getHeadlinesBySearch(
 }
 
 // fetch request to translate article
-export async function getTranslateArticle(article: TranslateArticle): Promise<TranslateArticleResult | null> {
-  
- // Response variable is for response from fetch request
+export async function getTranslateArticle(
+  article: TranslateArticle
+): Promise<TranslateArticleResult | null> {
+  // Response variable is for response from fetch request
   // JsonData variable is for JSON representation of response data
   // Result variable is for return statement
   let response;
@@ -166,18 +173,22 @@ export async function getTranslateArticle(article: TranslateArticle): Promise<Tr
   let result: TranslateArticleResult;
 
   // Enclose fetch request into try/catch because it can fail
-  try{
+  try {
     response = await fetch(
-      "http://localhost:5000/translate?title=" + article.title 
-      + "&description=" + article.description 
-      + "&content=" + article.content);
-   } catch(error) {
+      "http://localhost:5000/translate?title=" +
+        article.title +
+        "&description=" +
+        article.description +
+        "&content=" +
+        article.content
+    );
+  } catch (error) {
     console.log("getTranslateArticle " + error);
-   }
+  }
 
   // Check wheteher response has got smth from api
-  if(response !== undefined) {
-    if(response.ok) {
+  if (response !== undefined) {
+    if (response.ok) {
       await response
         .json()
         .then((data) => (jsonData = data?.result))
@@ -189,23 +200,65 @@ export async function getTranslateArticle(article: TranslateArticle): Promise<Tr
         oldTitle: article.title,
         description: jsonData.description,
         content: jsonData.content,
-        topHeadingsType: article.topHeadingsType
-      }
+        topHeadingsType: article.topHeadingsType,
+      };
       return result;
-
     } else {
       throw new Error(
-        "\nStatus: " +
-          response.status +
-          " " +
-          response.statusText
+        "\nStatus: " + response.status + " " + response.statusText
       );
     }
-  } 
+  }
 
   // Return null if smth fails
   return null;
+}
 
+// fetch request to translate article titles
+export async function getTranslateArticleTitles(
+  articles: TranslateArticleTitles
+): Promise<string[] | null> {
+  // Response variable is for response from fetch request
+  // JsonData variable is for JSON representation of response data
+  // Result variable is for return statement
+  let response;
+  let jsonData: any = {};
+  let result: string[];
+
+  //construct array of article titles
+  const articleTitles: string[] = [];
+  articles.articles.map((article) => articleTitles.push(article.title));
+
+  // Enclose fetch request into try/catch because it can fail
+  try {
+    response = await fetch(
+      "http://localhost:5000/translate/titles?titles=" +
+        articleTitles.toString()
+    );
+  } catch (error) {
+    console.log("getTranslateArticleTitles " + error);
+  }
+
+  // Check wheteher response has got smth from api
+  if (response !== undefined) {
+    if (response.ok) {
+      await response
+        .json()
+        .then((data) => (jsonData = data?.result))
+        .catch((err) => console.log(err));
+
+      // Return the sunny case scenario
+      result = jsonData.titles;
+      return result;
+    } else {
+      throw new Error(
+        "\nStatus: " + response.status + " " + response.statusText
+      );
+    }
+  }
+
+  // Return null if smth fails
+  return null;
 }
 
 // Fake request returning data

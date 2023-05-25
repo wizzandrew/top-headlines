@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Tab from "./HomeTabComponent";
-import Dropdown from "./TabDropDownMenuComponent";
+import Dropdown from "./TabDropDownMenuComponentWithTranslate";
 import News from "./NewsComponent";
 import { SourcesUS, SourcesArgentina } from "../shared/newsSources";
 import { useAppDispatch, useAppSelector } from "../redux/hooks";
@@ -22,6 +22,26 @@ export default function AmericaComponent() {
     titleArgentina: "Argentina",
     optionsUS: [SourcesUS.politico, SourcesUS.foxNews, SourcesUS.cbsNews],
     optionsArgentina: [SourcesArgentina.infobae],
+  };
+
+  // variable to manage translate feature of the NewsComponent
+  const [translate, setTranslate] = useState(false);
+
+  // hooks to keep translate state in localStorage
+  useEffect(() => {
+    const localSt = window.localStorage.getItem("translateAmerica");
+    if (typeof localSt === "string") setTranslate(JSON.parse(localSt));
+  }, []);
+
+  useEffect(() => {
+    window.localStorage.setItem("translateAmerica", translate + "");
+  }, [translate]);
+
+  const toggleTranslateTrue = () => {
+    setTranslate(true);
+  };
+  const toggleTranslateFalse = () => {
+    setTranslate(false);
   };
 
   // Fetch news given source
@@ -47,6 +67,7 @@ export default function AmericaComponent() {
                 title={dropdownState.titleUS}
                 options={dropdownState.optionsUS}
                 loadNews={fetchNews}
+                toggleTranslate={toggleTranslateFalse}
               />
             </div>
             <div className="dropdownMenu">
@@ -54,6 +75,7 @@ export default function AmericaComponent() {
                 title={dropdownState.titleArgentina}
                 options={dropdownState.optionsArgentina}
                 loadNews={fetchNews}
+                toggleTranslate={toggleTranslateTrue}
               />
             </div>
           </div>
@@ -64,6 +86,7 @@ export default function AmericaComponent() {
             page="home"
             articles={topheadingsAmerica}
             articlesCategory="America"
+            translate={translate}
           />
         </div>
       </div>

@@ -41,6 +41,7 @@ export default function Tech() {
                 page="tech"
                 articles={topheadings}
                 articlesCategory="Technology"
+                translate={false}
               />
             </div>
           </div>

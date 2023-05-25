@@ -41,6 +41,7 @@ export default function Health() {
                 page="health"
                 articles={topheadings}
                 articlesCategory="Health"
+                translate={false}
               />
             </div>
           </div>

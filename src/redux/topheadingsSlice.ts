@@ -18,6 +18,10 @@ export type TranslateArticle = {
   topHeadingsType: "source" | "category" | "search";
 };
 
+export type TranslateArticleTitles = {
+  articles: NewsArticle[];
+};
+
 export type TranslateArticleResult = TranslateArticle & { oldTitle: string };
 
 const initialState: InitialState = {
@@ -131,6 +135,23 @@ const topheadingsReducer = createSlice({
     builder.addCase(fetchTranslateArticle.rejected, (state, action) => {
       alert("Error " + action.error.message);
     });
+    builder.addCase(
+      fetchTranslateArticleTitles.fulfilled,
+      (state, action: PayloadAction<string[] | null>) => {
+        // make a variable for received prop
+        const translatedArticleTitles = action.payload;
+
+        // updaye the state articles with translated titles
+        if (translatedArticleTitles && translatedArticleTitles !== null) {
+          state.topHeadingsSource?.map((topheading, index) => {
+            topheading.title = translatedArticleTitles[index];
+          });
+        }
+      }
+    );
+    builder.addCase(fetchTranslateArticleTitles.rejected, (state, action) => {
+      alert("Error " + action.error.message);
+    });
   },
 });
 
@@ -143,7 +164,7 @@ export const fetchNewsBySource = createAsyncThunk(
   "topheadlines/fetch/source",
   async (source: string) => {
     const response = await api.getFakeHeadlines(source);
-    // const response = await api.getHeadlinesBySource(source);
+    //const response = await api.getHeadlinesBySource(source);
     return response;
   }
 );
@@ -152,8 +173,8 @@ export const fetchNewsBySource = createAsyncThunk(
 export const fetchNewsByCategory = createAsyncThunk(
   "topheadlines/fetch/category",
   async (category: string) => {
-    //const response = await api.getFakeHeadlines(category);
-    const response = await api.getHeadlinesByCategory(category);
+    const response = await api.getFakeHeadlines(category);
+    //const response = await api.getHeadlinesByCategory(category);
     return response;
   }
 );
@@ -173,6 +194,15 @@ export const fetchTranslateArticle = createAsyncThunk(
   "topheadlines/translate/article",
   async (translateArticle: TranslateArticle) => {
     const response = await api.getTranslateArticle(translateArticle);
+    return response;
+  }
+);
+
+// create thunk method to translate article titles
+export const fetchTranslateArticleTitles = createAsyncThunk(
+  "topheadlines/translate/article/titles",
+  async (articles: TranslateArticleTitles) => {
+    const response = await api.getTranslateArticleTitles(articles);
     return response;
   }
 );

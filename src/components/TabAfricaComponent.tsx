@@ -55,6 +55,7 @@ export default function TabAfricaComponent() {
             page="home"
             articles={topheadingsAfrica}
             articlesCategory="Africa"
+            translate={false}
           />
         </div>
       </div>

@@ -53,6 +53,7 @@ export default function SearchPage(props: SearchPageProps) {
                 page="search"
                 articles={topheadings}
                 articlesCategory="World"
+                translate={false}
               />
             </div>
           </div>
