@@ -37,6 +37,13 @@ export default function AmericaComponent() {
     window.localStorage.setItem("translateAmerica", translate + "");
   }, [translate]);
 
+  // set translate to default false when loading america tab
+  useEffect(() => {
+    if (topheadingsAmerica === null) {
+      setTranslate(false);
+    }
+  }, [topheadingsAmerica]);
+
   const toggleTranslateTrue = () => {
     setTranslate(true);
   };

@@ -3,6 +3,7 @@ import { NewsArticle } from "../shared/models";
 import { useAppDispatch } from "../redux/hooks";
 import * as topHeadingsSlice from "../redux/topheadingsSlice";
 import shareIcon from "../img/share-icon.svg";
+import translateIcon from "../img/translate-icon.svg";
 import "../css/NewsArticleComponent.css";
 
 type ArticleProps = {
@@ -92,8 +93,11 @@ export default function NewsArticleComponent(props: ArticleProps) {
                 Origin Source
               </a>
             </div>
-            <div>
-              <button onClick={translateArticle}>Translate</button>
+            <div className="translateArea">
+              <button onClick={translateArticle}>
+                <img src={translateIcon} alt="" />
+                Translate
+              </button>
             </div>
           </div>
         </div>

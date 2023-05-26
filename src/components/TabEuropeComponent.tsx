@@ -46,6 +46,13 @@ export default function TabEuropeComponent() {
     window.localStorage.setItem("translateEurope", translate + "");
   }, [translate]);
 
+  // set translate to default false when loading america tab
+  useEffect(() => {
+    if (topheadingsEurope === null) {
+      setTranslate(false);
+    }
+  }, [topheadingsEurope]);
+
   const toggleTranslateTrue = () => {
     setTranslate(true);
   };

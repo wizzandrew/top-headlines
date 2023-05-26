@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { NewsArticle } from "../shared/models";
 import { useAppDispatch } from "../redux/hooks";
 import * as topHeadingsSlice from "../redux/topheadingsSlice";
+import translateIcon from "../img/translate-icon.svg";
 import "../css/NewsComponent.css";
 
 type NewsProps = {
@@ -74,8 +75,11 @@ export default function NewsComponent(props: NewsProps) {
   // if props.translate === true return button for to translate article titles
   if (props.translate) {
     translateDiv = (
-      <div>
-        <button onClick={translateArticleTitles}>Translate</button>
+      <div className="translateTitlesArea">
+        <img src={translateIcon} alt="" />
+        <button onClick={translateArticleTitles}>
+          Translate articles' titles
+        </button>
       </div>
     );
   }

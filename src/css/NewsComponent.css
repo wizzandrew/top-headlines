@@ -1,3 +1,27 @@
+.translateTitlesArea {
+  margin-bottom: 20px;
+}
+
+.translateTitlesArea img {
+  height: 40px;
+  margin-left: -5px;
+  margin-right: 3px;
+}
+
+.translateTitlesArea button {
+  height: 31px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgba(207, 216, 220, 0.86);
+  padding: 0 14px 0 12px;
+
+  transition: background-color linear 0.25s;
+}
+
+.translateTitlesArea button:hover {
+  background-color: rgba(159, 186, 199, 0.86);
+}
+
 .cardHolder {
   padding-bottom: 30px;
 }
