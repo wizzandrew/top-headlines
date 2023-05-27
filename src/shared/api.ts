@@ -37,20 +37,21 @@ export async function getHeadlinesBySource(
         .catch((err) => console.log(err));
 
       if (jsonData && Array.isArray(jsonData)) {
-        if (jsonData && Array.isArray(jsonData)) {
-          result = convertApiDataToNewsArticle(jsonData);
-        }
+        result = convertApiDataToNewsArticle(jsonData);
       }
 
       // Return the sunny case scenario
       return result as NewsArticle[];
     } else {
+      // check for 429(free requests exceeded) error from server
+      // load cached news
+      if (response.status == 429) {
+        result = cached.getCachedNewsBySource(source);
+        return result as NewsArticle[];
+      }
+
       throw new Error(
-        "\nStatus: " +
-          response.status +
-          " " +
-          response.statusText +
-          "\nNote: If status code is 429 this means that free requests limit was exceed"
+        "\nStatus: " + response.status + " " + response.statusText
       );
     }
   }
@@ -94,16 +95,15 @@ export async function getHeadlinesByCategory(
       // Return the sunny case scenario
       return result as NewsArticle[];
     } else {
-      // category
-      result = cached.getCachedNewsByCategory(category);
-      return result as NewsArticle[];
+      // check for 429(free requests exceeded) error from server
+      // load cached news
+      if (response.status == 429) {
+        result = cached.getCachedNewsByCategory(category);
+        return result as NewsArticle[];
+      }
 
       throw new Error(
-        "\nStatus: " +
-          response.status +
-          " " +
-          response.statusText +
-          "\nNote: If status code is 429 this means that free requests limit was exceed"
+        "\nStatus: " + response.status + " " + response.statusText
       );
     }
   }
@@ -139,20 +139,14 @@ export async function getHeadlinesBySearch(
         .catch((err) => console.log(err));
 
       if (jsonData && Array.isArray(jsonData)) {
-        if (jsonData && Array.isArray(jsonData)) {
-          result = convertApiDataToNewsArticle(jsonData);
-        }
+        result = convertApiDataToNewsArticle(jsonData);
       }
 
       // Return the sunny case scenario
       return result as NewsArticle[];
     } else {
       throw new Error(
-        "\nStatus: " +
-          response.status +
-          " " +
-          response.statusText +
-          "\nNote: If status code is 429 this means that free requests limit was exceed"
+        "\nStatus: " + response.status + " " + response.statusText
       );
     }
   }
