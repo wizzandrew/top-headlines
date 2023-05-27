@@ -4,26 +4,117 @@ articles = [
             "id": "le-monde",
             "name": "Le Monde"
         },
-        "author": "Collectif",
-        "title": "« Sans données de qualité, la transition énergétique de l’Europe sera plus difficile à réaliser »",
-        "description": "Sur le mode de l’Agence européenne pour l’environnement, dix économistes et spécialistes du climat européens plaident, dans une tribune au « Monde », en faveur de la création d’une Agence européenne de l’énergie, publique et indépendante, pour assurer une tra…",
-        "url": "https://www.lemonde.fr/idees/article/2023/05/08/sans-donnees-de-qualite-la-transition-energetique-de-l-europe-sera-plus-difficile-a-realiser_6172491_3232.html",
-        "urlToImage": "https://img.lemde.fr/2023/04/28/0/0/5559/3706/1440/960/60/0/5e757cf_1682683741936-pns-6598541.jpg",
-        "publishedAt": "2023-05-08T07:00:23Z",
-        "content": "Combien lindustrie paie-t-elle pour lélectricité ? Doù venait le gaz européen en 2022 ? Combien de centrales électriques lEurope compte-t-elle ? Quelles sont les lignes de transport les plus encombré… [+2660 chars]"
+        "author": "Jean-Michel Bezat",
+        "title": "Défense  : « Le gouvernement “va mettre un veto” à la vente aux Américains de la société Segault »",
+        "description": "L’attractivité de la France, tant vantée par Emmanuel Macron, a des limites. Dans la guerre économique, la souveraineté industrielle et technologique est devenue cruciale, constate Jean-Michel Bezat, journaliste économique au « Monde ».",
+        "url": "https://www.lemonde.fr/economie/article/2023/05/25/defense-le-gouvernement-va-mettre-un-veto-a-la-vente-aux-americains-de-la-societe-segault_6174790_3234.html",
+        "urlToImage": "https://img.lemde.fr/2023/05/25/0/0/6000/4000/1440/960/60/0/3696a7f_1685008783176-000-33dw774.jpg",
+        "publishedAt": "2023-05-25T10:02:24Z",
+        "content": "Segault fournit notamment à Naval Group les robinetteries des chaufferies des sous-marins nucléaires (ici « LInflexible », à Cherbourg, le 26 avril 2023). LOU BENOIST / AFP\r\nPeut-être Arnaud Montebou… [+2608 chars]"
     },
     {
         "source": {
             "id": "le-monde",
             "name": "Le Monde"
         },
-        "author": "Rafaële Rivais",
-        "title": "Quand la banque perd votre épargne",
-        "description": "Un client demande à la BNP de transférer 32 500 euros sur son compte au Crédit mutuel. L’argent est viré à LCL, sur le compte d’un tiers, dont la BNP ne connaît pas l’identité.",
-        "url": "https://www.lemonde.fr/argent/article/2023/05/08/quand-la-banque-perd-votre-epargne_6172468_1657007.html",
-        "urlToImage": "https://img.lemde.fr/2023/04/17/0/0/3000/2000/1440/960/60/0/2a2ab28_1681721637938-rgnrgn.jpg",
-        "publishedAt": "2023-05-08T03:30:13Z",
-        "content": "Si vous voulez obtenir que votre argent, domicilié chez BNP Paribas, soit transféré ailleurs, donnez bien votre ordre de virement par lettre recommandée avec accusé de réception ! Gardez-vous denvoye… [+2576 chars]"
+        "author": "Le Monde",
+        "title": "Etats-Unis : l’inquiétante primaire républicaine",
+        "description": "Désigner un autre candidat républicain pour la présidentielle américaine que Donald Trump devrait relever de la salubrité publique. Mais son principal rival, Ron DeSantis, s’est enfermé dans une guerre culturelle absurde.",
+        "url": "https://www.lemonde.fr/idees/article/2023/05/25/etats-unis-l-inquietante-primaire-republicaine_6174780_3232.html",
+        "urlToImage": "https://img.lemde.fr/2023/05/25/0/0/4930/3287/1440/960/60/0/733f416_1685001909299-471421.jpg",
+        "publishedAt": "2023-05-25T08:45:09Z",
+        "content": "Donald Trump est synonyme de défaites à répétition pour le Parti républicain. Mis en accusation à deux reprises par la Chambre des représentants, notamment pour son rôle dans la contestation violente… [+3255 chars]"
+    },
+    {
+        "source": {
+            "id": "le-monde",
+            "name": "Le Monde"
+        },
+        "author": "Philippe Pons, Thomas Wieder",
+        "title": "En Allemagne et au Japon, le crépuscule de l’idéal pacifiste",
+        "description": "Vaincus à l’issue de la seconde guerre mondiale, les deux pays avaient fait du pacifisme le cœur de leur politique diplomatique. Mais, dans le contexte de la guerre en Ukraine et des tensions entre la Chine et les Etats-Unis, Berlin comme Tokyo doivent de nou…",
+        "url": "https://www.lemonde.fr/international/article/2023/05/25/en-allemagne-et-au-japon-le-crepuscule-de-l-ideal-pacifiste_6174756_3210.html",
+        "urlToImage": "https://img.lemde.fr/2023/05/20/132/0/3507/2338/1440/960/60/0/e2123f8_2023-05-20t130836z-460090488-rc2d11aw2llr-rtrmadp-3-g7-summit-global-south.jpg",
+        "publishedAt": "2023-05-25T07:00:37Z",
+        "content": "Il peut paraître paradoxal, sinon révélateur de létat du monde, que le G7 se soit tenu cette année à Hiroshima, première ville victime du feu nucléaire, le 6 août 1945, où est gravé sur le monument a… [+2860 chars]"
+    },
+    {
+        "source": {
+            "id": "le-monde",
+            "name": "Le Monde"
+        },
+        "author": "Pierre Veltz, Grégory Richa",
+        "title": "« Le verdissement de l’industrie ne peut pas se limiter à la décarbonation des procédés et de l’énergie »",
+        "description": "Le chercheur Pierre Veltz et le consultant Grégory Richa rappellent, dans une tribune au « Monde », qu’il faut agir sur tous les fronts : conception, marketing, design ; fabrication, distribution et logistique ; fin de vie et recyclage ; modes d’usage et modè…",
+        "url": "https://www.lemonde.fr/idees/article/2023/05/25/le-verdissement-de-l-industrie-ne-peut-pas-se-limiter-a-la-decarbonation-des-procedes-et-de-l-energie_6174755_3232.html",
+        "urlToImage": "https://img.lemde.fr/2023/05/22/0/2/5460/3640/1440/960/60/0/0c5b8f0_1684764959475-pns-6294715.jpg",
+        "publishedAt": "2023-05-25T06:30:10Z",
+        "content": "Les annonces le 22 mai dElisabeth Borne sur le « plan daction » du gouvernement pour réduire les émissions de carbone secteur par secteur, après celles du président de la République et de Bruno Le Ma… [+2748 chars]"
+    },
+    {
+        "source": {
+            "id": "le-monde",
+            "name": "Le Monde"
+        },
+        "author": "Aline Leclerc",
+        "title": "Les Forges de Tarbes, qui usinent les obus des canons Caesar, relancées par la guerre en Ukraine",
+        "description": "Europlasma, troisième repreneur en cinq ans de la vieille PME pyrénéenne, projetait de diversifier la production de l’usine, avant que le conflit ukrainien ne la ramène vers l’armement, son activité historique.",
+        "url": "https://www.lemonde.fr/economie/article/2023/05/25/les-forges-de-tarbes-qui-usinent-les-obus-des-canons-caesar-relancees-par-la-guerre-en-ukraine_6174736_3234.html",
+        "urlToImage": "https://img.lemde.fr/2023/05/24/0/0/7987/5324/1440/960/60/0/f88b4b5_1684934781484-000-33cm86k.jpg",
+        "publishedAt": "2023-05-25T04:00:21Z",
+        "content": "Aux Forges de Tarbes, le 4 avril 2023. LIONEL BONAVENTURE / AFP\r\nPersonne navait imaginé ce retour en arrière, on le comprend dès lentrée du quartier de lArsenal, à Tarbes. Lindustrie de larmement sy… [+2479 chars]"
+    },
+    {
+        "source": {
+            "id": "le-monde",
+            "name": "Le Monde"
+        },
+        "author": "Juliette Prigent",
+        "title": "Vidéo. Affaire Vinicius : scandale dans le football après de nouvelles insultes racistes en Espagne",
+        "description": "Vidéo - L’attaquant du Real Madrid Vinicius Junior a été victime d’insultes racistes lors d’un match à Valence. L’affaire remet en lumière le racisme dans le championnat de football espagnol.",
+        "url": "https://www.lemonde.fr/football/video/2023/05/23/football-scandale-apres-de-nouvelles-insultes-racistes-en-espagne_6174508_1616938.html",
+        "urlToImage": "https://img.lemde.fr/2023/05/23/11/0/3500/2333/1440/960/60/0/84bd3d2_fw1-soccer-spain-racism-0521-11.jpg",
+        "publishedAt": "2023-05-23T14:35:31Z",
+        "content": "« Aujourdhui, lEspagne est connue comme un pays de racistes », a déploré sur les réseaux sociaux lattaquant du Real Madrid Vinicius Junior. Dimanche 21 mai, lors dun match de championnat espagnol, ce… [+752 chars]"
+    },
+    {
+        "source": {
+            "id": "le-monde",
+            "name": "Le Monde"
+        },
+        "author": "Cellule Enquête vidéo, Thomas Eydoux et Margaux Farran",
+        "title": "Vidéo. Enquête vidéo : comment la Russie a fabriqué de fausses manifestations anti-Ukraine à Paris, Bruxelles et La Haye",
+        "description": "Vidéo - Des documents obtenus par « Le Monde » et ses partenaires dévoilent comment de faux manifestants ont été recrutés et payés pour protester contre l’Ukraine et l’OTAN dans de grandes villes européennes. Une opération organisée par les services de rensei…",
+        "url": "https://www.lemonde.fr/international/video/2023/05/21/enquete-video-comment-la-russie-a-fabrique-de-fausses-manifestations-anti-ukraine-a-paris-bruxelles-et-la-haye_6174184_3210.html",
+        "urlToImage": "https://img.lemde.fr/2023/05/18/0/432/4320/2880/1440/960/60/0/737c367_1684416250241-capture-da-ei-cran-2023-05-18-ai-15-23-00.png",
+        "publishedAt": "2023-05-21T04:00:00Z",
+        "content": "« Arrêtez denvoyer des armes à lUkraine ! Zelensky bombarde Donetsk et Louhansk ! » Un seul message pour deux pancartes, identiques à la lettre près. Lune est brandie pendant une manifestation contre… [+960 chars]"
+    },
+    {
+        "source": {
+            "id": "le-monde",
+            "name": "Le Monde"
+        },
+        "author": "Vincent Fagot",
+        "title": "Rachat d’Activision Blizzard par Microsoft : pourquoi Bruxelles a approuvé",
+        "description": "La décision et les attendus de la Commission européenne sont diamétralement inverses de ceux de l’Autorité de la concurrence britannique, qui s’était opposé fin avril à la constitution d’un supergéant du « gaming ».",
+        "url": "https://www.lemonde.fr/economie/article/2023/05/16/jeux-video-pourquoi-bruxelles-donne-son-aval-au-rachat-d-activision-blizzard-par-microsoft_6173542_3234.html",
+        "urlToImage": "https://img.lemde.fr/2023/05/16/0/47/5238/3492/1440/960/60/0/b7b6b90_1684219540512-063-1365474116.jpg",
+        "publishedAt": "2023-05-16T07:35:54Z",
+        "content": "Le siège dActivision Blizzard, à Irvine (Californie, Etats-Unis), le 18 janvier 2022. MARIO TAMA / GETTY IMAGES VIA AFP\r\nCest une victoire importante que vient de remporter Microsoft dans son projet … [+2693 chars]"
+    },
+    {
+        "source": {
+            "id": "le-monde",
+            "name": "Le Monde"
+        },
+        "author": "Brieuc Beckers, Elisa Bellanger et Elsa Longueville",
+        "title": "Vidéo. Intelligence artificielle : les limites de Midjourney selon ChatGPT",
+        "description": "Vidéo - Les intelligences artificielles promettent de révolutionner notre rapport aux images et à la vérité. Mais pour l’instant leurs productions sont encore imparfaites. Pourquoi ?",
+        "url": "https://www.lemonde.fr/pixels/video/2023/05/14/intelligence-artificielle-les-limites-de-midjourney-selon-chatgpt_6173284_4408996.html",
+        "urlToImage": "https://img.lemde.fr/2023/05/11/73/0/1920/1280/1440/960/60/0/cc83da7_1683817337150-thumbnail-ia-01-sirius-copie.png",
+        "publishedAt": "2023-05-14T03:45:08Z",
+        "content": "Avez-vous déjà été trompé par une fausse image générée par une intelligence artificielle comme Midjourney ou Dall-E ? Peut-être la photo du pape François en doudoune de luxe ? Ou larrestation de Dona… [+1496 chars]"
     },
     {
         "source": {
@@ -35,98 +126,7 @@ articles = [
         "description": "Vidéo - La sortie de « The Legend of Zelda : Tears of the Kingdom » est imminente. A l’occasion de cet événement vidéoludique, « Le Monde » a collaboré avec le youtubeur « TheGreatReview » pour comprendre comment Zelda a transformé le monde du jeu.",
         "url": "https://www.lemonde.fr/pixels/video/2023/05/07/comment-zelda-a-revolutionne-le-jeu-video-en-monde-ouvert_6172429_4408996.html",
         "urlToImage": "https://img.lemde.fr/2023/05/05/0/0/1920/1280/1440/960/60/0/b2594e0_1683296183361-thumbnail-zelda-sirius-copie.png",
-        "publishedAt": "2023-05-07T12:00:06Z",
-        "content": "Ça y est : après des années dattente, The Legend of Zelda : Tears of the Kingdom arrive bientôt sur Swtich, la console de Nintendo. Il succède a son ainé Breath of the Wild avec le défi immense dêtre… [+1078 chars]"
-    },
-    {
-        "source": {
-            "id": "le-monde",
-            "name": "Le Monde"
-        },
-        "author": "Laurence Girard",
-        "title": "Matières premières : « La fraise ramène sa framboise »",
-        "description": "La météo a été favorable aux cultures, mais les producteurs regrettent les prix élevés pratiqués par la grande distribution. Satisfaits du juteux business de la fraise française, les distributeurs voudraient maintenant étendre l’offre tricolore à la framboise…",
-        "url": "https://www.lemonde.fr/economie/article/2023/05/07/matieres-premieres-la-fraise-ramene-sa-framboise_6172409_3234.html",
-        "urlToImage": "https://img.lemde.fr/2023/05/05/0/0/3499/2333/1440/960/60/0/820c824_1683296110266-000-32al72n.jpg",
-        "publishedAt": "2023-05-07T07:00:19Z",
-        "content": "Au marché du Cristal, dans le centre-ville de Toulouse, le 20 mai 2022. FREDERIC SCHEIBER / AFP\r\nLes producteurs de fraises soupirent daise. Malgré linflation en rayon, personne ne boude le fruit de … [+2708 chars]"
-    },
-    {
-        "source": {
-            "id": "le-monde",
-            "name": "Le Monde"
-        },
-        "author": "Le Monde",
-        "title": "Covid-19 : un immense chantier de santé publique",
-        "description": "L’Organisation mondiale de la santé acte la fin de la phase de crise sanitaire aiguë. Mais les problématiques mises en lumière par la pandémie, en matière de prévention, de recherche publique ou de solidarité internationale, ne doivent pas être occultées.",
-        "url": "https://www.lemonde.fr/idees/article/2023/05/06/covid-19-un-immense-chantier-de-sante-publique_6172311_3232.html",
-        "urlToImage": "https://img.lemde.fr/2023/05/05/0/0/6000/4000/1440/960/60/0/aab93f0_2085bf44589c48ac958171a5305f0071-0-c42c59b92da84ba19077cb560279db81.jpg",
-        "publishedAt": "2023-05-06T06:27:07Z",
-        "content": "Plus de trois ans après avoir estimé, le 30 janvier 2020, que lépidémie de Covid-19 constituait une urgence de santé publique de portée internationale, son niveau dalerte le plus élevé, lOrganisation… [+3380 chars]"
-    },
-    {
-        "source": {
-            "id": "le-monde",
-            "name": "Le Monde"
-        },
-        "author": "Alexandre Piquard",
-        "title": "Intelligence artificielle : Joe Biden rappelle aux patrons du secteur leur « devoir » d’affronter les dangers de leurs logiciels",
-        "description": "La Maison Blanche plaide pour une démarche de responsabilité des entreprises, plus souple et moins contraignante.",
-        "url": "https://www.lemonde.fr/economie/article/2023/05/05/intelligence-artificielle-joe-biden-rappelle-aux-patrons-du-secteur-leur-devoir-d-affronter-les-dangers-de-leurs-logiciels_6172177_3234.html",
-        "urlToImage": "https://img.lemde.fr/2023/05/05/0/0/4848/3232/1440/960/60/0/2e87d93_1683271368920-412475.jpg",
-        "publishedAt": "2023-05-05T08:25:22Z",
-        "content": "Le PDG dAlphabet, Sundar Pichai, et le PDG dOpenAI, Sam Altman, arrivent à la Maison Blanche pour une réunion avec la vice-présidente Kamala Harris sur lintelligence artificielle, le jeudi 4 mai 2023… [+2871 chars]"
-    },
-    {
-        "source": {
-            "id": "le-monde",
-            "name": "Le Monde"
-        },
-        "author": "Marc-Olivier Bherer",
-        "title": "La nostalgie de l’Empire britannique, une querelle anglaise",
-        "description": "Bousculé par une nouvelle historiographie s’intéressant aux zones d’ombre de la colonisation britannique, le Royaume-Uni traverse une crise mémorielle autour de son passé impérial, qu’il n’a jamais vraiment cessé de vénérer.",
-        "url": "https://www.lemonde.fr/idees/article/2023/05/05/la-nostalgie-de-l-empire-britannique-une-querelle-anglaise_6172163_3232.html",
-        "urlToImage": "https://img.lemde.fr/2023/05/04/606/0/2804/1869/1440/960/60/0/385d865_1683203387694-aquindo-nostalgie-empire1.jpg",
-        "publishedAt": "2023-05-05T06:00:10Z",
-        "content": "Le 6 mai, toute la pompe de la monarchie britannique se déploiera pour le couronnement de Charles III à labbaye de Westminster. Il deviendra alors lequarantième souverainà recevoir lonction dans cett… [+2731 chars]"
-    },
-    {
-        "source": {
-            "id": "le-monde",
-            "name": "Le Monde"
-        },
-        "author": "Delphine Bernard-Bruls",
-        "title": "Vidéo. Turquie : qui est Kemal Kiliçdaroglu, l’homme qui veut remplacer Erdogan ?",
-        "description": "Vidéo - Kemal Kiliçdaroglu a 74 ans et il a été nommé à la tête d’une coalition unique en Turquie — rassemblant six partis allant de la gauche à l’extrême droite nationaliste — qui s’est donné pour objectif, à la présidentielle du 14 mai, de renverser le pré…",
-        "url": "https://www.lemonde.fr/international/video/2023/05/04/turquie-qui-est-kemal-kilic-daroglu-l-homme-qui-veut-remplacer-erdogan_6172057_3210.html",
-        "urlToImage": "https://img.lemde.fr/2023/04/28/0/0/3598/2399/1440/960/60/0/60c1a9d_5125698-01-06.jpg",
-        "publishedAt": "2023-05-04T11:23:54Z",
-        "content": "Recep Tayyip Erdogan et son pouvoir hyperprésidentiel arrivent-ils en fin de course ? Pour écarter le président sortant, les oppositions ont fondé une coalition particulièrement hétéroclite, l« Allia… [+745 chars]"
-    },
-    {
-        "source": {
-            "id": "le-monde",
-            "name": "Le Monde"
-        },
-        "author": "Fanny Zarifi, Marceau Bretonnier, Adrien Sahli et Elisa Bellanger",
-        "title": "Vidéo. Chine-Taïwan : la guerre est-elle inévitable ?",
-        "description": "Vidéo - Les manœuvres militaires menées par la Chine dans le détroit de Taïwan rappellent à quel point la situation est tendue entre Taipei et Pékin. Jusqu’où ira l’escalade ?",
-        "url": "https://www.lemonde.fr/international/video/2023/04/30/chine-taiwan-la-guerre-est-elle-inevitable_6171596_3210.html",
-        "urlToImage": "https://img.lemde.fr/2023/04/28/0/152/1620/1080/1440/960/60/0/8cdec64_1682670959575-thumbnail-taiwan-sirius-02.png",
-        "publishedAt": "2023-04-30T12:00:24Z",
-        "content": "Faut-il prendre au sérieux les menaces de la Chine à légard de Taïwan ? Si le président chinois Xi Jinping névoque pas concrètement une guerre et promet de parvenir pacifiquement à ses fins, il nexcl… [+1129 chars]"
-    },
-    {
-        "source": {
-            "id": "le-monde",
-            "name": "Le Monde"
-        },
-        "author": "Rodolphe Meyer et Adrien Vande Casteele",
-        "title": "Vidéo. Comment la France réchauffe le climat ?",
-        "description": "Vidéo - Vidéo. La France émet 400 millions de tonnes d’équivalent CO2 chaque année. D’où viennent-elles ? Et comment les réduire pour atteindre l’objectif de zéro tonnes fixé pour 2050 ?",
-        "url": "https://www.lemonde.fr/planete/video/2023/04/23/comment-la-france-rechauffe-le-climat_6170690_3244.html",
-        "urlToImage": "https://img.lemde.fr/2023/04/22/0/78/1807/1205/1440/960/60/0/528c81d_1682187329556-thumbnail-ges-france-sirius-copie.png",
-        "publishedAt": "2023-04-23T12:00:06Z",
-        "content": "La France émet près de 400 millions de tonnes déquivalent CO2 chaque année. Pour limiter le réchauffement climatique et ses conséquences, il faut réduire ces émissions de gaz à effet de serre. En Fra… [+603 chars]"
+        "publishedAt": "2023-05-07T12:00:04Z",
+        "content": "Ça y est : après des années dattente, The Legend of Zelda : Tears of the Kingdom arrive bientôt sur Switch, la console de Nintendo. Il succède a son ainé Breath of the Wild avec le défi immense dêtre… [+1078 chars]"
     }
 ]

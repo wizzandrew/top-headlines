@@ -2,184 +2,15 @@
   "articles": [
     {
       "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "News-Medical.Net",
-      "title": "Insights from experts on the neurobiological processes involved in appetite regulation - News-Medical.Net",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMihgFodHRwczovL3d3dy5uZXdzLW1lZGljYWwubmV0L25ld3MvMjAyMzA1MDgvSW5zaWdodHMtZnJvbS1leHBlcnRzLW9uLXRoZS1uZXVyb2Jpb2xvZ2ljYWwtcHJvY2Vzc2VzLWludm9sdmVkLWluLWFwcGV0aXRlLXJlZ3VsYXRpb24uYXNweNIBigFodHRwczovL3d3dy5uZXdzLW1lZGljYWwubmV0L2FtcC9uZXdzLzIwMjMwNTA4L0luc2lnaHRzLWZyb20tZXhwZXJ0cy1vbi10aGUtbmV1cm9iaW9sb2dpY2FsLXByb2Nlc3Nlcy1pbnZvbHZlZC1pbi1hcHBldGl0ZS1yZWd1bGF0aW9uLmFzcHg?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T12:26:00Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "Ghafla!",
-      "title": "Ghai! Father horrified as doctor pulls off his baby's head - Ghafla!",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMiU2h0dHBzOi8vd3d3LmdoYWZsYS5jb20va2UvZ2hhaS1mYXRoZXItaG9ycmlmaWVkLWFzLWRvY3Rvci1wdWxscy1vZmYtaGlzLWJhYnlzLWhlYWQv0gEA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T12:23:02Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "eju.tv",
-      "title": "Evitando y manejando el Síndrome del desgaste profesional (Burnout) en medicina - eju.tv",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMiZWh0dHBzOi8vZWp1LnR2LzIwMjMvMDUvZXZpdGFuZG8teS1tYW5lamFuZG8tZWwtc2luZHJvbWUtZGVsLWRlc2dhc3RlLXByb2Zlc2lvbmFsLWJ1cm5vdXQtZW4tbWVkaWNpbmEv0gEA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T12:15:55Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "Healio",
-      "title": "Q&A: Medical TV shows contribute to views on vaping-related lung injury - Healio",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMidWh0dHBzOi8vd3d3LmhlYWxpby5jb20vbmV3cy9wdWxtb25vbG9neS8yMDIzMDUwOC9xYS1tZWRpY2FsLXR2LXNob3dzLWNvbnRyaWJ1dGUtdG8tdmlld3Mtb24tdmFwaW5ncmVsYXRlZC1sdW5nLWluanVyedIBAA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T12:11:50Z",
-      "content": null
-    },
-    {
-      "source": {
         "id": null,
-        "name": "Daijiworld.com"
+        "name": "Neurosciencenews.com"
       },
-      "author": null,
-      "title": "Cognitive behavioural therapy can improve fatigue after Covid-19: Study - Daijiworld.com",
-      "description": "London, May 8 (IANS): People with post-viral fatigue after suffering from Covid-19 can benefit from cognitive behavioural therapy, resulting in less fatigue and concentration problems, suggests a study.\r\nAfter a Covid infection, a substantial number of patien…",
-      "url": "https://www.daijiworld.com/news/newsDisplay?newsID=1077681",
-      "urlToImage": "https://daijiworld.ap-south-1.linodeobjects.com/Linode/images3/sharmila_080523_depression.jpg",
-      "publishedAt": "2023-05-08T12:11:29Z",
-      "content": "London, May 8 (IANS): People with post-viral fatigue after suffering from Covid-19 can benefit from cognitive behavioural therapy, resulting in less fatigue and concentration problems, suggests a stu… [+2178 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Hindustan Times"
-      },
-      "author": "Tapatrisha Das",
-      "title": "Is it okay to have tea or coffee every day? - Hindustan Times",
-      "description": "Tea and coffee are rich sources of antioxidants which help in preventing cell damage. It is seen that tea is a better source of antioxidants than coffee.",
-      "url": "https://www.hindustantimes.com/photos/lifestyle/is-it-okay-to-have-tea-or-coffee-every-day-101683547362595.html",
-      "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/05/08/1600x900/c0nhgfd_1683547411631_1683547450680.jpg",
-      "publishedAt": "2023-05-08T12:07:41Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "medianasional.id",
-      "title": "Tahun 2023, Pemkab Tubaba Melalui Dinkes Siapkan 230 Vaksin Untuk CJH - medianasional.id",
+      "author": "Neuroscience News",
+      "title": "Step Up for Brain Health: Walking Boosts Brain Networks, Combats Alzheimer's - Neuroscience News",
       "description": null,
-      "url": "https://news.google.com/rss/articles/CBMiYmh0dHBzOi8vd3d3Lm1lZGlhbmFzaW9uYWwuaWQvdGFodW4tMjAyMy1wZW1rYWItdHViYWJhLW1lbGFsdWktZGlua2VzLXNpYXBrYW4tMjMwLXZha3Npbi11bnR1ay1jamgv0gEA?oc=5",
+      "url": "https://neurosciencenews.com/walking-alzheimers-aging-23349/",
       "urlToImage": null,
-      "publishedAt": "2023-05-08T12:06:10Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "Index.hu",
-      "title": "Áttörés: megtalálhatták a Parkinson-kór okozóját - Index.hu",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMilgFodHRwczovL2luZGV4Lmh1L3RlY2h0dWQvMjAyMy8wNS8wOC9vcnZvc3R1ZG9tYW55LXBhcmtpbnNvbi1rb3ItZGVnZW5lcmF0aXYtaWRlZ3JlbmR6c2VyaS1iZXRlZ3NlZy1kZXN1bGZpdmlicmlvLWJha3Rlcml1bS1oZWxzaW5raS1lZ3lldGVtLXBlci1zYXJpcy_SAQA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T12:06:00Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "Porcicultura.com",
-      "title": "Ingredientes alternativos a la sustitución de ractopamina en la dieta de cerdos - Porcicultura.com",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMidmh0dHBzOi8vd3d3LnBvcmNpY3VsdHVyYS5jb20vZGVzdGFjYWRvL2luZ3JlZGllbnRlcy1hbHRlcm5hdGl2b3MtYS1sYS1zdXN0aXR1Y2lvbi1kZS1yYWN0b3BhbWluYS1lbi1sYS1kaWV0YS1kZS1jZXJkb3PSAQA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T12:05:40Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "IM Médico Hospitalario",
-      "title": "Cuatro horas semanales de ejercicio tras un accidente cerebrovascular logran una mejor recuperación funcional - IM Médico Hospitalario",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMifGh0dHBzOi8vd3d3LmltbWVkaWNvaG9zcGl0YWxhcmlvLmVzL25vdGljaWEvMzg5MzEvY3VhdHJvLWhvcmFzLXNlbWFuYWxlcy1kZS1lamVyY2ljaW8tdHJhcy11bi1hY2NpZGVudGUtY2VyZWJyb3Zhc2N1bGFyLmh0bWzSAXhodHRwczovL3d3dy5pbW1lZGljb2hvc3BpdGFsYXJpby5lcy9hbXAvMzg5MzEvY3VhdHJvLWhvcmFzLXNlbWFuYWxlcy1kZS1lamVyY2ljaW8tdHJhcy11bi1hY2NpZGVudGUtY2VyZWJyb3Zhc2N1bGFyLmh0bWw?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T12:05:02Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "Pourquoi Docteur ?",
-      "title": "Asthme, eczéma : les femmes victimes de violences domestiques ont un risque accru d'en souffrir - Pourquoi Docteur ?",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMijAFodHRwczovL3d3dy5wb3VycXVvaWRvY3RldXIuZnIvQXJ0aWNsZXMvUXVlc3Rpb24tZC1hY3R1LzQzMjE4LUFzdGhtZS1lY3plbWEtZmVtbWVzLXZpY3RpbWVzLXZpb2xlbmNlcy1kb21lc3RpcXVlcy1yaXNxdWUtYWNjcnUtZC1lbi1zb3VmZnJpctIBkAFodHRwczovL3d3dy5wb3VycXVvaWRvY3RldXIuZnIvQXJ0aWNsZXMvUXVlc3Rpb24tZC1hY3R1LzQzMjE4LUFzdGhtZS1lY3plbWEtZmVtbWVzLXZpY3RpbWVzLXZpb2xlbmNlcy1kb21lc3RpcXVlcy1yaXNxdWUtYWNjcnUtZC1lbi1zb3VmZnJpci9hbXA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T12:05:00Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "- Mendoza Today",
-      "title": "Ni pintarse las uñas ni sonarse los dedos: reveló las cosas que ahora evita desde que estudia medicina - - Mendoza Today",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMijQFodHRwczovL21lbmRvemF0b2RheS5jb20uYXIvMjAyMy8wNS8wOC9uaS1waW50YXJzZS1sYXMtdW5hcy1uaS1zb25hcnNlLWxvcy1kZWRvcy1yZXZlbG8tbGFzLWNvc2FzLXF1ZS1haG9yYS1ldml0YS1kZXNkZS1xdWUtZXN0dWRpYS1tZWRpY2luYS_SAQA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T12:04:13Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "Business Wire",
-      "title": "Temple Therapeutics Reveals Breakthrough Findings on Ovarian Cancer at AACR 2023 - Business Wire",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMiiQFodHRwczovL3d3dy5idXNpbmVzc3dpcmUuY29tL25ld3MvaG9tZS8yMDIzMDUwODAwNTI0MC9lbi9UZW1wbGUtVGhlcmFwZXV0aWNzLVJldmVhbHMtQnJlYWt0aHJvdWdoLUZpbmRpbmdzLW9uLU92YXJpYW4tQ2FuY2VyLWF0LUFBQ1ItMjAyM9IBAA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T12:02:00Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "Healio",
-      "title": "VIDEO: IMbrave050 trial shows 'exciting' results in hepatocellular carcinoma - Healio",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMiggFodHRwczovL3d3dy5oZWFsaW8uY29tL25ld3MvaGVtYXRvbG9neS1vbmNvbG9neS8yMDIzMDUwNS92aWRlby1pbWJyYXZlMDUwLXRyaWFsLXNob3dzLWV4Y2l0aW5nLXJlc3VsdHMtaW4taGVwYXRvY2VsbHVsYXItY2FyY2lub21h0gEA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T12:01:48Z",
+      "publishedAt": "2023-05-25T20:32:05Z",
       "content": null
     },
     {
@@ -188,77 +19,246 @@
         "name": "News-Medical.Net"
       },
       "author": null,
-      "title": "How antiviral host responses create a lung environment susceptible to bacterial and fungal infections - News-Medical.Net",
-      "description": "A recent study discussed coinfections in the lungs and how viral infections create a favorable environment for bacteria and fungi.",
-      "url": "https://www.news-medical.net/news/20230508/How-antiviral-host-responses-create-a-lung-environment-susceptible-to-bacterial-and-fungal-infections.aspx",
-      "urlToImage": "https://d2jx2rerrg6sh3.cloudfront.net/images/news/ImageForNews_747502_16835470364482300.jpg",
-      "publishedAt": "2023-05-08T12:01:00Z",
-      "content": "A recent study published in PLOS Pathogensdiscussed coinfections in the lungs and how viral infections create a favorable environment for bacteria and fungi.\r\nStudy: Coinfections in the lung: How vir… [+5050 chars]"
+      "title": "Novel vaccine offers hope for defeating epidemic meningitis by 2030 - News-Medical.Net",
+      "description": "A trial of a new vaccine against meningococcal disease, a cause of meningitis and blood poisoning, has found that it is safe and induces a strong immune response across five strains of meningococcal bacteria: A, C, W, Y and X.",
+      "url": "https://www.news-medical.net/news/20230525/Novel-vaccine-offers-hope-for-defeating-epidemic-meningitis-by-2030.aspx",
+      "urlToImage": "https://d2jx2rerrg6sh3.cloudfront.net/image-handler/picture/2017/1/A_doctor_makes_a_vaccination_to_a_child-Yuganov_Konstantin_cdbf1b05417f45e89b8268af4858e1c9-620x480.jpg",
+      "publishedAt": "2023-05-25T20:24:00Z",
+      "content": "A trial of a new vaccine against meningococcal disease, a cause of meningitis and blood poisoning, has found that it is safe and induces a strong immune response across five strains of meningococcal … [+3929 chars]"
     },
     {
       "source": {
-        "id": "google-news",
-        "name": "Google News"
+        "id": null,
+        "name": "Neurosciencenews.com"
       },
-      "author": "Ganaderia.com",
-      "title": "Voces de la pandemia por el nuevo coronavirus en el ejercicio de la medicina veterinaria de producción lechera en la Sabana de Bogotá, Colombia - Ganaderia.com",
+      "author": "Neuroscience News",
+      "title": "Stem Cell Transplants May Cure HIV - Neuroscience News",
       "description": null,
-      "url": "https://news.google.com/rss/articles/CBMisgFodHRwczovL3d3dy5nYW5hZGVyaWEuY29tL2Rlc3RhY2Fkby92b2Nlcy1kZS1sYS1wYW5kZW1pYS1wb3ItZWwtbnVldm8tY29yb25hdmlydXMtZW4tZWwtZWplcmNpY2lvLWRlLWxhLW1lZGljaW5hLXZldGVyaW5hcmlhLWRlLXByb2R1Y2Npb24tbGVjaGVyYS1lbi1sYS1zYWJhbmEtZGUtYm9nb3RhLWNvbG9tYmlh0gEA?oc=5",
+      "url": "https://neurosciencenews.com/stem-cell-hiv-vure-23348/",
       "urlToImage": null,
-      "publishedAt": "2023-05-08T12:00:35Z",
+      "publishedAt": "2023-05-25T20:08:03Z",
       "content": null
     },
     {
       "source": {
-        "id": "google-news",
-        "name": "Google News"
+        "id": null,
+        "name": "The Guardian"
       },
-      "author": "Newswise",
-      "title": "SARS-CoV-2 seroreversion is associated with a decrease in T cell functionality in children - Newswise",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMifGh0dHBzOi8vd3d3Lm5ld3N3aXNlLmNvbS9hcnRpY2xlcy9zYXJzLWNvdi0yLXNlcm9yZXZlcnNpb24taXMtYXNzb2NpYXRlZC13aXRoLWEtZGVjcmVhc2UtaW4tdC1jZWxsLWZ1bmN0aW9uYWxpdHktaW4tY2hpbGRyZW7SAXxodHRwczovL3d3dy5uZXdzd2lzZS5jb20vYXJ0aWNsZXMvc2Fycy1jb3YtMi1zZXJvcmV2ZXJzaW9uLWlzLWFzc29jaWF0ZWQtd2l0aC1hLWRlY3JlYXNlLWluLXQtY2VsbC1mdW5jdGlvbmFsaXR5LWluLWNoaWxkcmVu?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T12:00:00Z",
+      "author": "Maya Yang",
+      "title": "Scientists use AI to discover new antibiotic to treat deadly superbug - The Guardian",
+      "description": "AI used to discover abaucin, an effective drug against A baumannii, bacteria that can cause dangerous infections",
+      "url": "https://www.theguardian.com/technology/2023/may/25/artificial-intelligence-antibiotic-deadly-superbug-hospital",
+      "urlToImage": "https://i.guim.co.uk/img/media/e3742a9a99450fcce971220af793a15e6e951b69/0_413_5500_3300/master/5500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=97206dbd434ab5689f21198d438aaa2c",
+      "publishedAt": "2023-05-25T19:54:00Z",
+      "content": "Scientists using artificial intelligence have discovered a new antibiotic that can kill a deadly superbug.\r\nAccording to a new study published on Thursday in the science journal Nature Chemical Biolo… [+8459 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Daily Mail"
+      },
+      "author": "Cassidy Morrison Senior",
+      "title": "Do you have an irregular period? It could be an early warning sign of heart disease - Daily Mail",
+      "description": "Women with irregular menstrual periods appear to face a significantly higher risk of cardiovascular disease heart attack, and stroke, a new study by Chinese researchers suggests.",
+      "url": "https://www.dailymail.co.uk/health/article-12125301/Do-irregular-period-early-warning-sign-heart-disease.html",
+      "urlToImage": "https://i.dailymail.co.uk/1s/2023/05/25/18/71416185-0-image-a-5_1685037134363.jpg",
+      "publishedAt": "2023-05-25T19:51:46Z",
+      "content": "Women with irregular menstrual periods appear to face a significantly higher risk of heart disease, a study suggests.\r\nUp to a fifth of American women of reproductive age roughly 12 million of them d… [+3816 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Neurosciencenews.com"
+      },
+      "author": "Neuroscience News",
+      "title": "Sugar and Fat Energize Unique Immune Cells Against Viruses and Bacteria - Neuroscience News",
+      "description": "Researchers discovered two subtypes of mucosal-associated invariant T (MAIT) cells in mouse lungs.",
+      "url": "https://neurosciencenews.com/immune-virus-sugar-fat-23347/",
+      "urlToImage": "https://neurosciencenews.com/files/2023/05/sweet-fat-immunity-neurosicnes.jpg",
+      "publishedAt": "2023-05-25T19:42:32Z",
+      "content": "Summary: Researchers discovered two subtypes of mucosal-associated invariant T (MAIT) cells in mouse lungs. Each subtype has a distinct role: MAIT1 cells battle viruses using sugar for fuel, while MA… [+8787 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Healio"
+      },
+      "author": null,
+      "title": "Awareness campaign highlights 'growing epidemic' of myopia in children - Healio",
+      "description": "The &ldquo;growing epidemic&rdquo; of nearsightedness in children worldwide is the focus of Myopia Awareness Week, May 22 to 26, according to a press release.",
+      "url": "https://www.healio.com/news/optometry/20230525/awareness-campaign-highlights-growing-epidemic-of-myopia-in-children",
+      "urlToImage": "https://www.healio.com/~/media/slack-news/stock-images/ophthalmology_optometry/g/glasses1208262_640.jpg",
+      "publishedAt": "2023-05-25T19:33:54Z",
+      "content": "We were unable to process your request. Please try again later. If you continue to have this issue please contact customerservice@slackinc.com.Back to Healio\r\nThe “growing epidemic” of nearsightednes… [+1426 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Tenniscanada.com"
+      },
+      "author": "Mel Boyd",
+      "title": "Mental Health Awareness Month: Staying Physically Active Can Improve Your Mental Health - Tennis Canada",
+      "description": "The benefits of regular physical activity on every aspect of our well-being are numerous and the best part is, it’s easy to do if we make the time.",
+      "url": "https://www.tenniscanada.com/news/mental-health-awareness-month-staying-physically-active-can-improve-your-mental-health/",
+      "urlToImage": "https://www.tenniscanada.com/wp-content/uploads/2023/05/rsz_1champagne_sarahjade_34.jpg",
+      "publishedAt": "2023-05-25T19:16:09Z",
+      "content": "In recognition of Mental Health Awareness Month and in conjunction with the launch of Tennis Canadas revamped Mental Timeout Initiative supported by Beneva, we spoke with Dr. Sommer Christie, a Certi… [+2652 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MedPage Today"
+      },
+      "author": "Elizabeth Short",
+      "title": "Lung Cancer Screening Results Influence Follow-Up Adherence - Medpage Today",
+      "description": "Study suggests groups to target for enhanced outreach to encourage regular screening",
+      "url": "https://www.medpagetoday.com/radiology/diagnosticradiology/104702",
+      "urlToImage": "https://assets.medpagetoday.net/media/images/104xxx/104702.jpg",
+      "publishedAt": "2023-05-25T19:00:38Z",
+      "content": "A patient's Lung Computed Tomography Screening Reporting &amp; Data System (Lung-RADS) score was the factor most strongly associated with adherence to recommended screening follow-up, a single-center… [+5641 chars]"
+    },
+    {
+      "source": {
+        "id": "the-times-of-india",
+        "name": "The Times of India"
+      },
+      "author": "TIMESOFINDIA.COM",
+      "title": "Delayed ejaculation: Underlying causes and symptoms of this sexual health problem - Indiatimes.com",
+      "description": "These factors can help prevent delayed ejaculation.",
+      "url": "https://timesofindia.indiatimes.com/life-style/health-fitness/health-news/delayed-ejaculation-underlying-causes-and-symptoms-of-this-sexual-health-problem/photostory/100499906.cms",
+      "urlToImage": "https://static.toiimg.com/photo/100499938.cms",
+      "publishedAt": "2023-05-25T18:30:00Z",
+      "content": "• Psychological factors: Anxiety, depression, stress, performance anxiety, and relationship issues can contribute to delayed ejaculation.• Medical conditions: Dr. Chirag Bhandari, Founder of Institut… [+440 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Polioeradication.org"
+      },
+      "author": null,
+      "title": "Stakeholders Commit to A Renewed Strategic Framework on Polio Transition – GPEI - Global Polio Eradication Initiative",
+      "description": "Country experiences show that success on polio transition is context specific.",
+      "url": "https://polioeradication.org/news-post/stakeholders-commit-to-a-renewed-strategic-framework-on-polio-transition/",
+      "urlToImage": "https://polioeradication.org/wp-content/uploads/2023/02/Someone-has-to-do-this-feature.jpg",
+      "publishedAt": "2023-05-25T18:26:02Z",
+      "content": "Broader benefits of the polio programme, Eradication, Transition planning\r\nCountry experiences show that success on polio transition is context specific.\r\nRepresentatives from regions and countries s… [+4658 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "NBC Chicago"
+      },
+      "author": "Lauren Petty, Alexandria Fisher",
+      "title": "Pediatrician Reveals The Unusual Strep Symptoms You Might Not Be Watching For - NBC Chicago",
+      "description": "Some Chicago-area doctors say strep cases have been rising in recent weeks and months, but as summer gets underway, doctors warn the symptoms may not always be…",
+      "url": "https://www.nbcchicago.com/news/health/health-wellness-science-news/pediatrician-reveals-the-unusual-strep-symptoms-you-might-not-be-watching-for/3148020/",
+      "urlToImage": "https://media.nbcchicago.com/2023/03/GettyImages-91559307.jpg?quality=85&strip=all&resize=1200%2C675",
+      "publishedAt": "2023-05-25T18:15:32Z",
+      "content": "Some Chicago-area doctors say strep cases have been rising in recent weeks and months, but as summer gets underway, doctors warn the symptoms may not always be obvious. \r\nDr. Neha Bhagi, a pediatrici… [+5862 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Neurosciencenews.com"
+      },
+      "author": "Neuroscience News",
+      "title": "Understanding Delusions of Control: How Schizophrenia Alters Perception of Action - Neuroscience News",
+      "description": "A new study sheds light on the phenomenon of 'delusions of control', often experienced by schizophrenia patients.",
+      "url": "https://neurosciencenews.com/schizophrenia-action-perception-23344/",
+      "urlToImage": "https://neurosciencenews.com/files/2023/05/schizophrenia-control-neurosinces.jpg",
+      "publishedAt": "2023-05-25T18:13:31Z",
+      "content": "Summary: A new study sheds light on the phenomenon of ‘delusions of control’, often experienced by schizophrenia patients. This condition, marked by the belief that one’s actions are controlled by ex… [+7407 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Neurosciencenews.com"
+      },
+      "author": "Neuroscience News",
+      "title": "Novel Treatment for Violent Dreaming in REM Sleep Behavior Disorder - Neuroscience News",
+      "description": "A new potential treatment for rapid eye movement (REM) sleep behavior disorder has been identified.",
+      "url": "https://neurosciencenews.com/violent-dream-rem-sleep-23343/",
+      "urlToImage": "https://neurosciencenews.com/files/2023/05/rem-sleep-disorder-neurosinces.jpg",
+      "publishedAt": "2023-05-25T17:54:51Z",
+      "content": "Summary: A new potential treatment for rapid eye movement (REM) sleep behavior disorder has been identified.\r\nThe study established a new model detailing the disorder’s progression due to neurodegene… [+6712 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "News-Medical.Net"
+      },
+      "author": null,
+      "title": "Biological abnormality makes some infants vulnerable to sudden death - News-Medical.Net",
+      "description": "Sudden infant death syndrome is a case where the death of an apparently healthy infant before their first birthday remains unexplained even after thorough investigation. Death generally seems to occur when infants are sleeping.",
+      "url": "https://www.news-medical.net/news/20230525/Biological-abnormality-makes-some-infants-vulnerable-to-sudden-death.aspx",
+      "urlToImage": "https://d2jx2rerrg6sh3.cloudfront.net/image-handler/picture/2014/7/Respiratory-620x480.jpg",
+      "publishedAt": "2023-05-25T17:47:00Z",
+      "content": "Sudden infant death syndrome is a case where the death of an apparently healthy infant before their first birthday remains unexplained even after thorough investigation. Death generally seems to occu… [+2601 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Thehealthsite.com"
+      },
+      "author": "Kashish Sharma",
+      "title": "Sedentary Life Linked With Poor Pain Tolerance: Study | TheHealthSite.com - TheHealthSite",
+      "description": "As per studies biological psychological and emotional factors play an important role in how a person might perceive pain. TheHealthSite.com",
+      "url": "https://www.thehealthsite.com/diseases-conditions/is-there-a-link-between-sedentary-lifestyle-and-poor-pain-tolerance-study-sheds-new-light-980543/",
+      "urlToImage": "https://st1.thehealthsite.com/wp-content/uploads/2023/05/pain-1.jpg",
+      "publishedAt": "2023-05-25T17:32:00Z",
+      "content": "As per reports, endorphins released during exercise and other forms of physical activity can also play an important role in pain tolerance.\r\nAs per studies, biological, psychological and emotional fa… [+2538 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Organiser.org"
+      },
+      "author": "WEB DESK",
+      "title": "Human T cells play key role in controlling respiratory syncytial virus infection: Research - Organiser",
+      "description": "A new study has shown that human T cells have an important role to play in controlling Respiratory Syncytial Virus (RSV) infection, a highly contagious",
+      "url": "https://organiser.org/2023/05/25/175613/world/human-t-cells-play-key-role-in-controlling-respiratory-syncytial-virus-infection-research/",
+      "urlToImage": "https://organiser.org/wp-content/uploads/2023/05/whatsapp-image-2023-05-25-at-4.37.57-pm.jpeg",
+      "publishedAt": "2023-05-25T17:31:14Z",
+      "content": "A new study has shown that human T cells have an important role to play in controlling Respiratory Syncytial Virus (RSV) infection, a highly contagious and seasonal respiratory virus that mainly caus… [+3627 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Salon"
+      },
+      "author": "Nicole Karlis",
+      "title": "Study points to brain abnormality that may explain sudden infant death syndrome - Salon",
+      "description": "A new study using radioactive psychedelics suggests infants who die of SIDS have abnormal serotonin receptors",
+      "url": "https://www.salon.com/2023/05/25/study-points-to-brain-abnormality-that-may-explain-sudden-infant-syndrome/",
+      "urlToImage": "https://mediaproxy.salon.com/width/1200/https://media.salon.com/2023/05/sudden_infant_death_syndrome_sids_anxiety_sad_mother_crib_dark_1158890344_1255949665.jpg",
+      "publishedAt": "2023-05-25T17:30:00Z",
       "content": null
     },
     {
       "source": {
-        "id": "google-news",
-        "name": "Google News"
+        "id": null,
+        "name": "PsyPost"
       },
-      "author": "Newswise",
-      "title": "Cross-reactive seasonal coronavirus antibody responses contribute to antibody- mediated effector functions against SARS-CoV-2 in individuals in Kenya - Newswise",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMitgFodHRwczovL3d3dy5uZXdzd2lzZS5jb20vYXJ0aWNsZXMvY3Jvc3MtcmVhY3RpdmUtc2Vhc29uYWwtY29yb25hdmlydXMtYW50aWJvZHktcmVzcG9uc2VzLWNvbnRyaWJ1dGUtdG8tYW50aWJvZHktbWVkaWF0ZWQtZWZmZWN0b3ItZnVuY3Rpb25zLWFnYWluc3Qtc2Fycy1jb3YtMi1pbi1pbmRpdmlkdWFscy1pbi1rZW55YdIBtgFodHRwczovL3d3dy5uZXdzd2lzZS5jb20vYXJ0aWNsZXMvY3Jvc3MtcmVhY3RpdmUtc2Vhc29uYWwtY29yb25hdmlydXMtYW50aWJvZHktcmVzcG9uc2VzLWNvbnRyaWJ1dGUtdG8tYW50aWJvZHktbWVkaWF0ZWQtZWZmZWN0b3ItZnVuY3Rpb25zLWFnYWluc3Qtc2Fycy1jb3YtMi1pbi1pbmRpdmlkdWFscy1pbi1rZW55YQ?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T12:00:00Z",
-      "content": null
+      "author": "Laura Staloch",
+      "title": "Parental rejection in childhood predicts fear of intimacy in adulthood, study finds - PsyPost",
+      "description": "New research published in Personal Relationships explores the relationship between memories of parental rejection and fear of intimacy in adult relationships. The findings revealed that adults who report more memories of parental rejection are more likely to …",
+      "url": "https://www.psypost.org/2023/05/parental-rejection-in-childhood-predicts-fear-of-intimacy-in-adulthood-study-finds-163694",
+      "urlToImage": "https://www.psypost.org/wp-content/uploads/2023/05/Comforting-her-insecurities-couple.jpg",
+      "publishedAt": "2023-05-25T17:07:53Z",
+      "content": "New research published in Personal Relationships explores the relationship between memories of parental rejection and fear of intimacy in adult relationships. The findings revealed that adults who re… [+4174 chars]"
     },
     {
       "source": {
-        "id": "google-news",
-        "name": "Google News"
+        "id": null,
+        "name": "Cdc.gov"
       },
-      "author": "EnBeauce.com",
-      "title": "Un déjeuner-conférence pour «Mieux connaitre l'organisme Le Sillon et tous ses services» - EnBeauce.com",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMiiAFodHRwczovL3d3dy5lbmJlYXVjZS5jb20vYWN0dWFsaXRlcy9zb2NpZXRlLzQ4NjEwNi91bi1kZWpldW5lci1jb25mZXJlbmNlLXBvdXItbWlldXgtY29ubmFpdHJlLWxvcmdhbmlzbWUtbGUtc2lsbG9uLWV0LXRvdXMtc2VzLXNlcnZpY2Vz0gEA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T12:00:00Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "Express",
-      "title": "The warning signs of skin cancer leading scientist claims 'should not be ignored' - Express",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMiVGh0dHBzOi8vd3d3LmV4cHJlc3MuY28udWsvbGlmZS1zdHlsZS9oZWFsdGgvMTc2NjYyMS9za2luLWNhbmNlci1zaWducy1zeW1wdG9tcy1zb3Jlc9IBWGh0dHBzOi8vd3d3LmV4cHJlc3MuY28udWsvbGlmZS1zdHlsZS9oZWFsdGgvMTc2NjYyMS9za2luLWNhbmNlci1zaWducy1zeW1wdG9tcy1zb3Jlcy9hbXA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T12:00:00Z",
-      "content": null
+      "author": "CDC",
+      "title": "Estimates of Bivalent mRNA Vaccine Durability in Preventing COVID ... - CDC",
+      "description": "This report describes durability of protection for bivalent COVID-19 vaccination among immunocompromised adults.",
+      "url": "https://www.cdc.gov/mmwr/volumes/72/wr/mm7221a3.htm",
+      "urlToImage": "https://www.cdc.gov/mmwr/volumes/72/wr/social-media/mm7221a3_COVIDBivalentDurability_IMAGE_26May2023_1200x675.jpg?_=39322",
+      "publishedAt": "2023-05-25T17:03:47Z",
+      "content": "* Sites from the CDC-funded VISION Network that contributed data for this analysis were HealthPartners (Minnesota and Wisconsin), Intermountain Healthcare (Utah), Kaiser Permanente Northern Californi… [+4763 chars]"
     }
   ]
 }

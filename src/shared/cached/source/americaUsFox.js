@@ -4,129 +4,129 @@ articles = [
             "id": "fox-news",
             "name": "Fox News"
         },
-        "author": "Ryan Gaydos",
-        "title": "Super Bowl champ offers Georgia Tech grads the key to fulfilling life: 'Get married and start a family'",
-        "description": "Kansas City Chiefs kicker Harrison Butker appeared at Georgia Tech University and offered the \"controversial antidote\" to a life devoid of meaning.",
-        "url": "https://www.foxnews.com/sports/super-bowl-champ-offers-georgia-tech-grads-key-fulfilling-life-get-married-start-family",
-        "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2023/05/Harrison-Butker2.jpg",
-        "publishedAt": "2023-05-08T11:42:52Z",
-        "content": "Kansas City Chiefs kicker Harrison Butker, a two-time Super Bowl winner, appeared at Georgia Tech University on Saturday and gave the commencement speech.\r\nThe former Yellow Jackets standout gave the… [+1757 chars]"
+        "author": "Joshua Nelson",
+        "title": "North Hollywood parents boycott school district's planned Pride assembly: 'Keep your kids home'",
+        "description": "\"Outraged\" parents are boycotting a planned school assembly to observe LGBTQ+ Pride month at Saticoy Elementary School in North Hollywood in Los Angeles, California.",
+        "url": "https://www.foxnews.com/media/north-hollywood-parents-boycott-school-districts-planned-pride-assembly",
+        "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2021/11/GettyImages-1235245355-e1636725407438.jpg",
+        "publishedAt": "2023-05-25T22:46:21Z",
+        "content": "Parents in North Hollywood, California plan to boycott an assembly to discuss LGBTQ+ issues for Pride month at Saticoy Elementary School.\r\nAn Instagram account named Saticoy Elementary Parents posted… [+4024 chars]"
     },
     {
         "source": {
             "id": "fox-news",
             "name": "Fox News"
         },
-        "author": "Scott Thompson",
-        "title": "Tennessee high school season ends, playoff no-hitter ruined when coach reports pitcher broke pitch limit",
-        "description": "A Tennessee high school pitcher's no-hitter did not end the way he wanted, as his team forfeited their playoff game after barely going over the pitch count limit.",
-        "url": "https://www.foxnews.com/sports/tennessee-high-school-season-ends-playoff-no-hitter-ruined-when-coach-reports-pitcher-broke-pitch-limit",
-        "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2023/03/Glove-baseball.jpg",
-        "publishedAt": "2023-05-08T10:07:33Z",
-        "content": "A no-hitter by a Tennessee high school pitcher resulted in a loss, and it was his own coach who made it happen. \r\nEnsworth High Schools Connor Cobb, a Vanderbilt commit, had a fantastic outing in a m… [+1661 chars]"
+        "author": "Adam Sabes",
+        "title": "Texas House committee recommends impeaching Attorney General Ken Paxton following investigation",
+        "description": "A Texas House investigative committee unanimously voted to recommend impeachment for state Attorney General Ken Paxton on Thursday afternoon.",
+        "url": "https://www.foxnews.com/politics/texas-house-committee-recommend-impeaching-attorney-general-ken-paxton-following-investigation",
+        "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2023/04/Ken-Paxton-.jpg",
+        "publishedAt": "2023-05-25T22:22:39Z",
+        "content": "A Texas House of Representatives investigative committee recommended impeachment for embattled state Attorney General Ken Paxton.\r\nThe Texas House Investigative Committee unanimously voted 5-0 to ado… [+417 chars]"
     },
     {
         "source": {
             "id": "fox-news",
             "name": "Fox News"
         },
-        "author": "Dan Gainor",
-        "title": "The 3 likely ways Bud Light disaster might end – and only one is good news",
-        "description": "Just the other day, video surfaced of fans lined up to get beer in Boston’s renown Fenway Park. Lined up at every concession stand but one – the one selling Budweiser and, especially Bud Light.",
-        "url": "https://www.foxnews.com/opinion/3-likely-ways-bud-light-disaster-might-end-only-one-good-news",
-        "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2023/04/mulvaney.png",
-        "publishedAt": "2023-05-08T08:00:21Z",
-        "content": "Remember when drinking Bud Light wasnt a heavy topic? Now, one of the anchor products for Budweiser is dragging down an entire company. \r\nJust the other day, video surfaced of fans lined up to get be… [+6238 chars]"
+        "author": "Janelle Ash",
+        "title": "Meghan Markle's claims she was objectified are shut down by 'Deal or No Deal' boss",
+        "description": "\"Deal or No Deal\" chief content officer Lucas Green is shutting down Meghan Markle's previous claim that she was “objectified\" during her time on the game show.",
+        "url": "https://www.foxnews.com/entertainment/meghan-markles-claims-objectified-shut-down-deal-no-deal-boss",
+        "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2023/05/meghan-markle.jpg",
+        "publishedAt": "2023-05-25T20:52:14Z",
+        "content": "The U.K.-based production company behind \"Deal or No Deal\" is shutting down claims from Meghan Markle that she was \"objectified\" during her time on the game show.\r\nThe production company's chief cont… [+3493 chars]"
     },
     {
         "source": {
             "id": "fox-news",
             "name": "Fox News"
         },
-        "author": "Brian Flood",
-        "title": "Oklahoma Governor Stitt defends decision to axe PBS funding over 'really problematic' LGBTQ content",
-        "description": "Oklahoma Gov. Kevin Stitt, R., vetoed a bill last week that would have funded operations of the Oklahoma Educational Television Authority (OETA) over \"problematic\" content.",
-        "url": "https://www.foxnews.com/media/oklahoma-governor-stitt-defends-decision-axe-pbs-funding-over-really-problematic-lgbtq-content",
-        "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2023/05/2023-05-04T011840Z_1_LYNXMPEJ4300R_RTROPTP_4_USA-ELECTION-HEADSHOTS.jpg",
-        "publishedAt": "2023-05-08T08:00:06Z",
-        "content": "EXCLUSIVE Oklahoma Gov. Kevin Stitt, R., has strong words for critics after he vetoed a bill last week that would have funded operations of the state's PBS station, Oklahoma Educational Television Au… [+6879 chars]"
+        "author": "Ryan Morik",
+        "title": "ESPN announcer has nightmare slip-up while calling college baseball game",
+        "description": "Tom Hart was working his second game of back-to-back SEC tournament contests when he let out a slip he wouldn't wish upon his worst enemy.",
+        "url": "https://www.foxnews.com/sports/espn-announcer-has-nightmare-slip-up-calling-college-baseball-game",
+        "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2023/05/tom-hart.jpg",
+        "publishedAt": "2023-05-25T20:44:54Z",
+        "content": "Tom Hart sure wishes he could \"turn the clock back.\"\r\nHart was calling the SEC baseball tournament game between Auburn and Vanderbilt when he had a slip of the tongue he wouldn't wish on his worst en… [+803 chars]"
     },
     {
         "source": {
             "id": "fox-news",
             "name": "Fox News"
         },
-        "author": "Lawrence Richard",
-        "title": "Biden accuser Tara Reade posts cryptic message about death before potentially testifying to Congress",
-        "description": "Biden accuser Tara Reade posted a cryptic message on Twitter ahead of a potential congressional hearing where she hopes to testify that Biden sexually assaulted her in the 1990s.",
-        "url": "https://www.foxnews.com/politics/biden-accuser-tara-reade-posts-cryptic-message-about-death-before-testifying-congress",
-        "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2023/05/tara-Reade-Joe-Biden.jpg",
-        "publishedAt": "2023-05-08T05:57:05Z",
-        "content": "Tara Reade, who has accused President Biden of sexually assaulting her in the 1990s, tweeted a cryptic message about death before she potentially testifies to Congress following an invitation from Re… [+2762 chars]"
+        "author": "Stephanie Giang-Paunon",
+        "title": "Heidi Klum suffers wardrobe malfunction at Cannes Film Festival in sexy yellow gown",
+        "description": "Supermodel Heidi Klum, 49, experienced a significant fashion mishap at the 2023 Cannes Film Festival as she wore a stunning yet risqué gown.",
+        "url": "https://www.foxnews.com/entertainment/heidi-klum-suffers-wardrobe-malfunction-cannes-film-festival-sexy-gown",
+        "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2023/05/heidi-v2.jpg",
+        "publishedAt": "2023-05-25T20:13:39Z",
+        "content": "Heidi Klum accidentally exposed herself during the 2023 Cannes Film Festival.\r\nDuring the red carpet event, Klum, 49, stepped out in a daring yellow dress and truly flaunted it all. \r\nThe German and … [+2144 chars]"
     },
     {
         "source": {
             "id": "fox-news",
             "name": "Fox News"
         },
-        "author": "Andrea Vacchiano",
-        "title": "'Happy Days' star Scott Baio announces he's leaving California due to homeless crisis, crime",
-        "description": "Scott Baio, who played Chachi on \"Happy Days,\" announced that he is leaving California due to the homeless crisis. The retired actor said that increased crime makes it unsafe.",
-        "url": "https://www.foxnews.com/entertainment/happy-days-star-scott-baio-announces-hes-leaving-california-due-homeless-crisis-crime",
-        "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2023/05/Untitled-design-60-1.png",
-        "publishedAt": "2023-05-08T00:19:32Z",
-        "content": "\"Happy Days\" actor Scott Baio announced on Wednesday that he is moving out of California, citing the state's homeless crisis as one of the reasons why.\r\nLong-time Los Angeles resident Baio, who playe… [+1644 chars]"
+        "author": "Chris Pandolfo",
+        "title": "Schumer rips 'MAGA' Supreme Court after 9-0 vote on EPA waters rule",
+        "description": "Democratic Senate Majority Leader Chuck Schumer on Thursday slammed a Supreme Court decision limiting the EPA's authority to regulate waters of the U.S.",
+        "url": "https://www.foxnews.com/politics/schumer-rips-maga-supreme-court-9-0-vote-epa-waters-rule",
+        "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2023/05/senate-majority-leader-chuck-schumer-congress.jpg",
+        "publishedAt": "2023-05-25T19:59:44Z",
+        "content": "Senate Majority Leader Chuck Schumer, D-N.Y., slammed the Supreme Court's ruling Thursday that limited the Environmental Protection Agency's ability to regulate bodies of water, calling it a \"MAGA\" c… [+3308 chars]"
     },
     {
         "source": {
             "id": "fox-news",
             "name": "Fox News"
         },
-        "author": "Yael Halon",
-        "title": "George Stephanopoulos admits new 2024 poll 'just brutal for President Biden'",
-        "description": "ABC host George Stephanopoulos responds to a 'brutal' poll showing a majority of Americans don't believe President Biden has the 'mental sharpness' to serve another term.",
-        "url": "https://www.foxnews.com/media/george-stephanopoulos-2024-poll-brutal-president-biden",
-        "urlToImage": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/a47eeafb-3a3d-4c1a-af7e-f97cff67fd4e/906b495b-2a6a-499c-855a-ef39f1339e71/1280x720/match/image.jpg",
-        "publishedAt": "2023-05-07T22:30:34Z",
-        "content": "ABC News anchor George Stephanopoulos pulled no punches reacting to a new poll on air Sunday that showed the vast majority of Americans don't believe President Biden has the physical or mental capaci… [+2990 chars]"
+        "author": "Hanna Panreck",
+        "title": "Whoopi Goldberg shuts down 'View' audience for jeering Republican guest: 'No booing'",
+        "description": "Whoopi Goldberg shut down members of the \"The View\" audience on Thursday after they booed Gov. Chris Sununu, R-N.H., who said he wouldn't ban guns.",
+        "url": "https://www.foxnews.com/media/whoopi-goldberg-shuts-down-view-audience-jeering-republican-guest-no-booing",
+        "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2023/05/WHOOPI-GOLDBERG-SUNUNU-BOOING.jpg",
+        "publishedAt": "2023-05-25T16:47:09Z",
+        "content": "\"The View\" co-host Whoopi Goldberg lectured her audience members on Thursday after they booed Republican New Hampshire Gov. Chris Sununu over his stance on guns and providing access to mental health … [+2283 chars]"
     },
     {
         "source": {
             "id": "fox-news",
             "name": "Fox News"
         },
-        "author": "Scott Thompson",
-        "title": "MLB pitchers ejected, fined after national anthem standoff goes too far",
-        "description": "Relievers Kutter Crawford of the Boston Red Sox and Matt Strahm of the Philadelphia Phillies were both ejected and fined for their national anthem standoff before Saturday's game.",
-        "url": "https://www.foxnews.com/sports/mlb-pitchers-red-sox-kutter-crawford-philadelphia-phillies-matt-strahm-ejected-fined-national-anthem-standoff-goes-too-far",
-        "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2023/05/Matt-Strahm.jpg",
-        "publishedAt": "2023-05-07T22:09:46Z",
-        "content": "A national anthem standoff between Boston Red Sox reliever Kutter Crawford and Philadelphia Phillies left-hander Matt Strahm not only resulted in an ejection, MLB has fined them as well.\r\nThere have … [+1518 chars]"
+        "author": "Caroline Thayer",
+        "title": "Tina Turner purchased $76 million Switzerland home 2 years prior to her death",
+        "description": "Tina Turner and her husband Erwin Bach purchased a $76 million home in Lake Zurich, Switzerland, just two years prior to the star's death.",
+        "url": "https://www.foxbusiness.com/entertainment/tina-turner-purchased-76-million-switzerland-home-2-years-prior-death",
+        "urlToImage": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2023/05/0/0/TINA-TURNER-SWITZERLAND-HOME.jpg?ve=1&tl=1",
+        "publishedAt": "2023-05-25T15:53:35Z",
+        "content": "Tina Turner and her husband Erwin Bach had an expansive property portfolio in their 10 years of marriage.\r\nLess than two years prior to the Queen of Rock ‘n’ Roll's death, Turner and Bach snatched up… [+2617 chars]"
     },
     {
         "source": {
             "id": "fox-news",
             "name": "Fox News"
         },
-        "author": "Haley Chi-Sing",
-        "title": "Dallas mall shooter: Who is Mauricio Garcia?",
-        "description": "Mauricio Garcia, the suspected shooter in the deadly Texas mall shooting, left eight dead and several others injured Saturday at Allen Premium Outlets.",
-        "url": "https://www.foxnews.com/us/dallas-mall-shooter-who-mauricio-garcia",
-        "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2023/05/allentx2.jpg",
-        "publishedAt": "2023-05-07T16:27:57Z",
-        "content": "Mauricio Garcia, the suspect in a deadly mall shooting in Allen, Texas, that left eight dead and several others injured Saturday has yet to be officially identified by police, a Texas law enforcement… [+3145 chars]"
+        "author": "Aaron Kliegman",
+        "title": "University program linking Christians, Republicans to Nazis granted DHS funds under 'anti-terror' initiative",
+        "description": "The Biden administration is giving taxpayer money through an anti-terror grant program being used to target conservatives, according to documents shared with Fox News Digital.",
+        "url": "https://www.foxnews.com/politics/university-program-linking-christians-republicans-nazis-granted-dhs-funds-part-anti-terror-initiative",
+        "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2023/05/Mayorkas-Biden-Pyramid-copy.jpg",
+        "publishedAt": "2023-05-25T12:24:18Z",
+        "content": "FIRST ON FOX: The Biden administration is doling out taxpayer money through an anti-terrorism grant initiative to a university program that has explicitly lumped the Republican Party, as well as Chri… [+14618 chars]"
     },
     {
         "source": {
             "id": "fox-news",
             "name": "Fox News"
         },
-        "author": "Thomas Catenacci",
-        "title": "Texas govt pushing action that could 'kneecap' new fossil fuel generation, destabilize grid, experts warn",
-        "description": "The Texas legislature is moving forward with legislation reforming energy markets that critics are warning would counteract stated goals of incentivizing more power generation.",
-        "url": "https://www.foxnews.com/politics/texas-govt-pushing-action-could-kneecap-new-fossil-fuel-generation-destabilize-grid-experts-warn",
-        "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2022/09/GettyImages-1423443675.jpg",
-        "publishedAt": "2023-05-07T10:50:14Z",
-        "content": "The Texas state government is pushing legislation to boost electricity supplies during peak demand summer periods, but which grid experts are warning would be counterproductive and trigger more unrel… [+6697 chars]"
+        "author": "FOXBusiness",
+        "title": "Target loses $9 billion amid Pride merchandising controversy",
+        "description": "Target's Pride merchandising campaign is rippling through shareholders as the retailer scrambles with a public relations crisis similar to Bud Light's.",
+        "url": "https://www.foxbusiness.com/markets/target-loses-9-billion-amid-pride-merchandising-controversy",
+        "urlToImage": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2023/05/0/0/TARGET-PRIDE-COLLECTION-TAG.jpg?ve=1&tl=1",
+        "publishedAt": "2023-05-24T12:41:58Z",
+        "content": "Target's stock value is taking a hit, leaving shareholders in the lurch as controversy continues to swirl over its Pride merchandising plans, as first reported by Fox News Digital.\r\nShares slipped an… [+4200 chars]"
     }
 ]

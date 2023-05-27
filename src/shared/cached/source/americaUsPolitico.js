@@ -5,6 +5,45 @@ articles = [
             "name": "Politico"
         },
         "author": null,
+        "title": "White House economist stresses importance of diversity in clean energy jobs",
+        "description": null,
+        "url": "https://www.politico.com/video/2023/05/18/white-house-economist-stresses-importance-of-diversity-in-clean-energy-jobs-915460",
+        "urlToImage": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/1155968404/22e1f666-c026-48ac-b9aa-dddd57da4d8f/1c95ebda-9377-4f6e-8ef1-c191d0bfd0fb/1280x720/match/image.jpg",
+        "publishedAt": "2023-05-18T19:58:27+00:00",
+        "content": null
+    },
+    {
+        "source": {
+            "id": "politico",
+            "name": "Politico"
+        },
+        "author": null,
+        "title": "Trump: U.S. ‘might as well’ default on debt",
+        "description": null,
+        "url": "https://www.politico.com/video/2023/05/10/trump-u-s-might-as-well-default-on-debt-910431",
+        "urlToImage": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/1155968404/9fc34d48-73db-4ffd-abf1-82ab1bf9c73f/0a0f44e9-8da6-4d6e-b605-ebc212d761b7/1280x720/match/image.jpg",
+        "publishedAt": "2023-05-11T01:12:42+00:00",
+        "content": null
+    },
+    {
+        "source": {
+            "id": "politico",
+            "name": "Politico"
+        },
+        "author": null,
+        "title": "U.S. prices pick up, showing inflation pressures persist",
+        "description": "The Fed is paying particular attention to so-called core prices, which exclude volatile food and energy costs and are regarded as a better gauge of longer-term inflation trends.",
+        "url": "https://www.politico.com/news/2023/05/10/u-s-prices-pick-up-showing-inflation-pressures-persist-00096178",
+        "urlToImage": "https://static.politico.com/ef/04/f68dc3864544b1f2113911afe2d6/grocery-shopping-13587.jpg",
+        "publishedAt": "2023-05-10T12:54:50+00:00",
+        "content": "The Fed is paying particular attention to so-called core prices, which exclude volatile food and energy costs and are regarded as a better gauge of longer-term inflation trends. Core prices rose 0.4%… [+2972 chars]"
+    },
+    {
+        "source": {
+            "id": "politico",
+            "name": "Politico"
+        },
+        "author": null,
         "title": "The under-the-radar issues that could shake up 2024",
         "description": "POLITICO asked an impromptu panel of strategists and elected officials what under-the-radar issue they think could play an outsized role in 2024.",
         "url": "https://www.politico.com/news/2023/04/30/the-under-the-radar-issues-that-could-shake-up-2024-00094530",
@@ -50,31 +89,5 @@ articles = [
         "urlToImage": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/1155968404/64040bdc-8f2a-483a-9d40-019446e32e84/b07293d8-56ee-405b-8ca9-290bea580a10/1280x720/match/image.jpg",
         "publishedAt": "2023-04-11T17:29:28+00:00",
         "content": null
-    },
-    {
-        "source": {
-            "id": "politico",
-            "name": "Politico"
-        },
-        "author": null,
-        "title": "Elizabeth Warren: Fed chair has failed at both his jobs",
-        "description": "Jerome Powell “stepped up and took a flamethrower to the regulations,” the senator said.",
-        "url": "https://www.politico.com/news/2023/03/19/warren-fed-jerome-powell-failed-00087752",
-        "urlToImage": "https://static.politico.com/cc/2d/c467380b46fcb85c8bf638b6e873/bank-collapse-yellen-87805.jpg",
-        "publishedAt": "2023-03-19T14:16:20+00:00",
-        "content": "The Massachusetts senator, who has been vocal in calling for stronger regulations of the banking sector, also slammed Powell for deregulation that happened under his watch, including the roll back of… [+1207 chars]"
-    },
-    {
-        "source": {
-            "id": "politico",
-            "name": "Politico"
-        },
-        "author": null,
-        "title": "U.S. inflation eases but stays high, putting Fed in tough spot",
-        "description": "The government said prices increased 0.4% last month, just below January’s 0.5% rise.",
-        "url": "https://www.politico.com/news/2023/03/14/u-s-inflation-eases-but-stays-high-putting-fed-in-tough-spot-00086939",
-        "urlToImage": "https://static.politico.com/4b/50/71ac675f4cfeb9d9e00e26526f13/https-delivery-gettyimages.com/downloads/1241332610",
-        "publishedAt": "2023-03-14T12:54:43+00:00",
-        "content": "That is a sharp shift from just a week ago, when Chair Jerome Powell suggested to a Senate committee that if inflation didnt cool, the Fed could raise its benchmark interest rate by a substantial hal… [+3076 chars]"
     }
 ]

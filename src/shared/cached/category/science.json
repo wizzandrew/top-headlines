@@ -2,263 +2,263 @@
   "articles": [
     {
       "source": {
-        "id": "google-news",
-        "name": "Google News"
+        "id": null,
+        "name": "Citylife.capetown"
       },
-      "author": "CNBC Indonesia",
-      "title": "Sebelum 'Tewas', Robot China Temukan Tanda Kehidupan di Mars - CNBC Indonesia",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMidWh0dHBzOi8vd3d3LmNuYmNpbmRvbmVzaWEuY29tL3RlY2gvMjAyMzA1MDgxNjUyMTUtMzctNDM1NTQxL3NlYmVsdW0tdGV3YXMtcm9ib3QtY2hpbmEtdGVtdWthbi10YW5kYS1rZWhpZHVwYW4tZGktbWFyc9IBeWh0dHBzOi8vd3d3LmNuYmNpbmRvbmVzaWEuY29tL3RlY2gvMjAyMzA1MDgxNjUyMTUtMzctNDM1NTQxL3NlYmVsdW0tdGV3YXMtcm9ib3QtY2hpbmEtdGVtdWthbi10YW5kYS1rZWhpZHVwYW4tZGktbWFycy9hbXA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T12:30:08Z",
-      "content": null
+      "author": "André De Bonis",
+      "title": "AI's Aquatic Imprint: A Case Study on ChatGPT - CityLife",
+      "description": "AI's Aquatic Imprint: A Case Study on ChatGPT - CityLife",
+      "url": "https://citylife.capetown/uncategorized/ais-aquatic-imprint-a-case-study-on-chatgpt/27075/",
+      "urlToImage": "https://citylife.capetown/wp-content/uploads/2023/05/mfrack_realistic_photo_of_future_of_AI_projects_acc8faf2-1855-4e75-acd8-3acb4c2e7ce0.jpeg",
+      "publishedAt": "2023-05-25T21:52:56Z",
+      "content": "Artificial intelligence (AI) has been making waves in various industries, and marine conservation is no exception. The aquatic imprint of AI is increasingly evident as it plays a critical role in und… [+3527 chars]"
     },
     {
       "source": {
-        "id": "google-news",
-        "name": "Google News"
+        "id": null,
+        "name": "SciTechDaily"
       },
-      "author": "DER SPIEGEL",
-      "title": "Theorie zur Besiedlung Europas: Homo sapiens brauchte drei Wellen und 12.000 Jahre - DER SPIEGEL",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMiowFodHRwczovL3d3dy5zcGllZ2VsLmRlL3dpc3NlbnNjaGFmdC9tZW5zY2gvdGhlb3JpZS16dXItYmVzaWVkbHVuZy1ldXJvcGFzLWhvbW8tc2FwaWVucy1icmF1Y2h0ZS1kcmVpLXdlbGxlbi11bmQtMTItMDAwLWphaHJlLWEtMmE2NWIwYmEtNDQzMi00YzMwLWExMjEtOTc2MDc2ZWU0MGQ10gEA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T12:18:45Z",
+      "author": null,
+      "title": "Upgraded LIGO Reactivated: Resumes Unraveling Universe's Secrets With Enhanced Gravitational Wave Detection - SciTechDaily",
+      "description": "Scientists have reactivated the upgraded Laser Interferometric Gravitational-Wave Observatory (LIGO) after a three-year break, improving its ability to measure gravitational waves. These waves offer new opportunities for multi-messenger astronomy and deepen o…",
+      "url": "https://scitechdaily.com/?p=280417",
+      "urlToImage": "https://scitechdaily.com/images/Astrophysics-Gravitational-Waves-Concept.jpg",
+      "publishedAt": "2023-05-25T20:17:22Z",
+      "content": "ByChad Hanna, Penn StateMay 25, 2023\r\nWhen two massive objects like black holes or neutron stars merge, they warp space and time.\r\nScientists have reactivated the upgraded Laser Interferometric Gravi… [+12741 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Sci.news"
+      },
+      "author": "Natali Anderson",
+      "title": "Intermediate-Mass Black Hole May Be Lurking in Messier 4 - Sci.News",
+      "description": "Messier 4 is a globular cluster full of ancient stars in the constellation of Scorpius, approximately 7,200 light-years away.",
+      "url": "https://www.sci.news/astronomy/messier-4-intermediate-mass-black-hole-11947.html",
+      "urlToImage": "https://cdn.sci.news/images/2023/05/image_11947-Messier-4.jpg",
+      "publishedAt": "2023-05-25T19:21:16Z",
+      "content": "Messier 4 is a globular cluster full of ancient stars in the constellation of Scorpius, approximately 7,200 light-years away.\r\nVitral et al. suspect that an intermediate-mass black hole, weighing as … [+3355 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Neurosciencenews.com"
+      },
+      "author": "Neuroscience News",
+      "title": "Moonlighting Proteasome: Unraveling a Novel Role in Brain Synapses - Neuroscience News",
+      "description": "Researchers reveal a previously unknown role of the 19S regulatory particle, part of the cellular proteasome machinery, at the synapses in the brain.",
+      "url": "https://neurosciencenews.com/proteasome-synapses-23346/",
+      "urlToImage": "https://neurosciencenews.com/files/2023/05/proteasome-synapse-neurosinces.jpg",
+      "publishedAt": "2023-05-25T18:53:06Z",
+      "content": "Summary: Researchers reveal a previously unknown role of the 19S regulatory particle, part of the cellular proteasome machinery, at the synapses in the brain. These particles were found to be indepen… [+5048 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The Guardian"
+      },
+      "author": "Donna Lu",
+      "title": "Slowing ocean current caused by melting Antarctic ice could have drastic climate impact, study says - The Guardian",
+      "description": "The Southern Ocean overturning circulation has ebbed 30% since the 90s, CSIRO scientist claims, leading to higher sea levels and changing weather",
+      "url": "https://www.theguardian.com/science/2023/may/25/slowing-ocean-current-caused-by-melting-antarctic-ice-could-have-drastic-climate-impact-study-says",
+      "urlToImage": "https://i.guim.co.uk/img/media/f823f29b162d2e0232bbb01345b0add347a6b072/168_0_4936_2962/master/4936.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=23a31b613ce56891f2eee48417fdb78c",
+      "publishedAt": "2023-05-25T18:12:00Z",
+      "content": "A major global deep ocean current has slowed down by approximately 30% since the 1990s as a result of melting Antarctic ice, which could have critical consequences for Earths climate patterns and sea… [+4013 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Wisc.edu"
+      },
+      "author": null,
+      "title": "Climate-stressed trees get a boost from new microbial partnerships - University of Wisconsin-Madison",
+      "description": "On top of a better understanding of the way trees and microbes work together in a race against climate change, plant-fungi matchmaking may be a boon to plans to reforest the planet.",
+      "url": "https://news.wisc.edu/climate-stressed-trees-boost/",
+      "urlToImage": "https://news.wisc.edu/content/uploads/2023/05/George_Kemp.jpg",
+      "publishedAt": "2023-05-25T18:03:49Z",
+      "content": "UWMadison research specialist Isabelle George plants seedlings trees at Kemp Natural Resources Station in northern Wisconsin, farther north than the species are used to, but in an area they may need … [+5488 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "ScienceAlert"
+      },
+      "author": "Clare Watson",
+      "title": "Mysterious Paradox of How Whales Avoid Cancer Has a New Solution - ScienceAlert",
+      "description": "Giant whales have little cancer relative to their body size.",
+      "url": "https://www.sciencealert.com/mysterious-paradox-of-how-whales-avoid-cancer-has-a-new-solution",
+      "urlToImage": "https://www.sciencealert.com/images/2023/05/TwoBowheadWhalesInNorway.jpg",
+      "publishedAt": "2023-05-25T18:01:11Z",
+      "content": "Giant whales have little cancer relative to their body size. It's a biological mismatch known as Peto's paradox, which describes how large, long-lived animals, despite having trillions more cells tha… [+4999 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "YouTube"
+      },
+      "author": null,
+      "title": "Jupiter's big mystery solved | Why does Jupiter change its colour? | Vantage on Firstpost - Firstpost",
+      "description": "Jupiter's big mystery solved | Why does Jupiter change its colour? | Vantage on FirstpostJupiter, the biggest planet in our solar system, has been at the cen...",
+      "url": "https://www.youtube.com/watch?v=CmW-tctT6Y4",
+      "urlToImage": "https://i.ytimg.com/vi/CmW-tctT6Y4/maxresdefault.jpg",
+      "publishedAt": "2023-05-25T18:00:08Z",
       "content": null
     },
     {
       "source": {
         "id": null,
-        "name": "AZoM"
+        "name": "Interesting Engineering"
       },
-      "author": null,
-      "title": "\"Smart\" Polymer Foil Coating For Orthopedic Implants - AZoM",
-      "description": "According to the University of Illinois Urbana-Champaign investigators, newly developed “smart” coatings for surgical orthopedic implants can detect strain on the devices to provide early warning of implant failures while destroying infection-causing bacteria.",
-      "url": "https://www.azom.com/news.aspx?newsID=61248",
-      "urlToImage": "https://d12oja0ew7x0i8.cloudfront.net/images/news/SocialSharingImage_61248_16835478012816594.jpg",
-      "publishedAt": "2023-05-08T12:11:00Z",
-      "content": "According to the University of Illinois Urbana-Champaign investigators, newly developed “smart” coatings for surgical orthopedic implants can detect strain on the devices to provide early warning of … [+3993 chars]"
+      "author": "Daniel Lehewych",
+      "title": "Lucy spacecraft adjusts course for date with tiny asteroid Dinkinesh before historic Trojan mission - Interesting Engineering",
+      "description": "NASA's Lucy spacecraft makes crucial trajectory changes for an encounter with the small asteroid Dinkinesh, a precursor to its pioneering exploration of the Trojan asteroids.",
+      "url": "https://interestingengineering.com/science/lucy-spacecraft-adjusts-course-for-date-with-tiny-asteroid-dinkinesh-before-historic-trojan-mission",
+      "urlToImage": "https://dnd2oi6izkvoi.cloudfront.net/2023/05/25/image/jpeg/YCR4OphDsJSsHA6iUjUh553xi9UL1j54QseWWBIk.jpg",
+      "publishedAt": "2023-05-25T17:58:00Z",
+      "content": "Dinkinesh, which translates to \"you are marvelous\" in Amharic, the Ethiopian language, wasn't originally on Lucy's itinerary. Lucy, launched in October 2021, was set to explore eight Trojan asteroids… [+905 chars]"
     },
     {
       "source": {
-        "id": "google-news",
-        "name": "Google News"
+        "id": null,
+        "name": "Phys.Org"
       },
-      "author": "Index.hu",
-      "title": "Áttörés: megtalálhatták a Parkinson-kór okozóját - Index.hu",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMilgFodHRwczovL2luZGV4Lmh1L3RlY2h0dWQvMjAyMy8wNS8wOC9vcnZvc3R1ZG9tYW55LXBhcmtpbnNvbi1rb3ItZGVnZW5lcmF0aXYtaWRlZ3JlbmR6c2VyaS1iZXRlZ3NlZy1kZXN1bGZpdmlicmlvLWJha3Rlcml1bS1oZWxzaW5raS1lZ3lldGVtLXBlci1zYXJpcy_SAQA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T12:06:00Z",
-      "content": null
+      "author": "Whitney Clavin",
+      "title": "New methods will allow for better tests of Einstein's general theory of relativity using LIGO data - Phys.org",
+      "description": "Albert Einstein's general theory of relativity describes how the fabric of space and time, or spacetime, is curved in response to mass. Our sun, for example, warps space around us such that planet Earth rolls around the sun like a marble tossed into a funnel …",
+      "url": "https://phys.org/news/2023-05-methods-einstein-general-theory-ligo.html",
+      "urlToImage": "https://scx2.b-cdn.net/gfx/news/hires/2022/black-hole-2.jpg",
+      "publishedAt": "2023-05-25T17:39:04Z",
+      "content": "Albert Einstein's general theory of relativity describes how the fabric of space and time, or spacetime, is curved in response to mass. Our sun, for example, warps space around us such that planet Ea… [+6003 chars]"
     },
     {
       "source": {
-        "id": "the-times-of-india",
-        "name": "The Times of India"
+        "id": null,
+        "name": "Neurosciencenews.com"
       },
-      "author": "TIMESOFINDIA.COM",
-      "title": "The reason behind not detecting aliens yet revealed - Times of India",
-      "description": "Trending News: Interesting theory on why we haven't been able to detect aliens yet. The scientists say it could be",
-      "url": "https://timesofindia.indiatimes.com/etimes/trending/the-reason-behind-not-detecting-aliens-yet-revealed/articleshow/100075622.cms",
-      "urlToImage": "https://static.toiimg.com/thumb/msid-100075610,width-1070,height-580,imgsize-333816,resizemode-6,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-      "publishedAt": "2023-05-08T12:05:00Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "hvg.hu",
-      "title": "276 nap után visszatért a Földre Kína titkos űrrepülőgépe - hvg.hu",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMiPmh0dHBzOi8vaHZnLmh1L3R1ZG9tYW55LzIwMjMwNTA4X3VycmVwdWxvX3VyaGFqb19raXNlcmxldF9raW5h0gEA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T12:03:00Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "EarthSky",
-      "title": "Oceans for 4 Uranus moons likely, astronomers say - EarthSky",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMiRmh0dHBzOi8vZWFydGhza3kub3JnL3NwYWNlL29jZWFucy1mb3ItNC11cmFudXMtbW9vbnMtbGlrZWx5LXZveWFnZXItMi_SAQA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T12:02:33Z",
-      "content": null
+      "author": "Neuroscience News",
+      "title": "Loosely Wrapped Myelin Marks Early Stages of Multiple Sclerosis, Even Before Inflammation - Neuroscience News",
+      "description": "Structural abnormalities in white matter, even before the onset of inflammation, may serve as a new therapeutic target for multiple sclerosis (MS).",
+      "url": "https://neurosciencenews.com/loose-myelin-multiple-sclerosis-23341/",
+      "urlToImage": "https://neurosciencenews.com/files/2023/05/loose-myelin-ms-neurosicenecs.jpg",
+      "publishedAt": "2023-05-25T17:34:53Z",
+      "content": "Summary: Structural abnormalities in white matter, even before the onset of inflammation, may serve as a new therapeutic target for multiple sclerosis (MS). The study, focusing on ‘normal-appearing w… [+7787 chars]"
     },
     {
       "source": {
         "id": null,
         "name": "Space.com"
       },
-      "author": "Brett Tingley",
-      "title": "See 1st lunar eclipse of 2023 darken the full Flower Moon in eerie photos - Space.com",
-      "description": "Earth's shadow partially blocked the light of the sun, creating a penumbral lunar eclipse.",
-      "url": "https://www.space.com/lunar-eclipse-full-flower-moon-may-2023-photos",
-      "urlToImage": "https://cdn.mos.cms.futurecdn.net/froeYaQTcY88Sq4KbjPdnA-1200-80.jpg",
-      "publishedAt": "2023-05-08T12:00:40Z",
-      "content": "Skywatchers taking in the full moon this month got to witness the first lunar eclipse of 2023.\r\nA penumbral lunar eclipse of the full Flower Moon took place on May 5, 2023 and was visible for much of… [+3356 chars]"
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "WION",
-      "title": "NASA launches new cyclone-monitoring satellite| WION Shorts - WION",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CCAiC2JSMFZjT0NUb2hZmAEB?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T12:00:32Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "Benzinga",
-      "title": "ARTECHOUSE's Latest Cinematic Exhibition Submerges Audiences in NASA's Scientific Discoveries & Galactical Data from James Webb Space Telescope - Benzinga",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMimQFodHRwczovL3d3dy5iZW56aW5nYS5jb20vcHJlc3NyZWxlYXNlcy8yMy8wNS9iMzIyNjE4MjQvYXJ0ZWNob3VzZXMtbGF0ZXN0LWNpbmVtYXRpYy1leGhpYml0aW9uLXN1Ym1lcmdlcy1hdWRpZW5jZXMtaW4tbmFzYXMtc2NpZW50aWZpYy1kaXNjb3Zlcmllcy1nYWxhY3TSAQA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T12:00:00Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "Portfolio",
-      "title": "Friss statisztika érkezett: ennyi ukrán kapott eddig menekültstátuszt az Unióban - Portfolio",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMif2h0dHBzOi8vd3d3LnBvcnRmb2xpby5odS9nbG9iYWwvMjAyMzA1MDgvZnJpc3Mtc3RhdGlzenRpa2EtZXJrZXpldHQtZW5ueWktdWtyYW4ta2Fwb3R0LWVkZGlnLW1lbmVrdWx0c3RhdHVzenQtYXotdW5pb2Jhbi02MTM3NzLSAYMBaHR0cHM6Ly93d3cucG9ydGZvbGlvLmh1L2dsb2JhbC8yMDIzMDUwOC9mcmlzcy1zdGF0aXN6dGlrYS1lcmtlemV0dC1lbm55aS11a3Jhbi1rYXBvdHQtZWRkaWctbWVuZWt1bHRzdGF0dXN6dC1hei11bmlvYmFuLTYxMzc3Mj9hbXA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T11:51:00Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "Inceptive Mind",
-      "title": "The centipedes-inspired multilegged robots can traverse any terrain - Inceptive Mind",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMiYGh0dHBzOi8vd3d3LmluY2VwdGl2ZW1pbmQuY29tL2NlbnRpcGVkZXMtaW5zcGlyZWQtbXVsdGlsZWdnZWQtcm9ib3RzLXRyYXZlcnNlLWFueS10ZXJyYWluLzMwNTc0L9IBAA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T11:50:36Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "Telex",
-      "title": "Akadémiai Újságírói Díjat kapott Bolcsó Dániel, a Telex újságírója - Telex",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMiQ2h0dHBzOi8vdGVsZXguaHUvdHVkb21hbnkvMjAyMy8wNS8wOC9tdGEtZGlqLWJvbGNzby1kYW5pZWwtdWpzYWdpcm_SAQA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T11:47:25Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "Okezone.com",
-      "title": "Ilmuwan Akhirnya Berhasil Ungkap Wajah Kecebong dari Neraka, Predator Berusia 300 Juta Tahun Lalu - Okezone.com",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMilgFodHRwczovL3RlY2huby5va2V6b25lLmNvbS9yZWFkLzIwMjMvMDUvMDgvNTYvMjgxMDQwMC9pbG11d2FuLWFraGlybnlhLWJlcmhhc2lsLXVuZ2thcC13YWphaC1rZWNlYm9uZy1kYXJpLW5lcmFrYS1wcmVkYXRvci1iZXJ1c2lhLTMwMC1qdXRhLXRhaHVuLWxhbHXSAZUBaHR0cHM6Ly90ZWNobm8ub2tlem9uZS5jb20vYW1wLzIwMjMvMDUvMDgvNTYvMjgxMDQwMC9pbG11d2FuLWFraGlybnlhLWJlcmhhc2lsLXVuZ2thcC13YWphaC1rZWNlYm9uZy1kYXJpLW5lcmFrYS1wcmVkYXRvci1iZXJ1c2lhLTMwMC1qdXRhLXRhaHVuLWxhbHU?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T11:42:40Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "European Space Agency",
-      "title": "Aeolus' fiery demise to set standard for safe reentry - European Space Agency",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMieWh0dHBzOi8vd3d3LmVzYS5pbnQvQXBwbGljYXRpb25zL09ic2VydmluZ190aGVfRWFydGgvRnV0dXJlRU8vQWVvbHVzL0Flb2x1c19maWVyeV9kZW1pc2VfdG9fc2V0X3N0YW5kYXJkX2Zvcl9zYWZlX3JlZW50cnnSAQA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T11:37:37Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "MSN",
-      "title": "Paling Dekat dengan Matahari, Kenapa Merkurius Bukan Planet Terpanas di Tata Surya? - MSN",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMihQFodHRwczovL3d3dy5tc24uY29tL2lkLWlkL2Jlcml0YS9vdGhlcnMvcGFsaW5nLWRla2F0LWRlbmdhbi1tYXRhaGFyaS1rZW5hcGEtbWVya3VyaXVzLWJ1a2FuLXBsYW5ldC10ZXJwYW5hcy1kaS10YXRhLXN1cnlhL2FyLUFBMWFUQ0dC0gEA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T11:20:27Z",
-      "content": null
+      "author": "Elizabeth Howell",
+      "title": "New supernova thrills astronomers and skywatchers around the world (photos) - Space.com",
+      "description": "The Pinwheel Galaxy has a new bright spot.",
+      "url": "https://www.space.com/pinwheel-galaxy-m101-new-supernova-astronomers-excited",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/y8gT3ZiAKcu5pbSp6VRJrS-1200-80.gif",
+      "publishedAt": "2023-05-25T17:16:01Z",
+      "content": "Astronomers and amateurs alike are excited about a new star explosion visible in small telescopes.\r\nThe new supernova popped into visibility on May 19 in the Pinwheel Galaxy, (also designated as Mess… [+5473 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Hindustan Times"
+        "name": "Science.org"
       },
-      "author": "Kabir Firaque",
-      "title": "‘Not a victim’: Rosalind Franklin’s role in solving the mystery of DNA structure - Hindustan Times",
-      "description": "Popular narrative sees her as a scientist whose data was stolen. But she must be remembered as an equal contributor, write researchers revisiting her story",
-      "url": "https://www.hindustantimes.com/science/not-a-victim-rosalind-franklin-s-role-in-solving-the-mystery-of-dna-structure-101683539995747.html",
-      "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/05/08/1600x900/Rosalind-franklin-in-paris_1683543296788_1683543309750.jpg",
-      "publishedAt": "2023-05-08T11:12:01Z",
-      "content": "New Delhi: It is a story often told and retold in scientific lore, a story of denial, yet also of inspiration, the story of Rosalind Franklin. The iconic British scientists work, some of it shared wi… [+8562 chars]"
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "SciTechDaily",
-      "title": "M87 Unveiled: 3D Analysis Reveals Asymmetrical Galaxy and Massive Black Hole - SciTechDaily",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMiZWh0dHBzOi8vc2NpdGVjaGRhaWx5LmNvbS9tODctdW52ZWlsZWQtM2QtYW5hbHlzaXMtcmV2ZWFscy1hc3ltbWV0cmljYWwtZ2FsYXh5LWFuZC1tYXNzaXZlLWJsYWNrLWhvbGUv0gEA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T11:10:17Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Ramin Skibba",
-      "title": "Voyager 2 Gets a Life-Extending Power Boost in Deep Space - WIRED",
-      "description": "The NASA team hopes the iconic spacecraft and its twin can continue taking data beyond the solar system past their 50th birthdays.",
-      "url": "https://www.wired.com/story/voyager-2-gets-a-life-extending-power-boost-in-deep-space/",
-      "urlToImage": "https://media.wired.com/photos/64550e4ba6c1fece8f4bb0f5/191:100/w_1280,c_limit/Voyager_science_1-PIA21734-Voyager-cleanroom_adj_Xth6I6z.jpg",
-      "publishedAt": "2023-05-08T11:00:00Z",
-      "content": "Its not uncommon for NASA missions to far outlive their expected lifetimes, and to be granted extensions after achieving their main objectives. The Opportunity Mars rover rolled on for nearly 15 year… [+3952 chars]"
+      "author": null,
+      "title": "How the tongue shaped life on Earth - Science",
+      "description": "By specializing for catching, ingesting, and swallowing all sorts of food, tongues had dramatic impact on animal evolution",
+      "url": "https://www.science.org/content/article/how-tongue-shaped-life-on-earth",
+      "urlToImage": "https://www.science.org/do/10.1126/science.adi8592/abs/_20230526_nf_cow.jpg",
+      "publishedAt": "2023-05-25T17:15:11Z",
+      "content": "Twice, quarterback Patrick Mahomes has led the Kansas City Chiefs to victory in the Super Bowl, the pinnacle of U.S. football. Although most fans have their eyes on the ball as Mahomes prepares to th… [+21229 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "India Today"
+        "name": "News-Medical.Net"
       },
-      "author": "India Today Science Desk",
-      "title": "Korean probe Danuri sends stunning images of craters on the Moon - India Today",
-      "description": "The images were beamed back by the probe in April and show four craters on Moon - Tsiolkovsky crater, Schrödinger Valley, Wichmann Crater, and the Szilard M Crater.",
-      "url": "https://www.indiatoday.in/science/story/korean-probe-danuri-sends-stunning-images-of-craters-on-the-moon-2376399-2023-05-08",
-      "urlToImage": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202305/tsiolkovsky-sixteen_nine.jpg?VersionId=rSF_mKrSI_YJO2F.W9Tsl3zpzZlMJ7yc",
-      "publishedAt": "2023-05-08T10:54:01Z",
-      "content": "By India Today Science Desk: Months after it entered into lunar orbit, South Korea's Danuri spacecraft has beamed back incredibly detailed images of the craters on the Moon.\r\nThe Korea Pathfinder Lun… [+2140 chars]"
+      "author": null,
+      "title": "New tool shows early promise to help reduce the spread of antimicrobial resistance - News-Medical.Net",
+      "description": "A new tool which could help reduce the spread of antimicrobial resistance is showing early promise, through exploiting a bacterial immune system as a gene editing tool.",
+      "url": "https://www.news-medical.net/news/20230525/New-tool-shows-early-promise-to-help-reduce-the-spread-of-antimicrobial-resistance.aspx",
+      "urlToImage": "https://d2jx2rerrg6sh3.cloudfront.net/image-handler/picture/2014/7/Gene-620x480.jpg",
+      "publishedAt": "2023-05-25T17:13:00Z",
+      "content": "A new tool which could help reduce the spread of antimicrobial resistance is showing early promise, through exploiting a bacterial immune system as a gene editing tool.\r\nAntimicrobial resistance is a… [+1936 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "indy100"
+      },
+      "author": "Kate Plummer",
+      "title": "Saturn's rings are disappearing and could be gone relatively soon - indy100",
+      "description": "Saturn’s rings might disappear pretty soon astronomically speaking, according to new research.A new analysis of data captured by NASA’s Cassini mission, which orbited the planet between 2004 and 2017, has revealed new insights into when the seven rings were f…",
+      "url": "https://www.indy100.com/science-tech/saturn-rings-disappearing-why-space",
+      "urlToImage": "https://www.indy100.com/media-library/saturns-rings-are-disappearing.jpg?id=33742755&width=1200&height=600&coordinates=0%2C40%2C0%2C40",
+      "publishedAt": "2023-05-25T16:21:40Z",
+      "content": "Saturns rings might disappear pretty soon astronomically speaking, according to new research.\r\nA new analysis of data captured by NASAs Cassini mission, which orbited the planet between 2004 and 2017… [+1990 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "News-Medical.Net"
+      },
+      "author": null,
+      "title": "UQ neuroscientists uncover how vitamin D deficiency affects developing neurons in schizophrenia - News-Medical.Net",
+      "description": "Neuroscientists at The University of Queensland have uncovered how vitamin D deficiency affects developing neurons in schizophrenia, using new technology.",
+      "url": "https://www.news-medical.net/news/20230525/UQ-neuroscientists-uncover-how-vitamin-D-deficiency-affects-developing-neurons-in-schizophrenia.aspx",
+      "urlToImage": "https://d2jx2rerrg6sh3.cloudfront.net/image-handler/picture/2014/7/Vitamin_D-620x480.jpg",
+      "publishedAt": "2023-05-25T16:15:00Z",
+      "content": "Neuroscientists at The University of Queensland have uncovered how vitamin D deficiency affects developing neurons in schizophrenia, using new technology.\r\nProfessor Darryl Eyles has built on past re… [+3060 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Phys.Org"
+      },
+      "author": "Science X",
+      "title": "Study presents a new, highly efficient converter of quantum information carriers - Phys.org",
+      "description": "Light is a key carrier of information. It enables high-speed data transmission around the world via fiber-optic telecommunication networks. This information-carrying capability can be extended to transmitting quantum information by encoding it in single parti…",
+      "url": "https://phys.org/news/2023-05-highly-efficient-quantum-carriers.html",
+      "urlToImage": "https://scx2.b-cdn.net/gfx/news/hires/2023/researchers-at-the-fac.jpg",
+      "publishedAt": "2023-05-25T16:08:04Z",
+      "content": "Light is a key carrier of information. It enables high-speed data transmission around the world via fiber-optic telecommunication networks. This information-carrying capability can be extended to tra… [+5753 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Space.com"
+      },
+      "author": "Paul Sutter",
+      "title": "Strange star system may hold first evidence of an ultra-rare 'dark matter star' - Space.com",
+      "description": "In a distant star system, a sunlike star orbits an invisible object that may be the first example of a 'boson star' made of dark matter, new research suggests.",
+      "url": "https://www.space.com/https://www.livescience.com/space/black-holes/strange-star-system-may-hold-first-evidence-of-an-ultra-rare-dark-matter-star",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/DXbPs5MXbcTmZ4gGoqXS3g-1200-80.jpg",
+      "publishedAt": "2023-05-25T16:00:58Z",
+      "content": "Astronomers long thought that a peculiar star system observed by the European Space Agency's Gaia satellite was a simple case of a star orbiting a black hole. \r\nBut now, two astronomers are challengi… [+3812 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Mit.edu"
+      },
+      "author": "MIT News Office",
+      "title": "Gravitational-wave detectors start next observing run to explore the secrets of the universe - MIT News",
+      "description": "On Wednesday, the LIGO-Virgo-KAGRA (LVK) collaboration began a new observing run with upgraded instruments, new and even more accurate signal models, and more advanced data analysis methods. LIGO is operated by Caltech and MIT.",
+      "url": "https://news.mit.edu/2023/gravitational-wave-detectors-start-next-observing-run-0525",
+      "urlToImage": "https://news.mit.edu/sites/default/files/images/202305/MIT-3Q-LIGO_0.jpg",
+      "publishedAt": "2023-05-25T16:00:00Z",
+      "content": "The following article is adapted from a press release issued by the Laser Interferometer Gravitational-wave Observatory (LIGO) Laboratory, in collaboration with the LIGO Scientific Collaboration and … [+5450 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Phys.Org"
+      },
+      "author": "Science X",
+      "title": "Making the structure of 'fire ice' with nanoparticles - Phys.org",
+      "description": "Cage structures made with nanoparticles could be a route toward making organized nanostructures with mixed materials, and researchers at the University of Michigan have shown how to achieve this through computer simulations.",
+      "url": "https://phys.org/news/2023-05-ice-nanoparticles.html",
+      "urlToImage": "https://scx2.b-cdn.net/gfx/news/hires/2023/making-the-structure-o.jpg",
+      "publishedAt": "2023-05-25T15:52:01Z",
+      "content": "Particle design for hostguest colloidal clathrates. a, TBP with truncation parameter, from left to right, of S=0, 0.3, 0.5, 0.7 and 1.0. b, Thirty truncated TBPs form a cage-type clathrate cluster. T… [+5425 chars]"
     }
   ]
 }

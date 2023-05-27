@@ -2,67 +2,158 @@
   "articles": [
     {
       "source": {
-        "id": "google-news",
-        "name": "Google News"
+        "id": "polygon",
+        "name": "Polygon"
       },
-      "author": "Forbes",
-      "title": "‘Redfall’ Slips Into Steam’s Top 15 Worst Reviewed Games Of All Time - Forbes",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMidGh0dHBzOi8vd3d3LmZvcmJlcy5jb20vc2l0ZXMvcGF1bHRhc3NpLzIwMjMvMDUvMDgvcmVkZmFsbC1zbGlwcy1pbnRvLXN0ZWFtcy10b3AtMTUtd29yc3QtcmV2aWV3ZWQtZ2FtZXMtb2YtYWxsLXRpbWUv0gF4aHR0cHM6Ly93d3cuZm9yYmVzLmNvbS9zaXRlcy9wYXVsdGFzc2kvMjAyMy8wNS8wOC9yZWRmYWxsLXNsaXBzLWludG8tc3RlYW1zLXRvcC0xNS13b3JzdC1yZXZpZXdlZC1nYW1lcy1vZi1hbGwtdGltZS9hbXAv?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T12:17:39Z",
-      "content": null
+      "author": "Nicole Carpenter",
+      "title": "Tears of the Kingdom’s bridge physics are impressive - Polygon",
+      "description": "Game developers explain why The Legend of Zelda: Tears of the Kingdom’s bridge and door physics are so impressive.",
+      "url": "https://www.polygon.com/legend-zelda-tears-kingdom/23737921/tears-of-the-kingdom-bridge-physics-game-devs-explain",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/vOGEI1sBaquDMSPIzvx4drx-Y2A=/0x25:1280x695/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/24683175/FxAEwjXaEAAxkNV.jpg",
+      "publishedAt": "2023-05-25T21:16:01Z",
+      "content": "Theres a bridge to cross the lava pit in The Legend of Zelda: Tears of the Kingdoms Marakuguc Shrine, but its broken. More than half of the bridge is piled on top of itself on one side of the pit, wi… [+8283 chars]"
     },
     {
       "source": {
-        "id": "google-news",
-        "name": "Google News"
+        "id": "ars-technica",
+        "name": "Ars Technica"
       },
-      "author": "Dexerto",
-      "title": "Overwatch 2 Lifeweaver can use support ability to sacrifice teammates and save themselves - Dexerto",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMihAFodHRwczovL3d3dy5kZXhlcnRvLmNvbS9vdmVyd2F0Y2gvb3ZlcndhdGNoLTItbGlmZXdlYXZlci1jYW4tdXNlLXN1cHBvcnQtYWJpbGl0eS10by1zYWNyaWZpY2UtdGVhbW1hdGVzLWFuZC1zYXZlLXRoZW1zZWx2ZXMtMjEzNzg5NS_SAQA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T12:10:36Z",
+      "author": "Ron Amadeo",
+      "title": "YouTube Stories, Google’s clone of Snapchat, is dying on June 26 - Ars Technica",
+      "description": "Google's clone of TikTok is a decent replacement for its clone of Snapchat.",
+      "url": "https://arstechnica.com/gadgets/2023/05/youtube-is-killing-off-youtube-stories-its-snapchat-clone/",
+      "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2021/10/youtube-logo-760x380.jpg",
+      "publishedAt": "2023-05-25T20:42:26Z",
+      "content": "39 with \r\n<ul><li>\r\n YouTube Stories would sometimes show up in your subscription feed. (Sorry about the arrow, blame YouTube.) \r\n</li><li>\r\n Mostly, though, they hung out in this backroom tab. The s… [+2372 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Fandomwire.com"
+      },
+      "author": "Massimo Castelli",
+      "title": "PlayStation Showcase: 'Assassin's Creed Mirage's' New Gameplay Trailer Looks like a Return to Form For The Series - FandomWire",
+      "description": "A new gameplay trailer for Assassin’s Creed Mirage has been unveiled at this year’s PlayStation Showcase. It appears that Ubisoft will be taking the game back",
+      "url": "https://fandomwire.com/assassins-creed-mirages-gameplay-trailer-revealed/",
+      "urlToImage": "https://cdn.fandomwire.com/wp-content/uploads/2023/05/25160458/349503590_598538145377852_4622506662142575483_n.jpg",
+      "publishedAt": "2023-05-25T20:39:13Z",
+      "content": "A new gameplay trailer for Assassins Creed Mirage has been unveiled at this years PlayStation Showcase. It appears that Ubisoft will be taking the game back to basics drawing more influence from olde… [+3802 chars]"
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Michael McWhertor",
+      "title": "Warhammer 40K meets Twisted Metal in car combat racer Speed Freeks - Polygon",
+      "description": "Warhammer 40,000: Speed Freeks is now available on Steam in a free-to-play alpha test. It’s Orks meets Twisted Metal and Wipeout for PC.",
+      "url": "https://www.polygon.com/23737325/warhammer-40k-speed-freeks-car-combat-racing",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/oxYQP1fC8q22OvowTZZsbPQaXrw=/0x38:1920x1043/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/24683009/KEYART_SPEEDFREEKS_FINAL_crop_1920x1080.jpg",
+      "publishedAt": "2023-05-25T20:32:23Z",
+      "content": "More car combat racing from the folks behind Grip"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "GameSpot"
+      },
+      "author": "Jordan Ramée",
+      "title": "Assassin's Creed Mirage Releasing This October, Confirmed In New Gameplay Trailer - GameSpot",
+      "description": "It's been way too long since we've had an Assassin's Creed with good-looking freerunning movement and mechanics.",
+      "url": "https://www.gamespot.com/articles/assassins-creed-mirage-trailer-shows-off-ac-unity-looking-parkour-confirms-release-date/1100-6514529/",
+      "urlToImage": "https://www.gamespot.com/a/uploads/screen_kubrick/1587/15875866/4142939-assassins-creed-mirage-release-date-1.jpg",
+      "publishedAt": "2023-05-25T20:29:05Z",
+      "content": "A new trailer for Assassin's Creed Mirage has been revealed, providing our first look at the gameplay for Ubisoft Bordeaux's upcoming project. If that trailer is any indication, Assassin's Creed Mira… [+1944 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Kotaku"
+      },
+      "author": "Lisa Marie Segarra",
+      "title": "Tears of the Kingdom: What To Do For Those Dandelion Korok Puzzles You Keep Seeing - Kotaku",
+      "description": "This weedy riddle took me longer to figure out than I’d like to admit",
+      "url": "https://kotaku.com/zelda-dandelion-korok-puzzle-seed-tears-of-the-kingdom-1850476168",
+      "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/faf5fa8c054b659aab77cbde8312c7b7.jpg",
+      "publishedAt": "2023-05-25T19:25:00Z",
+      "content": "The Legend of Zelda: Tears of the Kingdom has a ton of Korok missions, just like its predecessor Breath of the Wild, but theres a new type of Korok quest that left me confused: the dandelion.\r\nA few … [+1978 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "YouTube"
+      },
+      "author": null,
+      "title": "Warhammer: Vermintide 2 - Official Karak Azgaraz Free Update Trailer - IGN",
+      "description": "Wtach the trailer to see what to expect with Warhammer: Vermintide 2's upcoming Karak Azgaraz free new content update, featuring three newly remastered adven...",
+      "url": "https://www.youtube.com/watch?v=8O_Y-l3NNOI",
+      "urlToImage": "https://i.ytimg.com/vi/8O_Y-l3NNOI/maxresdefault.jpg",
+      "publishedAt": "2023-05-25T19:00:06Z",
       "content": null
     },
     {
       "source": {
         "id": null,
-        "name": "Beebom"
+        "name": "CNBC"
       },
-      "author": "Vanshika Malhotra",
-      "title": "Audio-Technica Launches New ATH-SQ1TW TWS Under Rs 10,000 - Beebom",
-      "description": "Audio-Technica has launched the new ATH-SQ1TW truly wireless earbuds at under Rs 10,000 in India. Check out the price, features, and more.",
-      "url": "http://beebom.com/audio-technica-ath-sq1tw-tws-launched-india/",
-      "urlToImage": "https://beebom.com/wp-content/uploads/2023/05/audio-technica-athsq1w-launched.jpg",
-      "publishedAt": "2023-05-08T12:07:11Z",
-      "content": "Popular brand Audio-Technica has launched the new ATH-SQ1TW TWS earbuds in India. These look stylish with attractive color options and are claimed to offer high-fidelity audio, low latency, and much … [+1504 chars]"
+      "author": "Jordan Novet",
+      "title": "Microsoft is sprinkling OpenAI everywhere to try and keep software makers interested in its platforms - CNBC",
+      "description": "This week Microsoft gave developers a slew of new tools to take advantage of artificial intelligence, thanks to a broad alliance with startup OpenAI.",
+      "url": "https://www.cnbc.com/2023/05/25/microsoft-sprinkles-openai-everywhere-to-retain-software-partners.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/107246875-1685042395222-Handout_Satya_Nadella_Microsoft_Build_2023.jpg?v=1685042862&w=1920&h=1080",
+      "publishedAt": "2023-05-25T18:48:13Z",
+      "content": "Microsoft Chairman and CEO Satya Nadella speaks to attendees at Microsoft's Build conference in Seattle on May 23, 2023.\r\nIf there's one company that has popularized artificial intelligence in the pa… [+4823 chars]"
     },
     {
       "source": {
-        "id": "google-news",
-        "name": "Google News"
+        "id": null,
+        "name": "YouTube"
       },
-      "author": "The New Daily",
-      "title": "Streaming services ditched as Aussies cut spending - The New Daily",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMiVGh0dHBzOi8vdGhlbmV3ZGFpbHkuY29tLmF1L2VudGVydGFpbm1lbnQvMjAyMy8wNS8wOC9zdHJlYW1pbmctc2VydmljZXMtY29zdC1zYXZpbmdzL9IBWGh0dHBzOi8vdGhlbmV3ZGFpbHkuY29tLmF1L2VudGVydGFpbm1lbnQvMjAyMy8wNS8wOC9zdHJlYW1pbmctc2VydmljZXMtY29zdC1zYXZpbmdzL2FtcC8?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T12:04:41Z",
+      "author": null,
+      "title": "Diablo 4 - Official Live Action Launch Trailer - IGN",
+      "description": "Will you fight the darkness? Check out the launch live-action trailer for Diablo 4 ahead of hte game's release on June 6, 2023.#IGN #Gaming #Diablo4",
+      "url": "https://www.youtube.com/watch?v=3lfB4d6AM3U",
+      "urlToImage": "https://i.ytimg.com/vi/3lfB4d6AM3U/maxresdefault.jpg",
+      "publishedAt": "2023-05-25T18:30:05Z",
       "content": null
     },
     {
       "source": {
-        "id": "google-news",
-        "name": "Google News"
+        "id": null,
+        "name": "9to5google.com"
       },
-      "author": "Mirage News",
-      "title": "New Method Identifies Reverse-Image Molecules - Mirage News",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMiUWh0dHBzOi8vd3d3Lm1pcmFnZW5ld3MuY29tL25ldy1tZXRob2QtaWRlbnRpZmllcy1yZXZlcnNlLWltYWdlLW1vbGVjdWxlcy0xMDAxNDY3L9IBAA?oc=5",
+      "author": "Abner Li",
+      "title": "Android 14 Beta 2.1 rolling out with many Pixel bug fixes - 9to5Google",
+      "description": "Following the last release at I/O 2023 two weeks ago, Google is rolling out Android 14 Beta 2.1 to Pixel phones as a bug fixer...",
+      "url": "https://9to5google.com/2023/05/25/android-14-beta-2-1-rolling-out-with-many-pixel-bug-fixes/",
       "urlToImage": null,
-      "publishedAt": "2023-05-08T12:02:00Z",
+      "publishedAt": "2023-05-25T18:24:00Z",
+      "content": "Following the last release at I/O 2023 two weeks ago, Google is rolling out Android 14 Beta 2.1 to Pixel phones as a bug fixer.This “minor update” (UPB2.230407.019 with May 2023 security patch for al… [+248 chars]"
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Owen S. Good",
+      "title": "Phantom Blade Zero: release date, trailer, and everything to know - Polygon",
+      "description": "Phantom Blade Zero was announced the PlayStation Showcase with a flashy trailer, but specifics about the game from S-Game are hard to pin down.",
+      "url": "https://www.polygon.com/23737538/phantom-blade-zero-release-date-developer-s-game",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/7rBsPnntGxAc_lbRlXW5JPtRcLE=/0x75:3840x2085/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/24681897/pb03.jpg",
+      "publishedAt": "2023-05-25T18:10:00Z",
+      "content": "Theres not a lot out there, but what fans can find speaks to a really big console exclusive"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "YouTube"
+      },
+      "author": null,
+      "title": "Cassette Beasts - Launch Trailer - Nintendo Switch - Nintendo of America",
+      "description": "Cassette Beasts is available now on Nintendo Switch: https://www.nintendo.com/store/products/cassette-beasts-switch/Cassette Beasts puts a unique retro-inspi...",
+      "url": "https://www.youtube.com/watch?v=_8OKh6nqlgw",
+      "urlToImage": "https://i.ytimg.com/vi/_8OKh6nqlgw/maxresdefault.jpg",
+      "publishedAt": "2023-05-25T18:00:13Z",
       "content": null
     },
     {
@@ -70,194 +161,103 @@
         "id": "the-verge",
         "name": "The Verge"
       },
-      "author": "Nilay Patel",
-      "title": "Google is searching for answers: 25 years of Search - The Verge",
-      "description": "After controlling how the internet has been distributed for the past 25 years, the search giant now faces an existential threat in AI. Can it maintain relevance?",
-      "url": "https://www.theverge.com/23712602/google-search-25-years-anniversary-ai-artificial-intelligence",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/X06AQWJAnDNjgfyZD_iWspNJtyg=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/24636040/236639_25_years_of_Google_Search_JLee.jpg",
-      "publishedAt": "2023-05-08T12:00:00Z",
-      "content": "After controlling how information has been distributed for the past 25 years, Google Search faces a set of challenges that will change the company and the internet forever.\r\nByNilay Patel\r\nIllustrati… [+7404 chars]"
+      "author": "Jennifer Pattison Tuohy",
+      "title": "Samsung’s new Family Hub Plus smart fridge is now available to preorder - The Verge",
+      "description": "The new Bespoke Refrigerator with Family Hub Plus is Samsung’s latest smart fridge. It has a 32-inch touchscreen tablet, is a Matter controller, and starts at $5,000.",
+      "url": "https://www.theverge.com/2023/5/25/23737374/samsung-family-hub-smart-fridge-matter",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/BRLWCHouEMKkgcfFAAW66k1pu2I=/225x92:1636x1079/1200x628/filters:focal(1139x605:1140x606)/cdn.vox-cdn.com/uploads/chorus_asset/file/24681832/Samsung_Bespoke_Family_Hub__1__1_.jpeg",
+      "publishedAt": "2023-05-25T18:00:07Z",
+      "content": "Samsungs new $5,000 32-inch tablet comes with a fridge attached\r\nSamsungs new $5,000 32-inch tablet comes with a fridge attached\r\n / The Bespoke Family Hub Plus smart fridge announced at CES is now a… [+4102 chars]"
     },
     {
       "source": {
-        "id": "google-news",
-        "name": "Google News"
+        "id": "engadget",
+        "name": "Engadget"
       },
-      "author": "Edital Concursos Brasil",
-      "title": "Erro 'comum' durante carregamento do celular te coloca em risco - Edital Concursos Brasil",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMifGh0dHBzOi8vZWRpdGFsY29uY3Vyc29zYnJhc2lsLmNvbS5ici9ub3RpY2lhcy8yMDIzLzA1L2UtZ3JhdmUtZXJyby1jb211bS1kdXJhbnRlLWNhcnJlZ2FtZW50by1kby1jZWx1bGFyLXRlLWNvbG9jYS1lbS1yaXNjby_SAQA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T12:00:00Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "G1",
-      "title": "Homem pula em valão no Riocentro para resgatar celular, e ‘pescaria’ no esgoto dura três horas; vídeo - G1",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMioQFodHRwczovL2cxLmdsb2JvLmNvbS9yai9yaW8tZGUtamFuZWlyby9ub3RpY2lhLzIwMjMvMDUvMDgvaG9tZW0tcHVsYS1lbS12YWxhby1uby1yaW9jZW50cm8tcGFyYS1yZXNnYXRhci1jZWx1bGFyLWUtcGVzY2FyaWEtbm8tZXNnb3RvLWR1cmEtdHJlcy1ob3Jhcy12aWRlby5naHRtbNIBrAFodHRwczovL2cxLmdsb2JvLmNvbS9nb29nbGUvYW1wL3JqL3Jpby1kZS1qYW5laXJvL25vdGljaWEvMjAyMy8wNS8wOC9ob21lbS1wdWxhLWVtLXZhbGFvLW5vLXJpb2NlbnRyby1wYXJhLXJlc2dhdGFyLWNlbHVsYXItZS1wZXNjYXJpYS1uby1lc2dvdG8tZHVyYS10cmVzLWhvcmFzLXZpZGVvLmdodG1s?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T11:57:00Z",
-      "content": null
+      "author": null,
+      "title": "Google begins opening access to generative AI in search - Engadget",
+      "description": "Google’s take on AI-powered search begins rolling out today.",
+      "url": "https://www.engadget.com/google-begins-opening-access-to-generative-ai-in-search-175550693.html",
+      "urlToImage": "https://s.yimg.com/uu/api/res/1.2/V64F0jmt6MQUHHjATwN_Eg--~B/Zmk9ZmlsbDtoPTYzMDtweW9mZj0wO3c9MTIwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2023-05/8521ded0-fb23-11ed-baf3-e1ea2cc3bd47.cf.jpg",
+      "publishedAt": "2023-05-25T17:56:56Z",
+      "content": "Googles take on AI-powered search begins rolling out today. The company announced this morning that its opening access to Google Search Generative Experience (SGE) and other Search Labs in the US. If… [+2030 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Push Square"
+        "name": "YouTube"
       },
-      "author": "Sammy Barker",
-      "title": "Rumour: Konami Expected to Feature in Huge PS Showcase in Coming Weeks - Push Square",
-      "description": "Any day now",
-      "url": "https://www.pushsquare.com/news/2023/05/rumour-konami-expected-to-feature-in-huge-ps-showcase-in-coming-weeks",
-      "urlToImage": "https://images.pushsquare.com/487a70b02c39e/1280x720.jpg",
-      "publishedAt": "2023-05-08T11:45:00Z",
-      "content": "Image: Push Square\r\nSprinkle a little more fuel on the flaming PS Showcase log fire. Following on from this weekends social media speculation in which it was suggested Sony may have signed up timed e… [+1128 chars]"
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "Novini.bg",
-      "title": "Руснаци полагат езиков тест, за да не бъдат експулсирани от Латвия - Novini.bg",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMiJGh0dHBzOi8vbm92aW5pLmJnL3N2aWF0L3J1c2lhLzc4MDIyMNIBKGh0dHBzOi8vbm92aW5pLmJnL2FtcC9zdmlhdC9ydXNpYS83ODAyMjA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T11:41:03Z",
+      "author": null,
+      "title": "Gollum Club - Giant Bomb",
+      "description": "The Fellowship of the Bomb has gotten together to endure the blite that is The Lord of the Rings: Gollum. #thelordoftheringsgollum #gollum #smeagol #giantbom...",
+      "url": "https://www.youtube.com/watch?v=Z2Q_jnMSi1E",
+      "urlToImage": "https://i.ytimg.com/vi/Z2Q_jnMSi1E/maxresdefault.jpg",
+      "publishedAt": "2023-05-25T17:50:51Z",
       "content": null
     },
     {
       "source": {
-        "id": "google-news",
-        "name": "Google News"
+        "id": "ars-technica",
+        "name": "Ars Technica"
       },
-      "author": "The Globe and Mail",
-      "title": "AI could pose 'more urgent' threat to humanity than climate change, Geoffrey Hinton says - The Globe and Mail",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMifWh0dHBzOi8vd3d3LnRoZWdsb2JlYW5kbWFpbC5jb20vYnVzaW5lc3MvdGVjaG5vbG9neS9hcnRpY2xlLWFpLWNvdWxkLXBvc2UtbW9yZS11cmdlbnQtdGhyZWF0LXRvLWh1bWFuaXR5LXRoYW4tY2xpbWF0ZS1jaGFuZ2Uv0gEA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T11:35:46Z",
-      "content": null
+      "author": "Ron Amadeo",
+      "title": "Google Search starts rolling out ChatGPT-style generative AI results - Ars Technica",
+      "description": "If you opt-in to generative AI, big, colorful boxes will appear in search.",
+      "url": "https://arstechnica.com/gadgets/2023/05/google-search-starts-rolling-out-chat-gpt-style-generative-ai-results/",
+      "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2023/05/io23_BlogPostHero_Full_size_RUAz.width-1200.format-webp-760x380.webp",
+      "publishedAt": "2023-05-25T17:39:22Z",
+      "content": "29 with \r\n<ul><li>\r\n Google's generative search results turn the normally stark-white results page into a range of pastels. \r\n</li><li>\r\n An example search for Bluetooth speakers. The normal list of … [+2202 chars]"
     },
     {
       "source": {
-        "id": "google-news",
-        "name": "Google News"
+        "id": "the-times-of-india",
+        "name": "The Times of India"
       },
-      "author": "NSC Total",
-      "title": "Investigação de desaparecimento de menino tem quebra de sigilo de celulares e aplicativos em SC - NSC Total",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMihAFodHRwczovL3d3dy5uc2N0b3RhbC5jb20uYnIvbm90aWNpYXMvaW52ZXN0aWdhY2FvLWRlLWRlc2FwYXJlY2ltZW50by1kZS1tZW5pbm8tdGVtLXF1ZWJyYS1kZS1zaWdpbG8tZGUtY2VsdWxhcmVzLWUtYXBsaWNhdGl2b3MtZW0tc2PSAYoBaHR0cHM6Ly93d3cubnNjdG90YWwuY29tLmJyL25vdGljaWFzL2ludmVzdGlnYWNhby1kZS1kZXNhcGFyZWNpbWVudG8tZGUtbWVuaW5vLXRlbS1xdWVicmEtZGUtc2lnaWxvLWRlLWNlbHVsYXJlcy1lLWFwbGljYXRpdm9zLWVtLXNjP2FtcD0x?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T11:32:53Z",
-      "content": null
+      "author": "TIMESOFINDIA.COM",
+      "title": "Garmin launches two watches in Instinct 2X Solar series: Price, specs and more - Times of India",
+      "description": "Garmin has launched two new smartwatches, Instinct 2X Solar and Instinct 2X Solar – Tactical Edition, designed to withstand extreme environments. Both",
+      "url": "https://timesofindia.indiatimes.com/gadgets-news/garmin-launches-two-watches-in-instinct-2x-solar-series-price-specs-and-more/articleshow/100510324.cms",
+      "urlToImage": "https://static.toiimg.com/thumb/msid-100510332,width-1070,height-580,imgsize-59770,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+      "publishedAt": "2023-05-25T17:19:00Z",
+      "content": "Garmin Forerunner 265 review: AMOLED-ing the way to fitnessGarmin Forerunner 265 series has been launched in India priced at Rs. 50,490, designed for smartwatch users passionate about fitness activit… [+156 chars]"
     },
     {
       "source": {
-        "id": "google-news",
-        "name": "Google News"
+        "id": "techcrunch",
+        "name": "TechCrunch"
       },
-      "author": "اليوم السابع",
-      "title": "مقتل عنصر جنائى شديد الخطورة عقب تبادل إطلاق الرصاص مع الشرطة بأسيوط - اليوم السابع",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMixAJodHRwczovL3d3dy55b3VtNy5jb20vc3RvcnkvMjAyMy81LzgvJUQ5JTg1JUQ5JTgyJUQ4JUFBJUQ5JTg0LSVEOCVCOSVEOSU4NiVEOCVCNSVEOCVCMS0lRDglQUMlRDklODYlRDglQTclRDglQTYlRDklODktJUQ4JUI0JUQ4JUFGJUQ5JThBJUQ4JUFGLSVEOCVBNyVEOSU4NCVEOCVBRSVEOCVCNyVEOSU4OCVEOCVCMSVEOCVBOS0lRDglQjklRDklODIlRDglQTgtJUQ4JUFBJUQ4JUE4JUQ4JUE3JUQ4JUFGJUQ5JTg0LSVEOCVBNSVEOCVCNyVEOSU4NCVEOCVBNyVEOSU4Mi0lRDglQTclRDklODQlRDglQjElRDglQjUlRDglQTclRDglQjUtJUQ5JTg1JUQ4JUI5LzYxNzM2NjLSAcACaHR0cHM6Ly9tLnlvdW03LmNvbS9hbXAvMjAyMy81LzgvJUQ5JTg1JUQ5JTgyJUQ4JUFBJUQ5JTg0LSVEOCVCOSVEOSU4NiVEOCVCNSVEOCVCMS0lRDglQUMlRDklODYlRDglQTclRDglQTYlRDklODktJUQ4JUI0JUQ4JUFGJUQ5JThBJUQ4JUFGLSVEOCVBNyVEOSU4NCVEOCVBRSVEOCVCNyVEOSU4OCVEOCVCMSVEOCVBOS0lRDglQjklRDklODIlRDglQTgtJUQ4JUFBJUQ4JUE4JUQ4JUE3JUQ4JUFGJUQ5JTg0LSVEOCVBNSVEOCVCNyVEOSU4NCVEOCVBNyVEOSU4Mi0lRDglQTclRDklODQlRDglQjElRDglQjUlRDglQTclRDglQjUtJUQ5JTg1JUQ4JUI5LzYxNzM2NjI?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T11:30:00Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "Golem.de",
-      "title": "OpenAI-Chef Sam Altman: Homeoffice \"einer der schlimmste Fehler der Tech-Industrie\" - Golem.de - Golem.de",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMie2h0dHBzOi8vd3d3LmdvbGVtLmRlL25ld3Mvb3BlbmFpLWNoZWYtc2FtLWFsdG1hbi1ob21lb2ZmaWNlLWVpbmVyLWRlci1zY2hsaW1tc3RlLWZlaGxlci1kZXItdGVjaC1pbmR1c3RyaWUtMjMwNS0xNzM5OTcuaHRtbNIBf2h0dHBzOi8vd3d3LmdvbGVtLmRlL25ld3Mvb3BlbmFpLWNoZWYtc2FtLWFsdG1hbi1ob21lb2ZmaWNlLWVpbmVyLWRlci1zY2hsaW1tc3RlLWZlaGxlci1kZXItdGVjaC1pbmR1c3RyaWUtMjMwNS0xNzM5OTcuYW1wLmh0bWw?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T11:15:02Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "Infobae America",
-      "title": "Rusia volvió a atacar Kiev con drones iraníes y mató a cuatro personas en el norte, sur y este de Ucrania - Infobae America",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMinAFodHRwczovL3d3dy5pbmZvYmFlLmNvbS9hbWVyaWNhL211bmRvLzIwMjMvMDUvMDgvcnVzaWEtdm9sdmlvLWEtYXRhY2FyLWEta2lldi1jb24tZHJvbmVzLWlyYW5pZXMteS1tYXRvLWEtY3VhdHJvLXBlcnNvbmFzLWVuLWVsLW5vcnRlLXN1ci15LWVzdGUtZGUtdWNyYW5pYS_SAbABaHR0cHM6Ly93d3cuaW5mb2JhZS5jb20vYW1lcmljYS9tdW5kby8yMDIzLzA1LzA4L3J1c2lhLXZvbHZpby1hLWF0YWNhci1hLWtpZXYtY29uLWRyb25lcy1pcmFuaWVzLXktbWF0by1hLWN1YXRyby1wZXJzb25hcy1lbi1lbC1ub3J0ZS1zdXIteS1lc3RlLWRlLXVjcmFuaWEvP291dHB1dFR5cGU9YW1wLXR5cGU?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T11:10:15Z",
-      "content": null
+      "author": "Sarah Perez",
+      "title": "ChatGPT’s new app comes out of the gate hot, tops half a million installs in first 6 days - TechCrunch",
+      "description": "Despite being U.S.- and iOS-only ahead of today's expansion to 11 more global markets, OpenAI's ChatGPT app has been off to a stellar start. The app has already surpassed half a million downloads in its first six days since launch",
+      "url": "https://techcrunch.com/2023/05/25/chatgpts-new-app-comes-out-of-the-gate-hot-tops-half-a-million-installs-in-first-6-days/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2023/05/GettyImages-1254096989.jpg?resize=1200,675",
+      "publishedAt": "2023-05-25T17:18:56Z",
+      "content": "Despite being U.S.- and iOS-only ahead of today’s expansion to 11 more global markets, OpenAI’s ChatGPT app has been off to a stellar start. The app has already surpassed half a million downloads in … [+4706 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Daily Mail"
+        "name": "GameSpot"
       },
-      "author": "Jonathan Chadwick",
-      "title": "Delete these apps NOW: Android users are urged to check their phones - Daily Mail",
-      "description": "At least 11 apps on Google Play have snazzy designs and logos and look legitimate - but they are a devious new type of malware, claims security firm Kaspersky.",
-      "url": "https://www.dailymail.co.uk/sciencetech/article-12058975/Delete-apps-Android-users-urged-check-phones.html",
-      "urlToImage": "https://i.dailymail.co.uk/1s/2023/05/08/12/70723715-0-image-a-2_1683544337230.jpg",
-      "publishedAt": "2023-05-08T11:08:41Z",
-      "content": "Android users have been urged to delete 'malicious' apps from their phones that have been secretly signing them up for paid subscriptions.\r\nSecurity firm Kaspersky found 11 apps on the Google Play St… [+6228 chars]"
+      "author": "Evan Campbell",
+      "title": "PlayStation Handheld Project Q Will Launch In November - Report - GameSpot",
+      "description": "Sony has confirmed the streaming device for PS5 will arrive sometime this year.",
+      "url": "https://www.gamespot.com/articles/playstation-handheld-project-q-will-launch-in-november-report/1100-6514569/",
+      "urlToImage": "https://www.gamespot.com/a/uploads/screen_kubrick/1813/18138562/4143336-projectq.jpg",
+      "publishedAt": "2023-05-25T17:06:52Z",
+      "content": "The products discussed here were independently chosen by our editors.\r\n GameSpot may get a share of the revenue if you buy anything featured on our site."
     },
     {
       "source": {
-        "id": "google-news",
-        "name": "Google News"
+        "id": null,
+        "name": "YouTube"
       },
-      "author": "finanzen.net",
-      "title": "Starinvestor Chamath Palihapitiya revidiert Bitcoin-Kursziel - und kritisiert SEC für Umgang mit Coinbase, Ripple & Co. - finanzen.net",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMixgFodHRwczovL3d3dy5maW5hbnplbi5uZXQvbmFjaHJpY2h0L2RldmlzZW4vMzQta3J5cHRvLWlzdC1pbi1hbWVyaWthLXRvdC0zNC1zdGFyaW52ZXN0b3ItY2hhbWF0aC1wYWxpaGFwaXRpeWEtcmV2aWRpZXJ0LWJpdGNvaW4ta3Vyc3ppZWwtdW5kLWtyaXRpc2llcnQtc2VjLWZ1ZXItdW1nYW5nLW1pdC1jb2luYmFzZS1yaXBwbGUtY28tMTI0MDE2MTDSAQA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T11:08:00Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "RTBF",
-      "title": "Combien coûte une recherche sur ChatGPT ? - RTBF",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMiTGh0dHBzOi8vd3d3LnJ0YmYuYmUvYXJ0aWNsZS9jb21iaWVuLWNvdXRlLXVuZS1yZWNoZXJjaGUtc3VyLWNoYXRncHQtMTExOTQ2NDTSAQA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T11:06:00Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "ComputerBase",
-      "title": "LG UltraWide 40WP95CP-W: Neuauflage des 5K-Monitors wird sparsamer - ComputerBase",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMiZmh0dHBzOi8vd3d3LmNvbXB1dGVyYmFzZS5kZS8yMDIzLTA1L2xnLXVsdHJhd2lkZS00MHdwOTVjcC13LW5ldWF1ZmxhZ2UtZGVzLTVrLW1vbml0b3JzLXdpcmQtc3BhcnNhbWVyL9IBAA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T11:06:00Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "InfoMoney",
-      "title": "Bitcoin cai 3% após “congestionamento” e suspensão de saques na Binance - InfoMoney",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMidmh0dHBzOi8vd3d3LmluZm9tb25leS5jb20uYnIvbWVyY2Fkb3MvY3JpcHRvcy1ob2plLWJpdGNvaW4tY2FpLWFwb3MtY29uZ2VzdGlvbmFtZW50by1lLXN1c3BlbnNhby1kZS1zYXF1ZXMtbmEtYmluYW5jZS_SAXpodHRwczovL3d3dy5pbmZvbW9uZXkuY29tLmJyL21lcmNhZG9zL2NyaXB0b3MtaG9qZS1iaXRjb2luLWNhaS1hcG9zLWNvbmdlc3Rpb25hbWVudG8tZS1zdXNwZW5zYW8tZGUtc2FxdWVzLW5hLWJpbmFuY2UvYW1wLw?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T11:00:47Z",
+      "author": null,
+      "title": "Pawn Stars: 5 SUPER RARE ILLEGAL ITEMS! - HISTORY",
+      "description": "Check out 5 items with remarkable histories - but that are illegal to buy and sell! From an antique gun desk to a tortoise shell guitar, these illegal items ...",
+      "url": "https://www.youtube.com/watch?v=Gr5BO_KN978",
+      "urlToImage": "https://i.ytimg.com/vi/Gr5BO_KN978/maxresdefault.jpg",
+      "publishedAt": "2023-05-25T17:00:08Z",
       "content": null
     }
   ]

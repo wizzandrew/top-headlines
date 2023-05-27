@@ -4,104 +4,78 @@ articles = [
             "id": "bild",
             "name": "Bild"
         },
-        "author": "Stefan Netzebandt und Ingo Wohlfeil",
-        "title": "Er will zu ihr nach Malle: Wie rechts außen ist Iris Kleins Ösi-Freund? | Audio",
-        "description": "Richard Aschbacher schwärmt für die Katzenberger-Mama. Vorher schwärmte er im Internet für wirre Verschwörungstheorien.",
-        "url": "https://www.bild.de/audio/2023/er-will-zu-ihr-nach-malle-wie-rechts-aussen-ist-iris-kleins-oesi-freund-83836880.bild.html",
-        "urlToImage": "https://images.bild.de/6457d1d929e8e86bbceed466/f52f60f98412a591d3ab92b160d0c238,f65ceef?w=1280",
-        "publishedAt": "2023-05-08T12:00:15Z",
-        "content": "Was ist das für ein Österreicher, der zu Iris Klein nach Mallorca ziehen will? Wieder mal sorgt die Katzenberger-Mama für Diskussionen auf der Insel. Denn ihr glühender Fan Richard Aschbacher gehört … [+2042 chars]"
+        "author": "Thomas Kielhorn",
+        "title": "„B:REAL“: Reality-Star Kader Loth erhält eigene TV-Show | Unterhaltung",
+        "description": "Nach BILD-Informationen erhält Reality-Star Kader Loth (50) eine eigene TV-Show.",
+        "url": "https://www.bild.de/unterhaltung/tv/tv/b-real-reality-star-kader-loth-erhaelt-eigene-tv-show-84069104.bild.html",
+        "urlToImage": "https://images.bild.de/646fcdebe6924c377c327828/8fa4efd38a7c9d8f85c9760c9df5c997,eb2fe4aa?w=1280",
+        "publishedAt": "2023-05-26T00:07:11Z",
+        "content": "Das kann ja heiter werden ...\r\nSeit einigen Wochen wird in Berlin an einem ganz neuen Realityformat gedreht. Nach BILD-Informationen handelt es sich hierbei um B:REAL Echte Promis, echtes Leben (RTLZ… [+1143 chars]"
     },
     {
         "source": {
             "id": "bild",
             "name": "Bild"
         },
-        "author": "Lien Kaspari",
-        "title": "Vernarrt in „Travemünde“: Ostsee-Delfin verliebt sich in Lotsenboot | Regional",
-        "description": "Seit Wochen vergnügt sich „Delle“ in der Trave in Travemünde. Jetzt heftete er sich an ein Lotsenboot.",
-        "url": "https://www.bild.de/regional/hamburg/hamburg-aktuell/vernarrt-in-travemuende-ostsee-delfin-verliebt-sich-in-lotsenboot-83844130.bild.html",
-        "urlToImage": "https://images.bild.de/6458d429ef8a1b4b02aa8c24/d216e18257c44d21a2fa0ca6f8801163,b80a8291?w=1280",
-        "publishedAt": "2023-05-08T12:00:01Z",
-        "content": "Lübeck Da hat er sich an das richtige Boot geheftet!\r\nSeit Wochen vergnügt sich Delle mitten in der Trave in Travemünde vor den Toren Lübecks. Zur Begeisterung Schaulustiger vollführt der Delfin Kuns… [+1183 chars]"
+        "author": "Kurt Hofmann",
+        "title": "Hoch mit Mäzen: Millionär sorgt für Zweitliga-Aufstieg | Sport",
+        "description": "Beim Zweitliga-Aufsteiger TuS Vinnhorst sorgt ein Mann im Hintergrund für alles.",
+        "url": "https://www.bild.de/sport/mehr-sport/handball/hoch-mit-maezen-millionaer-sorgt-fuer-zweitliga-aufstieg-84066750.bild.html",
+        "urlToImage": "https://images.bild.de/646f8020a5c4af09650debce/d07442fb073af0038f117a94412f3435,8f7ed933?w=1280",
+        "publishedAt": "2023-05-25T21:59:05Z",
+        "content": "Seit vergangenen Sonntag stehen der EHV Aue und der TuS Vinnhorst als \r\nHandball-Aufsteiger in die 2. Liga fest. Im Falle Vinnhorst, einem Stadtteil von Hannover, der klare Beweis, dass hoher Aufwand… [+1336 chars]"
     },
     {
         "source": {
             "id": "bild",
             "name": "Bild"
         },
-        "author": "Sebastian Geisler",
-        "title": "Brauerei-Boss sagt voraus: „Teuerste Biergarten-Sommer aller Zeiten!“ | Geld",
-        "description": "Auf breiter Front müssen Biertrinker Höchstpreise zahlen.",
-        "url": "https://www.bild.de/bild-plus/geld/wirtschaft/mein-geld/brauerei-boss-sagt-voraus-teuerste-biergarten-sommer-aller-zeiten-83815788.bild.html",
-        "urlToImage": "https://images.bild.de/64552cf5519f930044ca6885/41b0b991cb317d9b3f27eb2d2f32dcb8,e630ad6?w=1280",
-        "publishedAt": "2023-05-08T11:59:20Z",
-        "content": "Schluck, ist das teuer!\r\nStefan Fritsche (56), Vize-Chef des Brauereiverbands Berlin-Brandenburg und Geschäftsführer der Klosterbrauerei Neuzelle, zu BILD: Biertrinker zahlen neue Höchstpreise, vor a… [+146 chars]"
+        "author": "DENNIS LAMB",
+        "title": "Influencerin Orla Sloan droht Knast – „Devil Baby“ stalkte Chelsea-Star Mason Mount | Sport",
+        "description": "Wenn der Wunsch, eine Spielerfrau zu werden, aus dem Ruder läuft ...",
+        "url": "https://www.bild.de/sport/fussball/fussball-international/influencerin-orla-sloan-droht-knast-devil-baby-stalkte-chelsea-star-mason-mount-84050578.bild.html",
+        "urlToImage": "https://images.bild.de/646e275cd22898734d017edc/314d57c8881e4acb1aed2e5b180c7be1,c7d0df1f?w=1280",
+        "publishedAt": "2023-05-25T21:28:18Z",
+        "content": "Wenn der Wunsch, eine Spielerfrau zu werden, aus dem Ruder läuft ...\r\nDie britische Influencerin Orla Sloan (22/82 000 Follower bei Instagram) hat vor einem Londoner Gericht zugegeben, einen Profi de… [+2063 chars]"
     },
     {
         "source": {
             "id": "bild",
             "name": "Bild"
         },
-        "author": "WOLFGANG RANFT",
-        "title": "Unternehmer Schmelzer über Zukunftsmuseum: „Mit einem Supermarkt hätte ich mehr verdient“ | Regional",
-        "description": "Unternehmer Gerd Schmelzer sagt vor dem Untersuchungsausschuss des Landtags aus. Er ist Eigentümer des Augustinerhofs in Nürnberg, in dem das Zukunftsmuseum untergebracht ist.",
-        "url": "https://www.bild.de/regional/nuernberg/muenchen-aktuell/unternehmer-schmelzer-ueber-zukunftsmuseum-mit-einem-supermarkt-haette-ich-mehr-83844612.bild.html",
-        "urlToImage": "https://images.bild.de/6458d9af515eba702eab9d64/b2999a1b233dbcc0c59b8e464a362c48,8208a69f?w=1280",
-        "publishedAt": "2023-05-08T11:59:18Z",
-        "content": "Nürnberg Gerd Schmelzer (72) wehrt alle Vorwürfe ab, er würde sich am Zukunftsmuseum bereichern. An einem Supermarkt würde ich mehr verdienen, sagte er im Untersuchungsausschuss des Bayerischen Landt… [+2531 chars]"
+        "author": "Nora Henze",
+        "title": "Heidi kennt keine Gnade : Panik-Shooting bei GNTM | Unterhaltung",
+        "description": "Diese „Germany’s Next Topmodel“-Woche wurde für die Kandidatinnen zu einem Extremtest.",
+        "url": "https://www.bild.de/unterhaltung/tv/tv/heidi-kennt-keine-gnade-panik-shooting-bei-gntm-84064930.bild.html",
+        "urlToImage": "https://images.bild.de/646f70e98757e861d251bc4b/4a06beebf20348a9fca886187d1a09db,fc0ab27a?w=1280",
+        "publishedAt": "2023-05-25T21:25:17Z",
+        "content": "Warum drei Models in Vegas nicht mitfeiern durften ...\r\nDiese \r\nGermanys Next Topmodel-Woche wurde für die Kandidatinnen zu einem Wechselbad der Gefühle.\r\nWährend einige von ihnen im schillernden Las… [+4791 chars]"
     },
     {
         "source": {
             "id": "bild",
             "name": "Bild"
         },
-        "author": "noel altendorf und Marco Zitzow",
-        "title": "Über 200 Fahrzeuge gestoppt: Drogen-Razzia auf der A1 | Regional",
-        "description": "Großkontrolle gegen Drogen an der A1 zwischen Bremen und Hamburg! - der Schmuggelroute aus den Niederlanden.",
-        "url": "https://www.bild.de/regional/hamburg/hamburg-aktuell/ueber-200-fahrzeuge-gestoppt-drogen-razzia-auf-der-a1-83844226.bild.html",
-        "urlToImage": "https://images.bild.de/6458ce37515eba702eab9d2a/4b1084c6e1f89fcb8642753fb8635d6b,ac7df1ab?w=1280",
-        "publishedAt": "2023-05-08T11:56:58Z",
-        "content": "Buchholz in der Nordheide Großkontrolle gegen Drogenschmuggler an der A1 zwischen Bremen und Hamburg bei Hollenstedt der Dealer-Route aus den Niederlanden.\r\nIn den letzten beiden Nächten überprüften … [+434 chars]"
+        "author": "Mark Bittner",
+        "title": "Nach Machtkampf: Chefredakteur Steffen Klusmann verlässt den „Spiegel“ | News",
+        "description": "Chefredakteur Steffen Klusmann (57) verlässt das Nachrichtenmagazin „Der Spiegel“.  Sein Nachfolger steht schon fest.",
+        "url": "https://www.bild.de/news/2023/news/eilmeldung-84067632.bild.html",
+        "urlToImage": "https://images.bild.de/646f91f38757e861d251bc93/db667ea090f2768ae69d1f18102b1e32,ae067d67?w=1280",
+        "publishedAt": "2023-05-25T21:19:14Z",
+        "content": "Chefredakteur Steffen Klusmann (57) verlässt das Nachrichtenmagazin Der Spiegel. Der bisherige Leiter des Hauptstadt-Büros, Dirk Kurbjuweit (60), übernimmt ab sofort den Posten.\r\nIm Hintergrund soll … [+2082 chars]"
     },
     {
         "source": {
             "id": "bild",
             "name": "Bild"
         },
-        "author": "BILD",
-        "title": "Autobahnbrücke gesprengt: Der Einsturz-Moment im Video | Regional",
-        "description": "Rumms! Und damit ist die marode Autobahnbrücke auf der A45 über dem Fluss Rahmede Geschichte!",
-        "url": "https://www.bild.de/video/clip/ruhrgebiet-regional/mega-rrrrrrumms-im-sauerland-die-sprengung-der-talbruecke-im-video-83832184.bild.html",
-        "urlToImage": "https://images.bild.de/6457835266abad0dd46ce300/5aba8f2778cab13250c6fae78e05d897,463d0a51?w=1280",
-        "publishedAt": "2023-05-08T11:56:24Z",
-        "content": "Mehr zum Video anzeigen\r\nRumms! Und damit ist die marode Autobahnbrücke auf der A45 über dem Fluss Rahmede Geschichte!\r\nQuelle: Reuters\r\n 08.05.2023 - 13:56 Uhr"
-    },
-    {
-        "source": {
-            "id": "bild",
-            "name": "Bild"
-        },
-        "author": "Peter Lauschmann und Jakob Mell",
-        "title": "Bayern: Mann schläft auf Zugspitze und filmt alles live auf Twitch | Regional",
-        "description": "Garmisch-Partenkirchen (Bayern) – Diese Aktion sorgt für Kopfschütteln bei erfahrenen Bergwanderern.",
-        "url": "https://www.bild.de/regional/nuernberg/nuernberg-news/bayern-mann-schlaeft-auf-zugspitze-und-filmt-alles-live-auf-twitch-83842188.bild.html",
-        "urlToImage": "https://images.bild.de/6458b725496166135817c919/ed622f0c116d9c16ba31e1bf9cbccaaa,17fbfb8b?w=1280",
-        "publishedAt": "2023-05-08T11:56:23Z",
-        "content": "Garmisch-Partenkirchen (Bayern) Diese Aktion sorgt für Kopfschütteln bei erfahrenen Bergwanderern: Ein junger Mann (19) hat schlecht ausgerüstet auf der Zugspitze übernachtet und alles live im Intern… [+2534 chars]"
-    },
-    {
-        "source": {
-            "id": "bild",
-            "name": "Bild"
-        },
-        "author": "Von PAUL RONZHEIMER und GIORGOS MOUTAFIS (zzt. Kiew)",
-        "title": "Putins Drohnen-Attacke komplett gescheitert – dank deutscher Waffen | Politik",
-        "description": "Mit 36 Drohnen ließ Putin Kiew angreifen – doch sein Angriff scheiterte komplett.",
-        "url": "https://www.bild.de/politik/ausland/politik-ausland/putins-drohnen-attacke-komplett-gescheitert-dank-deutscher-waffen-83844264.bild.html",
-        "urlToImage": "https://images.bild.de/6458c994496166135817c964/c4b686dec5697fb426fcad4ab80fdb1b,a51e2bf9?w=1280",
-        "publishedAt": "2023-05-08T11:52:05Z",
-        "content": "Wie schaffen die Ukrainer das nur? Russlands Präsident Wladimir Putin (70) terrorisiert das Land weiter mit Drohnen-Angriffen, aber die Ukrainer wehren ALLE ab!\r\nAlarm die ganze Nacht gestern im gesa… [+2302 chars]"
+        "author": "THORSTEN FELSKE",
+        "title": "Endspiel in Gladbach: FC Augsburg zittert bis zum Schluss | Sport",
+        "description": "In Gladbach feierte der FC Augsburg in der Bundesliga am letzten Spieltag der Saison 2014/15 den größten Vereinserfolg. Diesmal geht es um den Klassenerhalt",
+        "url": "https://www.bild.de/sport/fussball/fc-augsburg/endspiel-in-gladbach-fc-augsburg-zittert-bis-zum-schluss-84069058.bild.html",
+        "urlToImage": "https://images.bild.de/646fccc6511f332b9346574a/0ffbdcf0663fc7d701990514cb85b8b1-landscape,f8902dd9?w=1280",
+        "publishedAt": "2023-05-25T21:16:34Z",
+        "content": "Wie sich die Zeiten ändern!\r\nIn Gladbach feierte der\r\nFC Augsburg in der \r\nBundesliga am letzten Spieltag der Saison 2014/15 den größten Vereinserfolg. Mit dem 3:1-Sieg wurde man sensationell Tabelle… [+1221 chars]"
     },
     {
         "source": {
@@ -109,24 +83,50 @@ articles = [
             "name": "Bild"
         },
         "author": "BILD",
-        "title": "Kardiologe der Charité verhaftet! Verdachts des zweifachen Mordes | Regional",
-        "description": "Ein an der Charité angestellter Facharzt wurde verhaftet. Der Tatverdacht: zweifacher Mord!",
-        "url": "https://www.bild.de/regional/berlin/berlin-aktuell/kardiologe-der-charit-verhaftet-verdachts-des-zweifachen-mordes-83844876.bild.html",
-        "urlToImage": "https://images.bild.de/6458dc0f515eba702eab9d71/6830c69e29e15c0637604f965ce1bf71,91816ea8?w=1280",
-        "publishedAt": "2023-05-08T11:40:44Z",
-        "content": "Berlin  Ein an der Charité angestellter Facharzt für Kardiologie wurde am Montagmorgen verhaftet. Er stehe wegen zweifachen Mordes unter dringendem Tatverdacht, teilte die Polizei mit. \r\nGegen den 55… [+1587 chars]"
+        "title": "Måneskin-Tour vorbei, Klamotten aus | Unterhaltung",
+        "description": "Måneskin-Sänger Damiano feiert nackt das Tour-Ende, ein Nike-Schuh auf einem 371 Jahre altem Gemälde und Thomas Gottschalks ultimativer Anti-Faltentipp – in der BILDBoxx mit Martin Gerstenberg.",
+        "url": "https://www.bild.de/video/clip/video/mneskin-tour-vorbei-klamotten-aus-bild-boxx-84047624.bild.html",
+        "urlToImage": "https://images.bild.de/646e071ae6924c377c3274b8/03d71f669b362e285fb0d12f6002a39d,6439862b?w=1280",
+        "publishedAt": "2023-05-25T21:12:11Z",
+        "content": "Mehr zum Video anzeigen\r\nMåneskin-Sänger Damiano feiert nackt auf Instagram das Tour-Ende, ein Nike-Schuh auf einem 371 Jahre altem Gemälde und Thomas Gottschalks ultimativer Anti-Faltentipp in der B… [+84 chars]"
     },
     {
         "source": {
             "id": "bild",
             "name": "Bild"
         },
-        "author": "Nico Linner und David Verhoff",
-        "title": "FC Bayern: Nicht nur Müller! Tuchels vier heiße Startelf-Fragen gegen Schalke | Sport",
-        "description": "Mit Blick auf das nächste Heimspiel des FC Bayern gegen Schalke steht Trainer Thomas Tuchel vor vier brisanten Startelf-Entscheidungen.",
-        "url": "https://www.bild.de/sport/fussball/bayern-muenchen/fc-bayern-nicht-nur-mueller-tuchels-vier-heisse-startelf-fragen-gegen-schalke-83840932.bild.html",
-        "urlToImage": "https://images.bild.de/6458ab15515eba702eab9cc9/dc34339602ee0c487c36388237310774,e0625775?w=1280",
-        "publishedAt": "2023-05-08T11:37:05Z",
-        "content": "Diese vier Fragen bewegen den \r\nFC Bayern!\r\nDass Thomas Tuchel (49) den Fan-Liebling Thomas Müller (33) in den letzten beiden Bundesliga-Spielen zum Einwechsel-Profi degradiert hat, wird in München h… [+2418 chars]"
+        "author": "Sven Kuschel",
+        "title": "Ina Müller und Johannes Oerding: Trennung! So wollen sie weitermachen | Unterhaltung",
+        "description": "Ihr Liebe zueinander ist versiegt. Die gemeinsame Beziehung zur Musik soll weiter fließen.",
+        "url": "https://www.bild.de/unterhaltung/leute/leute/ina-mueller-und-johannes-oerding-trennung-so-wollen-sie-weitermachen-84067458.bild.html",
+        "urlToImage": "https://images.bild.de/646f8b618757e861d251bc8c/a22c0ed941e173a9475bb72b720c24b6,c54d1c16?w=1280",
+        "publishedAt": "2023-05-25T20:56:43Z",
+        "content": "Ihr Liebe zueinander ist versiegt. Die gemeinsame Beziehung zur Musik soll weiter fließen...\r\nEntertainerin Ina Müller (57, Inas Nacht) und Pop-Held Johannes Oerding (41, An guten Tagen) haben sich n… [+2327 chars]"
+    },
+    {
+        "source": {
+            "id": "bild",
+            "name": "Bild"
+        },
+        "author": "Jan-Henrik Dobers und Thomas Röthemeier",
+        "title": "Als Luca ihn reparieren wollte: Jung-Bauer (19) von Dünger-Streuer zerquetscht | Regional",
+        "description": "Luca G. wollte auf einem Bauernhof in Schleswig-Holstein einen Dünger-Streuer an seinem Traktor reparieren, starb dabei unter dramatischen Umständen.",
+        "url": "https://www.bild.de/regional/hamburg/hamburg-aktuell/als-luca-ihn-reparieren-wollte-jung-bauer-19-von-duenger-streuer-zerquetscht-84057490.bild.html",
+        "urlToImage": "https://images.bild.de/646f1faa8757e861d251bb0a/17bc77b4095b5e02c440c67fecd4b246,7ec2ab22?w=1280",
+        "publishedAt": "2023-05-25T20:36:38Z",
+        "content": "Ratzeburg (Schleswig-Holstein) Traktoren waren seine Leidenschaft. Für die Arbeit in der Landwirtschaft schob Luca G. aus Lankau regelmäßig Extra-Schichten, wenn nötig bis tief in die Nacht. Jetzt is… [+1977 chars]"
+    },
+    {
+        "source": {
+            "id": "bild",
+            "name": "Bild"
+        },
+        "author": "chantal schüler",
+        "title": "Tina Turners Musical-Crew: Sie erfuhren auf der Bühne von ihrem Tod  | Unterhaltung",
+        "description": "Während sie auf der Bühne ihr Leben feierten, schlief der Star für immer ein. Hier lesen Sie, auf welche berührende Weise die Darsteller die Show beendeten.",
+        "url": "https://www.bild.de/unterhaltung/leute/leute/tina-turners-musical-crew-sie-erfuhren-auf-der-buehne-von-ihrem-tod-84061722.bild.html",
+        "urlToImage": "https://images.bild.de/646f4f1f8757e861d251bbd3/c60c15c220ceb1a4dba6667cfa96e6b0,5af68d87?w=1280",
+        "publishedAt": "2023-05-25T20:26:54Z",
+        "content": "Während sie auf der Bühne ihr Leben feierten, erfuhren sie vom Tod ihres großen Stars \r\nDas musikalische Vermächtnis der großen Tina Turner (83) ist seit April 2018 in dem Musical Tina zu bestaunen. … [+4574 chars]"
     }
 ]

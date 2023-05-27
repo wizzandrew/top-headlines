@@ -2,15 +2,67 @@
   "articles": [
     {
       "source": {
-        "id": "google-news",
-        "name": "Google News"
+        "id": null,
+        "name": "CNBC"
       },
-      "author": "Prensa Latina",
-      "title": "Son de Cuba como digno sello de identidad - Prensa Latina",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMiUWh0dHBzOi8vd3d3LnByZW5zYS1sYXRpbmEuY3UvMjAyMy8wNS8wOC9zb24tZGUtY3ViYS1jb21vLWRpZ25vLXNlbGxvLWRlLWlkZW50aWRhZNIBAA?oc=5",
+      "author": "Alex Harring",
+      "title": "Stock futures are little changed as investors watch for debt ceiling updates, inflation data: Live updates - CNBC",
+      "description": "The moves followed a tech rally in Thursday's session",
+      "url": "https://www.cnbc.com/2023/05/25/stock-market-today-live-updates.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/101102460-101102460-173311268r.jpg?v=1685052086&w=1920&h=1080",
+      "publishedAt": "2023-05-25T22:03:00Z",
+      "content": "S&amp;P 500 futures are modestly below flat Thursday night as investors awaited signs of progress on debt ceiling negotiations and a batch of economic data that can provide insight into the path of i… [+2216 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "YouTube"
+      },
+      "author": null,
+      "title": "IMF·금융위기 이어 최악 성장률 한국 경제, 이미 저성장 진입? -[핫이슈PLAY] MBC뉴스 2023년 05월26일 - MBCNEWS",
+      "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+      "url": "https://www.youtube.com/watch?v=CWLXQZ8Tb84",
       "urlToImage": null,
-      "publishedAt": "2023-05-08T10:32:00Z",
+      "publishedAt": "2023-05-25T22:00:13Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Citylife.capetown"
+      },
+      "author": "André De Bonis",
+      "title": "AI's Aquatic Imprint: A Case Study on ChatGPT - CityLife",
+      "description": "AI's Aquatic Imprint: A Case Study on ChatGPT - CityLife",
+      "url": "https://citylife.capetown/uncategorized/ais-aquatic-imprint-a-case-study-on-chatgpt/27075/",
+      "urlToImage": "https://citylife.capetown/wp-content/uploads/2023/05/mfrack_realistic_photo_of_future_of_AI_projects_acc8faf2-1855-4e75-acd8-3acb4c2e7ce0.jpeg",
+      "publishedAt": "2023-05-25T21:52:56Z",
+      "content": "Artificial intelligence (AI) has been making waves in various industries, and marine conservation is no exception. The aquatic imprint of AI is increasingly evident as it plays a critical role in und… [+3527 chars]"
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Umar Shakir",
+      "title": "Ford EVs will use Tesla's charging plug starting next year - The Verge",
+      "description": "Ford and Tesla’s deal for electric vehicle charging means upcoming Fords will use Tesla’s NACS charging plug and that soon, Ford EVs will be able to fast-charge at Tesla’s Superchargers.",
+      "url": "https://www.theverge.com/2023/5/25/23737896/ford-tesla-ev-fast-charging-elon-musk-twitter-space",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/LeRLp_4oEirkElmSoMVq0P2IggE=/0x0:4032x3024/1200x628/filters:focal(2016x1512:2017x1513)/cdn.vox-cdn.com/uploads/chorus_asset/file/24683434/Ford_Tesla_Mustang_Mach_E.jpg",
+      "publishedAt": "2023-05-25T21:50:00Z",
+      "content": "Ford EVs will use Teslas charging plug starting next year\r\nFord EVs will use Teslas charging plug starting next year\r\n / And starting early next year, owners of Fords electric cars will be able to fa… [+4758 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Barron's"
+      },
+      "author": "Al Root",
+      "title": "Nvidia Stock Surge Is a Warning to Tesla—and Vice Versa - Barron's",
+      "description": "The chip maker's incredible quarter—and share price gain—holds both promise and peril for another stock market darling.",
+      "url": "https://www.barrons.com/articles/tesla-stock-price-nvidia-ai-57ca2055",
+      "urlToImage": "https://images.barrons.com/im-788714/social",
+      "publishedAt": "2023-05-25T21:35:00Z",
       "content": null
     },
     {
@@ -18,12 +70,12 @@
         "id": "google-news",
         "name": "Google News"
       },
-      "author": "nhk.or.jp",
-      "title": "銀座 高級腕時計店で強盗 複数の男 ショーケース割り商品奪う - nhk.or.jp",
+      "author": "The Texas Tribune",
+      "title": "Texas Attorney General Ken Paxton faces call for impeachment by House panel - The Texas Tribune",
       "description": null,
-      "url": "https://news.google.com/rss/articles/CBMiPmh0dHBzOi8vd3d3My5uaGsub3IuanAvbmV3cy9odG1sLzIwMjMwNTA4L2sxMDAxNDA2MDg0MTAwMC5odG1s0gFCaHR0cHM6Ly93d3czLm5oay5vci5qcC9uZXdzL2h0bWwvMjAyMzA1MDgvYW1wL2sxMDAxNDA2MDg0MTAwMC5odG1s?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiTWh0dHBzOi8vd3d3LnRleGFzdHJpYnVuZS5vcmcvMjAyMy8wNS8yNS9rZW4tcGF4dG9uLWltcGVhY2htZW50LWludmVzdGlnYXRpb24v0gEA?oc=5",
       "urlToImage": null,
-      "publishedAt": "2023-05-08T10:29:16Z",
+      "publishedAt": "2023-05-25T21:23:34Z",
       "content": null
     },
     {
@@ -31,234 +83,182 @@
         "id": "google-news",
         "name": "Google News"
       },
-      "author": "Applesfera",
-      "title": "MediaMarkt rebaja el precio del iPhone 14 Plus en su Semana Web con uno de los mejores descuentos hasta... - Applesfera",
+      "author": "The Guardian",
+      "title": "Romeo and Juliet movie child abuse lawsuit to be thrown out by judge - The Guardian",
       "description": null,
-      "url": "https://news.google.com/rss/articles/CBMid2h0dHBzOi8vd3d3LmFwcGxlc2ZlcmEuY29tL3NlbGVjY2lvbi9tZWRpYW1hcmt0LXJlYmFqYS1wcmVjaW8taXBob25lLTE0LXBsdXMtc3Utc2VtYW5hLXdlYi11bm8tbWVqb3Jlcy1kZXNjdWVudG9zLWZlY2hh0gF7aHR0cHM6Ly93d3cuYXBwbGVzZmVyYS5jb20vc2VsZWNjaW9uL21lZGlhbWFya3QtcmViYWphLXByZWNpby1pcGhvbmUtMTQtcGx1cy1zdS1zZW1hbmEtd2ViLXVuby1tZWpvcmVzLWRlc2N1ZW50b3MtZmVjaGEvYW1w?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiZWh0dHBzOi8vd3d3LnRoZWd1YXJkaWFuLmNvbS9maWxtLzIwMjMvbWF5LzI1L3JvbWVvLWp1bGlldC1tb3ZpZS1mcmFuY28temVmZmlyZWxsaS1jaGlsZC1hYnVzZS1sYXdzdWl00gFlaHR0cHM6Ly9hbXAudGhlZ3VhcmRpYW4uY29tL2ZpbG0vMjAyMy9tYXkvMjUvcm9tZW8tanVsaWV0LW1vdmllLWZyYW5jby16ZWZmaXJlbGxpLWNoaWxkLWFidXNlLWxhd3N1aXQ?oc=5",
       "urlToImage": null,
-      "publishedAt": "2023-05-08T10:27:55Z",
+      "publishedAt": "2023-05-25T21:20:00Z",
       "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Deadline"
+      },
+      "author": "Dominic Patten",
+      "title": "‘Romeo & Juliet’ $100M Sex Abuse Suit Is “Gross Mischaracterization” & Will Be Dismissed, Judge Says - Deadline",
+      "description": "“Thus with a kiss I die,” wrote William Shakespeare in Romeo & Juliet, and thus echoed a Los Angeles judge today over the alleged sexual abuse and negligence lawsuit from the stars of Franco Ze…",
+      "url": "https://deadline.com/2023/05/sexual-abuse-romeo-juliet-lawsuit-dismissed-olivia-hussey-leonard-whiting-paramount-1235380066/",
+      "urlToImage": "https://deadline.com/wp-content/uploads/2023/05/romeo-juliet.jpg?w=1024",
+      "publishedAt": "2023-05-25T20:47:00Z",
+      "content": "“Thus with a kiss I die,” wrote William Shakespeare in Romeo &amp; Juliet, and thus echoed a Los Angeles judge today over the alleged sexual abuse and negligence lawsuit from the stars of Franco Zeff… [+3717 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Fandomwire.com"
+      },
+      "author": "Massimo Castelli",
+      "title": "PlayStation Showcase: 'Assassin's Creed Mirage's' New Gameplay Trailer Looks like a Return to Form For The Series - FandomWire",
+      "description": "A new gameplay trailer for Assassin’s Creed Mirage has been unveiled at this year’s PlayStation Showcase. It appears that Ubisoft will be taking the game back",
+      "url": "https://fandomwire.com/assassins-creed-mirages-gameplay-trailer-revealed/",
+      "urlToImage": "https://cdn.fandomwire.com/wp-content/uploads/2023/05/25160458/349503590_598538145377852_4622506662142575483_n.jpg",
+      "publishedAt": "2023-05-25T20:39:13Z",
+      "content": "A new gameplay trailer for Assassins Creed Mirage has been unveiled at this years PlayStation Showcase. It appears that Ubisoft will be taking the game back to basics drawing more influence from olde… [+3802 chars]"
+    },
+    {
+      "source": {
+        "id": "espn",
+        "name": "ESPN"
+      },
+      "author": "Eric Woodyard",
+      "title": "Lions' Jameson Williams 'wasn't aware' of NFL gambling policy - ESPN - ESPN",
+      "description": "Detroit Lions receiver Jameson Williams said he \"wasn't aware\" of the NFL's gambling policy that led to his six-game suspension.",
+      "url": "https://www.espn.com/nfl/story/_/id/37728879/lions-jameson-williams-aware-nfl-gambling-policy",
+      "urlToImage": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2022%2F1211%2Fr1105316_1296x729_16%2D9.jpg",
+      "publishedAt": "2023-05-25T20:27:00Z",
+      "content": "ALLEN PARK, Mich. -- Jameson Williams admitted to feeling \"sick\" and \"hurt\" on the night of April 20 when the Detroit Lions' second-year receiver learned of his six-game suspension for violating the … [+3576 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "News-Medical.Net"
+      },
+      "author": null,
+      "title": "Novel vaccine offers hope for defeating epidemic meningitis by 2030 - News-Medical.Net",
+      "description": "A trial of a new vaccine against meningococcal disease, a cause of meningitis and blood poisoning, has found that it is safe and induces a strong immune response across five strains of meningococcal bacteria: A, C, W, Y and X.",
+      "url": "https://www.news-medical.net/news/20230525/Novel-vaccine-offers-hope-for-defeating-epidemic-meningitis-by-2030.aspx",
+      "urlToImage": "https://d2jx2rerrg6sh3.cloudfront.net/image-handler/picture/2017/1/A_doctor_makes_a_vaccination_to_a_child-Yuganov_Konstantin_cdbf1b05417f45e89b8268af4858e1c9-620x480.jpg",
+      "publishedAt": "2023-05-25T20:24:00Z",
+      "content": "A trial of a new vaccine against meningococcal disease, a cause of meningitis and blood poisoning, has found that it is safe and induces a strong immune response across five strains of meningococcal … [+3929 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Devlin Barrett, Josh Dawsey, Spencer S. Hsu, Perry Stein",
+      "title": "Trump workers moved Mar-a-Lago boxes a day before Justice Dept. came for documents - The Washington Post",
+      "description": "The events at Mar-a-Lago include an alleged “dress rehearsal” for moving sensitive papers and show a focus on Donald Trump’s instructions and intent.",
+      "url": "https://www.washingtonpost.com/national-security/2023/05/25/trump-classified-documents-mar-a-lago/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/HYHY6BZX465QWMHXWUUL3T35DI_size-normalized.jpg&w=1440",
+      "publishedAt": "2023-05-25T20:22:35Z",
+      "content": "Comment on this story\r\nComment\r\nTwo of Donald Trumps employees moved boxes of papers the day before FBI agents and a prosecutor visited the former presidents Florida home to retrieve classified docum… [+10085 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "SciTechDaily"
+      },
+      "author": null,
+      "title": "Upgraded LIGO Reactivated: Resumes Unraveling Universe's Secrets With Enhanced Gravitational Wave Detection - SciTechDaily",
+      "description": "Scientists have reactivated the upgraded Laser Interferometric Gravitational-Wave Observatory (LIGO) after a three-year break, improving its ability to measure gravitational waves. These waves offer new opportunities for multi-messenger astronomy and deepen o…",
+      "url": "https://scitechdaily.com/?p=280417",
+      "urlToImage": "https://scitechdaily.com/images/Astrophysics-Gravitational-Waves-Concept.jpg",
+      "publishedAt": "2023-05-25T20:17:22Z",
+      "content": "ByChad Hanna, Penn StateMay 25, 2023\r\nWhen two massive objects like black holes or neutron stars merge, they warp space and time.\r\nScientists have reactivated the upgraded Laser Interferometric Gravi… [+12741 chars]"
+    },
+    {
+      "source": {
+        "id": "usa-today",
+        "name": "USA Today"
+      },
+      "author": ", USA TODAY",
+      "title": "11-year-old Mississippi boy who called 911 shot by responding officer: 'Why did he shoot me?' - USA TODAY",
+      "description": "Aderrien Murry was shot in the chest while an Indianola Police Department officer was responding to a domestic disturbance call his home, police said.",
+      "url": "https://www.usatoday.com/story/news/nation/2023/05/25/aderrien-murry-indianola-miss-police-shooting/70257644007/",
+      "urlToImage": "https://www.gannett-cdn.com/presto/2023/05/25/USAT/fc169a18-ebea-4498-88d5-b83a02b97808-IMG_3699.jpg?auto=webp&crop=3023,1701,x0,y403&format=pjpg&width=1200",
+      "publishedAt": "2023-05-25T20:17:11Z",
+      "content": "An 11-year-old boy shot by Mississippi police after he dialed 911 for help is recovering following his release from the hospital, his attorney said Thursday.\r\nAderrien Murry was shot in the chest ear… [+2760 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The Guardian"
+      },
+      "author": "Maya Yang",
+      "title": "Scientists use AI to discover new antibiotic to treat deadly superbug - The Guardian",
+      "description": "AI used to discover abaucin, an effective drug against A baumannii, bacteria that can cause dangerous infections",
+      "url": "https://www.theguardian.com/technology/2023/may/25/artificial-intelligence-antibiotic-deadly-superbug-hospital",
+      "urlToImage": "https://i.guim.co.uk/img/media/e3742a9a99450fcce971220af793a15e6e951b69/0_413_5500_3300/master/5500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=97206dbd434ab5689f21198d438aaa2c",
+      "publishedAt": "2023-05-25T19:54:00Z",
+      "content": "Scientists using artificial intelligence have discovered a new antibiotic that can kill a deadly superbug.\r\nAccording to a new study published on Thursday in the science journal Nature Chemical Biolo… [+8459 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Billboard"
+      },
+      "author": "Ed Christman",
+      "title": "How Much Money Do Tina Turner Recordings Make Each Year? – Billboard - Billboard",
+      "description": "The music icon’s recordings earn around $3.7 million annually in streams and synchs, Billboard estimates.",
+      "url": "https://www.billboard.com/pro/how-much-money-tina-turner-recordings-each-year/",
+      "urlToImage": "https://www.billboard.com/wp-content/uploads/2023/05/tina-turner-1987-a-billboard-1548.jpg?w=1024",
+      "publishedAt": "2023-05-25T19:34:20Z",
+      "content": "The solo music catalog of legendary pop, rock and soul performer Tina Turner still brings in $3.7 million a year in synchs, sales and streaming activity, according to Billboard estimates. \r\nTurner, w… [+3030 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "247Sports"
+      },
+      "author": "Robbie Weinstein",
+      "title": "College football transfer portal: 5 QBs primed for a renaissance season at new schools in 2023 - 247Sports",
+      "description": "These players didn't shine last fall, but they could this year at their new programs",
+      "url": "https://247sports.com/longformarticle/college-football-transfer-portal-5-qbs-primed-for-a-renaissance--210691969/",
+      "urlToImage": "https://s3media.247sports.com/Uploads/Assets/101/719/11719101.jpg",
+      "publishedAt": "2023-05-25T19:30:25Z",
+      "content": "Bryan Harsin's two-year tenure at Auburn came to an unceremonious end in October after the disappointment from a 6-7 finish in 2021 made 2022's 3-5 start tough to ignore. Harsin said his termination … [+2401 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Sci.news"
+      },
+      "author": "Natali Anderson",
+      "title": "Intermediate-Mass Black Hole May Be Lurking in Messier 4 - Sci.News",
+      "description": "Messier 4 is a globular cluster full of ancient stars in the constellation of Scorpius, approximately 7,200 light-years away.",
+      "url": "https://www.sci.news/astronomy/messier-4-intermediate-mass-black-hole-11947.html",
+      "urlToImage": "https://cdn.sci.news/images/2023/05/image_11947-Messier-4.jpg",
+      "publishedAt": "2023-05-25T19:21:16Z",
+      "content": "Messier 4 is a globular cluster full of ancient stars in the constellation of Scorpius, approximately 7,200 light-years away.\r\nVitral et al. suspect that an intermediate-mass black hole, weighing as … [+3355 chars]"
     },
     {
       "source": {
         "id": "cnn",
         "name": "CNN"
       },
-      "author": "Josh Campbell,Ed Lavandera,Elizabeth Wolfe,Sara Smart",
-      "title": "New details emerge about Texas outlet mall shooter as investigators continue to probe for motive - CNN",
-      "description": "As investigators continue to probe for a motive in the mass shooting that left eight people dead and at least seven others wounded at a Texas outlet mall, details of the gunman's background have begun to surface, including extremist social media postings, a s…",
-      "url": "https://www.cnn.com/2023/05/08/us/allen-texas-mall-shooting-gunman-monday/index.html",
-      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230507160910-14-allen-texas-outlet-mall-active-shooter-050723.jpg?c=16x9&q=w_800,c_fill",
-      "publishedAt": "2023-05-08T10:25:00Z",
-      "content": "As investigators continue to probe for a motive in the mass shooting that left eight people dead and at least seven others wounded at a Texas outlet mall, details of the gunmans background have begun… [+6905 chars]"
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "Delfi",
-      "title": "Gada inflācija Igaunijā aprīlī samazinājusies līdz 13,5% - Delfi",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMiamh0dHBzOi8vd3d3LmRlbGZpLmx2L2Jpem5lc3MvcGFzYXVsZS9nYWRhLWluZmxhY2lqYS1pZ2F1bmlqYS1hcHJpbGktc2FtYXppbmFqdXNpZXMtbGlkei0xMy01LmQ_aWQ9NTU0OTcxNTbSAQA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T10:21:33Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "Nasional Kompas.com",
-      "title": "Kemenkes Catat Sekitar 100.000 dari 526.841 Orang dengan HIV yang Belum Terdeteksi di Indonesia - Kompas.com - Nasional Kompas.com",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMiemh0dHBzOi8vbmFzaW9uYWwua29tcGFzLmNvbS9yZWFkLzIwMjMvMDUvMDgvMTcyMTMzODEva2VtZW5rZXMtY2F0YXQtc2VraXRhci0xMDAwMDAtZGFyaS01MjY4NDEtb3JhbmctZGVuZ2FuLWhpdi15YW5nLWJlbHVt0gF-aHR0cHM6Ly9hbXAua29tcGFzLmNvbS9uYXNpb25hbC9yZWFkLzIwMjMvMDUvMDgvMTcyMTMzODEva2VtZW5rZXMtY2F0YXQtc2VraXRhci0xMDAwMDAtZGFyaS01MjY4NDEtb3JhbmctZGVuZ2FuLWhpdi15YW5nLWJlbHVt?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T10:21:00Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "TVNET",
-      "title": "Pat dejojošais karalis! Kā karaliskā ģimene izklaidējas kronēšanas koncertā - TVNET",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMiZ2h0dHBzOi8vd3d3LnR2bmV0Lmx2Lzc3Njk2NjQvcGF0LWRlam9qb3NhaXMta2FyYWxpcy1rYS1rYXJhbGlza2EtZ2ltZW5lLWl6a2xhaWRlamFzLWtyb25lc2FuYXMta29uY2VydGHSAQA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T10:20:00Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "tv3.lv - Ziņas",
-      "title": "PVD paņēmis paraugus no 15 mirušiem ķīriem Krāslavā uz salas Daugavā - tv3.lv - Ziņas",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMiYmh0dHBzOi8vemluYXMudHYzLmx2L2xhdHZpamEvcHZkLXBhbmVtaXMtcGFyYXVndXMtbm8tMTUtbWlydXNpZW0ta2lyaWVtLWtyYXNsYXZhLXV6LXNhbGFzLWRhdWdhdmEv0gEA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T10:19:29Z",
-      "content": null
+      "author": "Emi Jozuka,Junko Ogura,Xiaofei Xu",
+      "title": "Suspect barricaded in building after shooting and stabbing attack in Japan leaves three dead - CNN",
+      "description": "The suspect in a lethal shooting and stabbing attack in Japan remains barricaded inside a home in Nakano City, hours after the rare spate of violence left three dead on Thursday, according to local police.",
+      "url": "https://www.cnn.com/2023/05/25/asia/nakano-shooting-central-japan-intl-hnk/index.html",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230525121549-01-japan-shooting-052523.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2023-05-25T18:50:00Z",
+      "content": "The suspect in a lethal shooting and stabbing attack in Japan remains barricaded inside a home in Nakano City, hours after the rare spate of violence left three dead on Thursday, according to local p… [+2735 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "WABC-TV"
+        "name": "NDTV News"
       },
       "author": null,
-      "title": "Protestors of Jordan Neely's death sought by police for jumping onto subway tracks - WABC-TV",
-      "description": "As police search for trespassers in the protest, the public awaits whether a grand jury will charge Daniel Penny for putting Neely in the deadly chokehold.",
-      "url": "https://abc7ny.com/jordan-neely-daniel-penny-chokehold-death-protests/13222862/",
-      "urlToImage": "https://cdn.abcotvs.com/dip/images/13222956_050823-wabc-protests-img.jpg?w=1600",
-      "publishedAt": "2023-05-08T10:18:01Z",
-      "content": "UPPER EAST SIDE, Manhattan (WABC) -- A handful of protestors of Jordan Neely's death are being sought by police for jumping onto the subway tracks and disrupting service over the weekend.\r\nThe marine… [+2893 chars]"
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "L'Opinion",
-      "title": "SADC: Signature d'un mémorandum d'entente avec le Zimbabwe - L'Opinion",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMiXWh0dHBzOi8vd3d3LmxvcGluaW9uLm1hL1NBREMtU2lnbmF0dXJlLWQtdW4tbWVtb3JhbmR1bS1kLWVudGVudGUtYXZlYy1sZS1aaW1iYWJ3ZV9hMzk3NDAuaHRtbNIBAA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T10:16:40Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "Kronen Zeitung",
-      "title": "SPÖ-Misstrauensantrag - Rendi-Wagner: „Schlag ins Gesicht der Bevölkerung“ | krone.at - Kronen Zeitung",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMiHGh0dHBzOi8vd3d3Lmtyb25lLmF0LzMwMDE1MTPSAQA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T10:10:00Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "Index.hu",
-      "title": "Változott az oroszok taktikája, ez állhat a háttérben - Index.hu",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMipgFodHRwczovL2luZGV4Lmh1L2t1bGZvbGQvMjAyMy8wNS8wOC9oYWJvcnUtb3Jvc3otdWtyYW4ta29uZmxpa3R1cy11a3Jham5hLW9yb3N6b3JzemFnLXZvbG9kaW1pci16ZWxlbnN6a2lqLXZsYWd5aW1pci1wdXR5aW4ta2lqZXYtbW9zemt2YS1rcmVtbC1iYWhtdXQtcGVyY3JvbC1wZXJjcmUv0gEA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T10:10:00Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "Business Online",
-      "title": "Quanto guadagna un medico di base per ogni paziente e obblighi e regoleaggiornati che deve rispettare - Business Online",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMingFodHRwczovL3d3dy5idXNpbmVzc29ubGluZS5pdC9sYXZvcm8tZGlyaXR0aS9xdWFudG8tZ3VhZGFnbmEtdW4tbWVkaWNvLWRpLWJhc2UtcGVyLW9nbmktcGF6aWVudGUtZS1vYmJsaWdoaS1lLXJlZ29sZWFnZ2lvcm5hdGktY2hlLWRldmUtcmlzcGV0dGFyZV9uNzA4NTMuaHRtbNIBAA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T10:10:00Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "연합뉴스TV",
-      "title": "美텍사스 총기난사 8명 사망…한인교포 일가족 3명도 포함 - 연합뉴스TV",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMiOGh0dHBzOi8vd3d3LnlvbmhhcG5ld3N0di5jby5rci9uZXdzL01ZSDIwMjMwNTA4MDE4OTAwNjQx0gEA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T10:09:54Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "MAP Tanger",
-      "title": "Prévisions météorologiques pour lundi 08 mai - MAP Tanger",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMiSWh0dHBzOi8vd3d3Lm1hcHRhbmdlci5tYS9mci9wcmV2aXNpb25zLW1ldGVvcm9sb2dpcXVlcy1wb3VyLWx1bmRpLTA4LW1haS_SAQA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T10:08:33Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "Kronen Zeitung",
-      "title": "Von Tätern verfolgt - Messerangriff: Bursch steigt mit Stichwunde in Bus | krone.at - Kronen Zeitung",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMiHGh0dHBzOi8vd3d3Lmtyb25lLmF0LzMwMDE1NTTSAQA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T10:08:00Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "n-tv NACHRICHTEN",
-      "title": "\"Wird genauso zerschlagen\": Selenskyj: Russland wird besiegt wie Nazi-Deutschland - n-tv NACHRICHTEN",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMiZWh0dHBzOi8vd3d3Lm4tdHYuZGUvcG9saXRpay9TZWxlbnNreWotUnVzc2xhbmQtd2lyZC1iZXNpZWd0LXdpZS1OYXppLURldXRzY2hsYW5kLWFydGljbGUyNDEwNjc3Ni5odG1s0gFlaHR0cHM6Ly9hbXAubi10di5kZS9wb2xpdGlrL1NlbGVuc2t5ai1SdXNzbGFuZC13aXJkLWJlc2llZ3Qtd2llLU5hemktRGV1dHNjaGxhbmQtYXJ0aWNsZTI0MTA2Nzc2Lmh0bWw?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T10:08:00Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "Rádio BandNews FM",
-      "title": "[AO VIVO] Expresso São Paulo - 08/05/2023 - Rádio BandNews FM",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CCAiC3pXRkYxVldnVVNjmAEB?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T10:06:13Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "Prensa Latina",
-      "title": "África austral gestiona cooperación climática - Prensa Latina",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMiVWh0dHBzOi8vd3d3LnByZW5zYS1sYXRpbmEuY3UvMjAyMy8wNS8wOC9hZnJpY2EtYXVzdHJhbC1nZXN0aW9uYS1jb29wZXJhY2lvbi1jbGltYXRpY2HSAQA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2023-05-08T10:06:00Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Business Standard"
-      },
-      "author": "SI Reporter",
-      "title": "Sensex leaps 710 pts after a day's hiatus; TaMo, IndusInd rise 5%, PSBs dip - Business Standard",
-      "description": "CLOSING BELL: Among sectors, the Nifty Private Bank, Realty, and Auto indices gained around 1.7 per cent each",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-sensex-nifty-paytm-coal-india-aditya-birla-fashion-123050800075_1.html",
-      "urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2020-10/08/full/1602178821-2468.jpg",
-      "publishedAt": "2023-05-08T10:05:29Z",
-      "content": "Stock market highlights: Indian equities rode the global momentum with the benchmark indices soaring 1.2 per cent on Monday. Gains in IndusInd Bank, Tata Motors, Bajaj twins, HCL Tech, Kotak Bank, Ma… [+204 chars]"
+      "title": "Car Crashes Into Downing Street Gates, 1 Arrested: Police - NDTV",
+      "description": "Armed police arrested a man after a car crashed into the gates of the UK prime minister's Downing Street residence in central London on Thursday, Scotland Yard said.",
+      "url": "https://www.ndtv.com/world-news/car-crashes-into-downing-street-gates-1-arrested-police-4066738",
+      "urlToImage": "https://c.ndtvimg.com/2023-05/2koojp0g_downing-street-crash-afp_625x300_26_May_23.jpg",
+      "publishedAt": "2023-05-25T18:36:00Z",
+      "content": "Armed police arrested a man after a car crashed into Downing Street. (Representational)\r\nLondon: Armed police arrested one man after a car crashed into the gates of the UK prime minister's Downing St… [+1453 chars]"
     }
   ]
 }
