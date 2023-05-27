@@ -52,7 +52,7 @@ export default function TabAsiaComponent() {
         <div>{topheadingsAsia === null ? "Choose sources" : ""}</div>
         <div className="articles">
           <News
-            page="home"
+            page="home/source"
             articles={topheadingsAsia}
             articlesCategory="Asia"
             translate={false}

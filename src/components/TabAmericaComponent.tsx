@@ -90,7 +90,7 @@ export default function AmericaComponent() {
         <div>{topheadingsAmerica === null ? "Choose sources" : ""}</div>
         <div className="articles">
           <News
-            page="home"
+            page="home/source"
             articles={topheadingsAmerica}
             articlesCategory="America"
             translate={translate}

@@ -16,6 +16,7 @@ import Europe from "./components/TabEuropeComponent";
 import Africa from "./components/TabAfricaComponent";
 import Asia from "./components/TabAsiaComponent";
 import NewsArticleSourceComponent from "./components/NewsArticleSourceComponent";
+import NewsArticleHomeComponent from "./components/NewsArticleHomeComponent";
 import NewsArticleCategoryComponent from "./components/NewsArticleCategoryComponent";
 import NewsArticleSearchComponent from "./components/NewsArticleSearchComponent";
 import { useAppSelector } from "./redux/hooks";
@@ -37,6 +38,19 @@ function App() {
   const Search = () => {
     let params = useParams();
     return <SearchPage query={params.query} />;
+  };
+
+  // unique news article home component with its own route path
+  // news article home - component for article for specific news agent
+  const NewsArticleHomeWithId = () => {
+    let params = useParams();
+    return (
+      <NewsArticleHomeComponent
+        article={
+          topheadingsCategory?.filter((a) => a.title === params.title)[0]
+        }
+      />
+    );
   };
 
   // unique news article source component with its own route path
@@ -164,11 +178,15 @@ function App() {
     return (
       <Routes>
         <Route index element={<Home />} />
+        <Route path="/home/:title" element={<NewsArticleHomeWithId />} />
         <Route path="/home/america" element={<America />} />
         <Route path="/home/europe" element={<Europe />} />
         <Route path="/home/africa" element={<Africa />} />
         <Route path="/home/asia" element={<Asia />} />
-        <Route path="/home/:title" element={<NewsArticleSourceWithId />} />
+        <Route
+          path="/home/source/:title"
+          element={<NewsArticleSourceWithId />}
+        />
         <Route path="/world" element={<World />} />
         <Route
           path="/world/:title"

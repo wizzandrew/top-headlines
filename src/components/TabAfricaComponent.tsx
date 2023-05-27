@@ -52,7 +52,7 @@ export default function TabAfricaComponent() {
         <div>{topheadingsAfrica === null ? "Choose sources" : ""}</div>
         <div className="articles">
           <News
-            page="home"
+            page="home/source"
             articles={topheadingsAfrica}
             articlesCategory="Africa"
             translate={false}

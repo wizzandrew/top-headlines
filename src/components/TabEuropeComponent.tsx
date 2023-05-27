@@ -115,7 +115,7 @@ export default function TabEuropeComponent() {
         <div>{topheadingsEurope === null ? "Choose sources" : ""}</div>
         <div className="articles">
           <News
-            page="home"
+            page="home/source"
             articles={topheadingsEurope}
             articlesCategory="Europe"
             translate={translate}
