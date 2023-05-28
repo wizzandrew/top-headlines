@@ -20,6 +20,8 @@ import NewsArticleHomeComponent from "./components/NewsArticleHomeComponent";
 import NewsArticleCategoryComponent from "./components/NewsArticleCategoryComponent";
 import NewsArticleSearchComponent from "./components/NewsArticleSearchComponent";
 import { useAppSelector } from "./redux/hooks";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import "./App.css";
 
 function App() {
@@ -232,6 +234,18 @@ function App() {
     <div>
       <Header />
       <Router />
+      <ToastContainer
+        position="top-center"
+        autoClose={5000}
+        hideProgressBar
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+      />
       <Footer />
     </div>
   );

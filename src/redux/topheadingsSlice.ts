@@ -2,6 +2,7 @@ import { createAsyncThunk, createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { NewsArticle } from "../shared/models";
 import * as api from "../shared/api";
 import * as _ from "lodash";
+import { toast, ToastOptions } from "react-toastify";
 
 export type TopHeadingsCategoryTypes =
   | "general"
@@ -19,7 +20,6 @@ export type InitialState = {
   topHeadingsCategoryCurrent: TopHeadingsCategoryTypes;
   topHeadingsSearch: NewsArticle[] | null;
   searchFlag: boolean;
-  error: boolean;
 };
 
 export type TranslateArticle = {
@@ -41,7 +41,18 @@ const initialState: InitialState = {
   topHeadingsCategoryCurrent: null,
   topHeadingsSearch: null,
   searchFlag: false,
-  error: false,
+};
+
+// warning message properties
+const toastProperties: ToastOptions = {
+  position: "top-center",
+  autoClose: 5000,
+  hideProgressBar: true,
+  closeOnClick: true,
+  pauseOnHover: true,
+  draggable: true,
+  progress: undefined,
+  theme: "light",
 };
 
 const topheadingsReducer = createSlice({
@@ -76,8 +87,8 @@ const topheadingsReducer = createSlice({
     );
     // case when fetch news on top headings by source failed
     builder.addCase(fetchNewsBySource.rejected, (state, action) => {
-      state.error = true;
-      alert("Error " + action.error.message);
+      // display warning message
+      toast.warn(action.error.message, toastProperties);
     });
     // case when fetch news on top headings by category succeded
     builder.addCase(
@@ -87,17 +98,16 @@ const topheadingsReducer = createSlice({
         const news = action.payload;
         if (news && !_.isEqual(state.topHeadingsCategory, news)) {
           state.topHeadingsCategory = news;
-          state.error = false;
         }
       }
     );
     // case when fetch news on top headings by category failed
     builder.addCase(fetchNewsByCategory.rejected, (state, action) => {
-      state.error = true;
-
       // set topHeadingsCategoryCurrent to null because fetch request failed
       state.topHeadingsCategoryCurrent = null;
-      alert("Error " + action.error.message);
+
+      // display warning message
+      toast.warn(action.error.message, toastProperties);
     });
     builder.addCase(
       fetchNewsBySearch.fulfilled,
@@ -106,14 +116,13 @@ const topheadingsReducer = createSlice({
         const news = action.payload;
         if (news) {
           state.topHeadingsSearch = news;
-          state.error = false;
         }
       }
     );
     // case when fetch news on top headings by category failed
     builder.addCase(fetchNewsBySearch.rejected, (state, action) => {
-      state.error = true;
-      alert("Error " + action.error.message);
+      // display warning message
+      toast.warn(action.error.message, toastProperties);
     });
     builder.addCase(
       fetchTranslateArticle.fulfilled,
@@ -155,7 +164,8 @@ const topheadingsReducer = createSlice({
     );
     // case when fetch news on top headings by category failed
     builder.addCase(fetchTranslateArticle.rejected, (state, action) => {
-      alert("Error " + action.error.message);
+      // display warning message
+      toast.warn(action.error.message, toastProperties);
     });
     builder.addCase(
       fetchTranslateArticleTitles.fulfilled,
@@ -172,7 +182,8 @@ const topheadingsReducer = createSlice({
       }
     );
     builder.addCase(fetchTranslateArticleTitles.rejected, (state, action) => {
-      alert("Error " + action.error.message);
+      // display warning message
+      toast.warn(action.error.message, toastProperties);
     });
   },
 });
@@ -188,8 +199,8 @@ export default topheadingsReducer.reducer;
 export const fetchNewsBySource = createAsyncThunk(
   "topheadlines/fetch/source",
   async (source: string) => {
-    const response = await api.getFakeHeadlines(source);
-    //const response = await api.getHeadlinesBySource(source);
+    //const response = await api.getFakeHeadlines(source);
+    const response = await api.getHeadlinesBySource(source);
     return response;
   }
 );
@@ -198,8 +209,8 @@ export const fetchNewsBySource = createAsyncThunk(
 export const fetchNewsByCategory = createAsyncThunk(
   "topheadlines/fetch/category",
   async (category: string) => {
-    const response = await api.getFakeHeadlines(category);
-    //const response = await api.getHeadlinesByCategory(category);
+    //const response = await api.getFakeHeadlines(category);
+    const response = await api.getHeadlinesByCategory(category);
     return response;
   }
 );
@@ -208,8 +219,8 @@ export const fetchNewsByCategory = createAsyncThunk(
 export const fetchNewsBySearch = createAsyncThunk(
   "topheadlines/fetch/search",
   async (query: string) => {
-    const response = await api.getFakeHeadlines(query);
-    //const response = await api.getHeadlinesBySearch(query);
+    //const response = await api.getFakeHeadlines(query);
+    const response = await api.getHeadlinesBySearch(query);
     return response;
   }
 );

@@ -45,7 +45,7 @@ export async function getHeadlinesBySource(
     } else {
       // check for 429(free requests exceeded) error from server
       // load cached news
-      if (response.status == 429) {
+      if (response.status === 429) {
         result = cached.getCachedNewsBySource(source);
         return result as NewsArticle[];
       }
@@ -97,7 +97,7 @@ export async function getHeadlinesByCategory(
     } else {
       // check for 429(free requests exceeded) error from server
       // load cached news
-      if (response.status == 429) {
+      if (response.status === 429) {
         result = cached.getCachedNewsByCategory(category);
         return result as NewsArticle[];
       }

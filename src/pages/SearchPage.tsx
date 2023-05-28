@@ -32,7 +32,7 @@ export default function SearchPage(props: SearchPageProps) {
       fetchNews(props.query);
       dispatch(deactivateSearchFlag());
     }
-  }, []);
+  }, [searchFlag]);
 
   return (
     <>

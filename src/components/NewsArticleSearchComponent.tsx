@@ -52,7 +52,7 @@ export default function NewsArticleComponent(props: ArticleProps) {
           title: props.article.title,
           description: props.article.description,
           content: props.article.contentCleared(),
-          topHeadingsType: "category",
+          topHeadingsType: "search",
         })
       );
 

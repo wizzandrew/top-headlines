@@ -72,4 +72,11 @@ app.get("/translate/titles", async (req, res) => {
     });
 });
 
+// faking 429(too many requests) response
+app.get("/news", (req, res) => {
+    let error = new Error('Error bla-bla');
+    error.statusCode = 429;
+    throw error;
+})
+
 app.listen(5000, () => { console.log("Server started on port 5000"); })
