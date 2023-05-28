@@ -26,7 +26,7 @@ export default function Home() {
   }, []);
 
   return (
-    <>
+    <React.Fragment>
       <div className="holder" style={{ backgroundColor: "#B80000" }}>
         <div className="container">
           <div className="row">
@@ -48,6 +48,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </>
+    </React.Fragment>
   );
 }

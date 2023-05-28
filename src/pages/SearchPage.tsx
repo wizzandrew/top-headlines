@@ -35,7 +35,7 @@ export default function SearchPage(props: SearchPageProps) {
   }, [searchFlag]);
 
   return (
-    <>
+    <React.Fragment>
       <div className="holder" style={{ backgroundColor: "#086199" }}>
         <div className="container">
           <div className="row">
@@ -59,6 +59,6 @@ export default function SearchPage(props: SearchPageProps) {
           </div>
         </div>
       </div>
-    </>
+    </React.Fragment>
   );
 }

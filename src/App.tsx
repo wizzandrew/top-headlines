@@ -22,7 +22,6 @@ import NewsArticleSearchComponent from "./components/NewsArticleSearchComponent"
 import { useAppSelector } from "./redux/hooks";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import "./App.css";
 
 function App() {
   // global state

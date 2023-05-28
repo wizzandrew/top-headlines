@@ -25,7 +25,7 @@ export default function Health() {
   }, []);
 
   return (
-    <>
+    <React.Fragment>
       <div className="holder" style={{ backgroundColor: "#B80000" }}>
         <div className="container">
           <div className="row">
@@ -49,6 +49,6 @@ export default function Health() {
           </div>
         </div>
       </div>
-    </>
+    </React.Fragment>
   );
 }

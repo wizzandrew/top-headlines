@@ -25,7 +25,7 @@ export default function Science() {
   }, []);
 
   return (
-    <>
+    <React.Fragment>
       <div className="holder" style={{ backgroundColor: "#B80000" }}>
         <div className="container">
           <div className="row">
@@ -49,6 +49,6 @@ export default function Science() {
           </div>
         </div>
       </div>
-    </>
+    </React.Fragment>
   );
 }

@@ -85,9 +85,9 @@ export default function NewsComponent(props: NewsProps) {
   }
 
   return (
-    <>
+    <React.Fragment>
       <div className="row">{translateDiv}</div>
       <div className="row">{newsContent}</div>
-    </>
+    </React.Fragment>
   );
 }
