@@ -131,3 +131,17 @@
 .articleDescription h6 {
   font-weight: 600;
 }
+
+/********MEDIA****QUERIES************/
+
+@media (max-width: 768px) {
+  .articleTitle h1 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 576px) {
+  .articleTitle h1 {
+    font-size: 18px;
+  }
+}

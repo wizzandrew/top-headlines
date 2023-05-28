@@ -33,4 +33,13 @@
   .dropdowns {
     flex-direction: column;
   }
+
+  .dropdownMenu {
+    padding: 5px 0;
+  }
+
+  .dropdown-toggle {
+    font-size: 18px;
+    font-weight: 600;
+  }
 }

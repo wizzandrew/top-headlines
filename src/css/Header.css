@@ -97,3 +97,67 @@
 .searchHolder {
   margin-left: 20px;
 }
+
+/********MEDIA****QUERIES************/
+
+@media (max-width: 1200px) {
+  .signInHolder p {
+    display: none;
+  }
+}
+
+@media (max-width: 1050px) {
+  .navHolder li {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .searchHolder {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar-brand {
+    margin-right: 5px;
+  }
+
+  .signInHolder {
+    width: auto;
+  }
+
+  .searchLink {
+    padding-right: 0px;
+  }
+
+  .searchLink img {
+    margin-left: 6px;
+  }
+
+  .navHolder li {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .signInHolder {
+    padding: 5px 0;
+  }
+
+  .signInHolder p {
+    display: inline-block;
+  }
+
+  .verticalLine {
+    display: none;
+  }
+
+  .searchLink {
+    padding-right: 10px;
+  }
+
+  #searchInput {
+    max-width: 120px;
+  }
+}

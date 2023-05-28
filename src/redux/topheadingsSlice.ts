@@ -133,16 +133,8 @@ const topheadingsReducer = createSlice({
         // check the news article type (category/source/search)
         // based on this type the global state variable is selected
         if (translatedArticle) {
-          if (translatedArticle.topHeadingsType === "category") {
+          if (translatedArticle.topHeadingsType === "source") {
             // update news article with translated title, description and content
-            state.topHeadingsCategory?.map((topheading) => {
-              if (topheading.title === translatedArticle.oldTitle) {
-                topheading.title = translatedArticle.title;
-                topheading.description = translatedArticle.description;
-                topheading.content = translatedArticle.content;
-              }
-            });
-          } else if (translatedArticle.topHeadingsType === "source") {
             state.topHeadingsSource?.map((topheading) => {
               if (topheading.title === translatedArticle.oldTitle) {
                 topheading.title = translatedArticle.title;
