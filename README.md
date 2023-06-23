@@ -1,55 +1,62 @@
-## Note on React Redux
 
-Can't store Date object in the store, only a string representation because it is unserialized.
-When retrieving headlines objects from the store, rememeber to create Date objects
+# Top Headings Web App
 
-## Used google translate
+![image](https://github.com/wizzandrew/top-headlines/assets/43003757/1923318d-86d9-4120-aab9-b908b10d1102)
 
-vitalets/google-translate-api
+The scope of this project is to build a ligtweight news web app. 
 
-# Getting Started with Create React App
+It consumes News API web service via ``` fetch ``` and provides top headings from all around the globe.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The stack consists of ```HTML5```, ```CSS3```, ```Bootstrap 5```, ```Typescript``` and ```React.js``` technologies.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+* Provides top headings for such categories as World, Business, Entertainment, Health, Tech, Sports, Science.
 
-### `npm start`
+* Provides top headings from America, Europe, Africa and Asia regions for specific news sources, for example "Politico" for US and "Le Monde" for France.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Search for news via search bar,
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* Provides translation for source news, for example translation for news from "Le Monde" France.
 
-### `npm test`
+## Key Learnings
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. There can't be too much of analysis. In the middle of development I discovered that due to free developer API key top headings serve almost as little content for news and can sometimes lack news picture.
 
-### `npm run build`
+2. Free Google translate is not available for web apps because of CORS policy. That's why I created a small Node.js server for traslation requests that exploits other github project.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Cannot store Date object in Redux store.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. React development mode renders twice, which can be cause for dual fetch requests.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+1. Make sure you have Node.js installed and VS Code IDE preferably
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. Make yourself an API key at ```https://newsapi.org/```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Clone this repository ``` https://github.com/wizzandrew/top-headlines.git ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+4. Navigate to folder ```top-headlines-main ```  
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+5. Open terminal and make sure it is opened in the folder ```top-headlines-main ```
 
-## Learn More
+6. Install npm modules with ``` npm i ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+7. Navigate to ```src/shared/api.ts``` and set your api key to ```const apiKey```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+8. Run app with ``` npm start ```
+
+9. The app is running at ``` http://localhost:3000 ```
+
+10. Open another terminal in the ``` server ``` folder
+
+11. Run server with ``` npm run dev ```
+
+## Credits
+
+App's layout and design heavily influenced by BBC ``` https://www.bbc.com/news ```
+
+Top headings provided by News API ``` https://newsapi.org/ ```
+
+Google Translation provided by vitalets ``` https://github.com/vitalets/google-translate-api/security ```
